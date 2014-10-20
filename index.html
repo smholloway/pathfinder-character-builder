@@ -87,17 +87,6 @@
                 </tr>
               </tbody>
             </table>
-            <ul>
-              <li ng-repeat="row in classController.getSpellsPerDayForClass(class.name)">
-                Level: {{ row.level }}
-                Base Attack Bonus: {{ row.baseAttackBonus }}
-                Fort Save: {{ row.fortSave }}
-                Reflex Save: {{ row.reflexSave }}
-                Will Save: {{ row.willSave }}
-                Specials: <span ng-repeat="special in row.specials">{{ special }}{{$last ? '' : ', '}}</span>
-                Spells per Day: <span ng-repeat="spells in row.spellsPerDay">{{ spells.level }}: {{ spells.spells }}{{$last ? '' : ', '}}</span>
-              </li>
-            </ul>
           </div>
         </section>
       </div>
