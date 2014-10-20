@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html ng-app="characterBuilder">
+  <head>
+    <title>Pathfinder Character Builder</title>
+    <link rel="stylesheet" type="text/css" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" />
+    <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/angular.js/1.2.20/angular.min.js"></script>
+    <script type="text/javascript" src="app.js"></script>
+  </head>
+  <body ng-controller="ClassController as classController">
+    <header>
+      <h1 class="text-center">Pathfinder Character Builder</h1>
+    </header>
+    <div class="list-group">
+      <div class="list-group-item" ng-repeat="class in classController.classes">
+        <h3>{{ class.name }}</h3>
+        <p>{{ class.shortDescription }}</p>
+        <section ng-controller="TabController as tab">
+          <ul class="nav nav-pills">
+            <li ng-class="{ active:tab.isSet(1) }">
+              <a href="" ng-click="tab.setTab(1)">Description</a>
+            </li>
+            <li ng-class="{ active:tab.isSet(2) }">
+              <a href="" ng-click="tab.setTab(2)">Role</a>
+            </li>
+            <li ng-class="{ active:tab.isSet(3) }">
+              <a href="" ng-click="tab.setTab(3)">Specs</a>
+            </li>
+            <li ng-class="{ active:tab.isSet(4) }">
+              <a href="" ng-click="tab.setTab(4)">Skills</a>
+            </li>
+            <li ng-class="{ active:tab.isSet(5) }">
+              <a href="" ng-click="tab.setTab(5)">Table</a>
+            </li>
+          </ul>
+          <div ng-show="tab.isSet(1)">
+            <h4>Description</h4>
+            <p>{{ class.description }}</p>
+          </div>
+          <div ng-show="tab.isSet(2)">
+            <h4>Role</h4>
+            <p>{{ class.role }}
+          </div>
+          <div ng-show="tab.isSet(3)">
+            <h4>Specs</h4>
+            <ul>
+              <li>Hit Die: d{{ class.hitDie }}</li>
+              <li>Skill Ranks per Level: {{ class.skillRanksPerLevel }} + Int modifier</li>
+              <li>Alignment: {{ class.alignment }}</li>
+            </ul>
+          </div>
+          <div ng-show="tab.isSet(4)">
+            <h4>Class Skills</h4>
+            <ul>
+              <li ng-repeat="skill in class.classSkills">{{ skill }}</li>
+            </ul>
+          </div>
+          <div ng-show="tab.isSet(5)">
+            <h4>Table: {{ class.name  }}</h4>
+            {{ tab.isSet(5) }}
+            {{ classController.fuck(class.name) }}
+            <table>
+              <thead>
+                <tr>
+                  <th>Level</th>
+                  <th>BAB</th>
+                  <th>Fort Save</th>
+                  <th>Reflex Save</th>
+                  <th>Will Save</th>
+                  <th>Specials</th>
+                  <th>1st</th>
+                  <th>2nd</th>
+                  <th>3rd</th>
+                  <th>4th</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr ng-repeat="row in classController.getSpellsPerDayForClass(class.name)">
+                  <td>{{ row.level }}</td>
+                  <td>{{ row.baseAttackBonus }}</td>
+                  <td>{{ row.fortSave }}</td>
+                  <td>{{ row.reflexSave }}</td>
+                  <td>{{ row.willSave }}</td>
+                  <td><span ng-repeat="special in row.specials">{{ special }}{{$last ? '' : ', '}}</span></td>
+                  <td ng-repeat="spells in row.spellsPerDay">
+                  {{ spells.spells }}
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+            <ul>
+              <li ng-repeat="row in classController.getSpellsPerDayForClass(class.name)">
+                Level: {{ row.level }}
+                Base Attack Bonus: {{ row.baseAttackBonus }}
+                Fort Save: {{ row.fortSave }}
+                Reflex Save: {{ row.reflexSave }}
+                Will Save: {{ row.willSave }}
+                Specials: <span ng-repeat="special in row.specials">{{ special }}{{$last ? '' : ', '}}</span>
+                Spells per Day: <span ng-repeat="spells in row.spellsPerDay">{{ spells.level }}: {{ spells.spells }}{{$last ? '' : ', '}}</span>
+              </li>
+            </ul>
+          </div>
+        </section>
+      </div>
+    </div>
+    <footer>
+      Pathfinder is the registered trademark of <a href="http://paizo.com/">Paizo</a>.
+    </footer>
+  </body>
+</html>
