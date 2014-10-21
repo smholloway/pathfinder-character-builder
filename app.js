@@ -391,6 +391,168 @@
   ]
 
   var tables = {
+    barbarian: [
+      {
+        level: "1st",
+        baseAttackBonus: "+1",
+        fortSave: "+2",
+        reflexSave: "+0",
+        willSave: "+0",
+        specials: ["<a href=\"#fast-movement\">Fast movement</a>, <a href=\"#rage\">rage</a>"]
+      },
+      {
+        level: "2nd",
+        baseAttackBonus: "+2",
+        fortSave: "+3",
+        reflexSave: "+0",
+        willSave: "+0",
+        specials: ["<a href=\"#rage-powers\">Rage power</a>, <a href=\"#uncanny-dodge-barbarian\">uncanny dodge</a>"]
+      },
+      {
+        level: "3rd",
+        baseAttackBonus: "+3",
+        fortSave: "+3",
+        reflexSave: "+1",
+        willSave: "+1",
+        specials: ["<a href=\"#trap-sense-barbarian\">Trap sense</a> +1"]
+      },
+      {
+        level: "4th",
+        baseAttackBonus: "+4",
+        fortSave: "+4",
+        reflexSave: "+1",
+        willSave: "+1",
+        specials: ["<a href=\"#rage-powers\">Rage power</a>"]
+      },
+      {
+        level: "5th",
+        baseAttackBonus: "+5",
+        fortSave: "+4",
+        reflexSave: "+1",
+        willSave: "+1",
+        specials: ["<a href=\"#improved-uncanny-dodge-barbarian\">Improved uncanny dodge</a>"]
+      },
+      {
+        level: "6th",
+        baseAttackBonus: "+6/+1",
+        fortSave: "+5",
+        reflexSave: "+2",
+        willSave: "+2",
+        specials: ["<a href=\"#rage-powers\">Rage power</a>, <a href=\"#trap-sense-barbarian\">Trap sense</a> +2"]
+      },
+      {
+        level: "7th",
+        baseAttackBonus: "+7/+2",
+        fortSave: "+5",
+        reflexSave: "+2",
+        willSave: "+2",
+        specials: ["<a href=\"#damage-reduction-barbarian\">Damage reduction</a> 1/—"]
+      },
+      {
+        level: "8th",
+        baseAttackBonus: "+8/+3",
+        fortSave: "+6",
+        reflexSave: "+2",
+        willSave: "+2",
+        specials: ["<a href=\"#rage-powers\">Rage power</a>"]
+      },
+      {
+        level: "9th",
+        baseAttackBonus: "+9/+4",
+        fortSave: "+6",
+        reflexSave: "+3",
+        willSave: "+3",
+        specials: ["<a href=\"#trap-sense-barbarian\">Trap sense</a> +3"]
+      },
+      {
+        level: "10th",
+        baseAttackBonus: "+10/+5",
+        fortSave: "+7",
+        reflexSave: "+3",
+        willSave: "+3",
+        specials: ["<a href=\"#damage-reduction-barbarian\">Damage reduction</a> 2/—, <a href=\"#rage-powers\">Rage power</a>"]
+      },
+      {
+        level: "11th",
+        baseAttackBonus: "+11/+6/+1",
+        fortSave: "+7",
+        reflexSave: "+3",
+        willSave: "+3",
+        specials: ["<a href=\"#greater-rage\">Greater rage</a>"]
+      },
+      {
+        level: "12th",
+        baseAttackBonus: "+12/+7/+2",
+        fortSave: "+8",
+        reflexSave: "+4",
+        willSave: "+4",
+        specials: ["<a href=\"#rage-powers\">Rage power</a>, <a href=\"#trap-sense-barbarian\">Trap sense</a> +4"]
+      },
+      {
+        level: "13th",
+        baseAttackBonus: "+13/+8/+3",
+        fortSave: "+8",
+        reflexSave: "+4",
+        willSave: "+4",
+        specials: ["<a href=\"#damage-reduction-barbarian\">Damage reduction</a> 3/—"]
+      },
+      {
+        level: "14th",
+        baseAttackBonus: "+14/+9/+4",
+        fortSave: "+9",
+        reflexSave: "+4",
+        willSave: "+4",
+        specials: ["<a href=\"#indomitable-will\">Indomitable will</a>, <a href=\"#rage-powers\">Rage power</a>"]
+      },
+      {
+        level: "15th",
+        baseAttackBonus: "+15/+10/+5",
+        fortSave: "+9",
+        reflexSave: "+5",
+        willSave: "+5",
+        specials: ["<a href=\"#trap-sense-barbarian\">Trap sense</a> +5"]
+      },
+      {
+        level: "16th",
+        baseAttackBonus: "+16/+11/+6/+1",
+        fortSave: "+10",
+        reflexSave: "+5",
+        willSave: "+5",
+        specials: ["<a href=\"#damage-reduction-barbarian\">Damage reduction</a> 4/—, <a href=\"#rage-powers\">Rage power</a>"]
+      },
+      {
+        level: "17th",
+        baseAttackBonus: "+17/+12/+7/+2",
+        fortSave: "+10",
+        reflexSave: "+5",
+        willSave: "+5",
+        specials: ["<a href=\"#tireless-rage\">Tireless rage</a>"]
+      },
+      {
+        level: "18th",
+        baseAttackBonus: "+18/+13/+8/+3",
+        fortSave: "+11",
+        reflexSave: "+6",
+        willSave: "+6",
+        specials: ["<a href=\"#rage-powers\">Rage power</a>, <a href=\"#trap-sense-barbarian\">Trap sense</a> +6"]
+      },
+      {
+        level: "19th",
+        baseAttackBonus: "+19/+14/+9/+4",
+        fortSave: "+11",
+        reflexSave: "+6",
+        willSave: "+6",
+        specials: ["<a href=\"#damage-reduction-barbarian\">Damage reduction</a> 5/—"]
+      },
+      {
+        level: "20th",
+        baseAttackBonus: "+20/+15/+10/+5",
+        fortSave: "+12",
+        reflexSave: "+6",
+        willSave: "+6",
+        specials: ["<a href=\"#mighty-rage\">Mighty rage</a>, <a href=\"#rage-powers\">Rage power</a>"]
+      }
+    ],
     ranger: [
       {
         level: 1,
