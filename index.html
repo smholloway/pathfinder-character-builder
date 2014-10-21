@@ -32,14 +32,17 @@
               <a href="" ng-click="tab.setTab(5)">Table</a>
             </li>
           </ul>
+
           <div ng-show="tab.isSet(1)">
             <h4>Description</h4>
             <p>{{ class.description }}</p>
           </div>
+
           <div ng-show="tab.isSet(2)">
             <h4>Role</h4>
             <p>{{ class.role }}
           </div>
+
           <div ng-show="tab.isSet(3)">
             <h4>Specs</h4>
             <ul>
@@ -48,29 +51,35 @@
               <li>Alignment: {{ class.alignment }}</li>
             </ul>
           </div>
+
           <div ng-show="tab.isSet(4)">
             <h4>Class Skills</h4>
             <ul>
               <li ng-repeat="skill in class.classSkills">{{ skill }}</li>
             </ul>
           </div>
+
+          <!-- Table -->
           <div ng-show="tab.isSet(5)">
             <h4>Table: {{ class.name  }}</h4>
-            {{ tab.isSet(5) }}
-            {{ classController.fuck(class.name) }}
-            <table>
+            <table data-toggle="table" class="table table-striped table-bordered table-condensed">
               <thead>
                 <tr>
-                  <th>Level</th>
-                  <th>BAB</th>
-                  <th>Fort Save</th>
-                  <th>Reflex Save</th>
-                  <th>Will Save</th>
-                  <th>Specials</th>
-                  <th>1st</th>
-                  <th>2nd</th>
-                  <th>3rd</th>
-                  <th>4th</th>
+                  <th data-field="level">Level</th>
+                  <th data-field="bab">BAB</th>
+                  <th data-field="fort">Fort Save</th>
+                  <th data-field="reflex">Reflex Save</th>
+                  <th data-field="will">Will Save</th>
+                  <th data-field="specials">Specials</th>
+                  <th data-field="spells1" ng-show="classController.hasSpells(class.name, 1)">1st</th>
+                  <th data-field="spells2" ng-show="classController.hasSpells(class.name, 2)">2nd</th>
+                  <th data-field="spells3" ng-show="classController.hasSpells(class.name, 3)">3rd</th>
+                  <th data-field="spells4" ng-show="classController.hasSpells(class.name, 4)">4th</th>
+                  <th data-field="spells5" ng-show="classController.hasSpells(class.name, 5)">5th</th>
+                  <th data-field="spells6" ng-show="classController.hasSpells(class.name, 6)">6th</th>
+                  <th data-field="spells7" ng-show="classController.hasSpells(class.name, 7)">7th</th>
+                  <th data-field="spells8" ng-show="classController.hasSpells(class.name, 8)">8th</th>
+                  <th data-field="spells9" ng-show="classController.hasSpells(class.name, 9)">9th</th>
                 </tr>
               </thead>
               <tbody>
