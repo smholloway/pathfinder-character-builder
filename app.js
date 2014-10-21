@@ -1,4 +1,5 @@
 (function() {
+  // Consider retrieving data here: http://www.srdremix.com/api
   var app = angular.module('characterBuilder', []);
 
   app.controller('ClassController', function(){
