@@ -7,57 +7,19 @@
     this.classDetails = classDetails;
     this.tables = tables;
 
-    this.getSpellsPerDayForClass = function(className){
+    this.getTableForClass = function(className){
       return this.tables[className.toLowerCase()];
     };
 
-    this.hasSpells = function(className, level){
-      console.log(className + " " + level)
-      console.log(this.classes)
-      console.log(Object.keys(this.classes))
-      this.fuck = this.classes[Object.keys(this.classes)[0]].name
-      console.log(this.fuck + " " + typeof this.fuck)
-      console.log(typeof className)
-      console.log(this.classes[Object.keys(this.classes)[0]].name == className)
-      var matchingClasses = Object.keys(this.classes).filter(function(key) {console.log("key = " + key + " | this.classes[key] = " + this.classes[key]); return this.classes[key] == className});
-      if (matchingClasses) {
-        var matchingClass = matchingClasses[0];
-        console.log(matchingClass)
-        return cls.maxSpellLevel >= level;
-      }
-      return false;
-    };
+    this.getClassDetails = function(className){
+      return this.classDetails[className.toLowerCase()]
+    }
 
-    this.has_spells1 = function(className){
-      return this.classes[className].maxSpellLevel > 0
-      //classesWithLevelOneSpells = ['Bard', 'Cleric', 'Druid', 'Paladin', 'Ranger', 'Sorcerer', 'Wizard']
-      //return classesWithLevelOneSpells.indexOf(className) > -1
-    };
-    this.has_spells2 = function(className){
-      return this.classes[className].maxSpellLevel > 1
-    };
-    this.has_spells3 = function(className){
-      return this.classes[className].maxSpellLevel > 2
-    };
-    this.has_spells4 = function(className){
-      return this.classes[className].maxSpellLevel > 3
-    };
-    this.has_spells5 = function(className){
-      return this.classes[className].maxSpellLevel > 4
-    };
-    this.has_spells6 = function(className){
-      return this.classes[className].maxSpellLevel > 5
-    };
-    this.has_spells7 = function(className){
-      return this.classes[className].maxSpellLevel > 6
-    };
-    this.has_spells8 = function(className){
-      return this.classes[className].maxSpellLevel > 7
-    };
-    this.has_spells9 = function(className){
-      return this.classes[className].maxSpellLevel > 8
-    };
-
+    this.hasSpellsAtLevel = function(className, level){
+      classDetails = this.getClassDetails(className);
+      maxSpellLevel = classDetails.maxSpellLevel;
+      return maxSpellLevel >= level;
+    }
   });
 
   app.controller('TabController', function(){

@@ -73,19 +73,19 @@
                   <th data-field="reflex">Reflex Save</th>
                   <th data-field="will">Will Save</th>
                   <th data-field="specials">Specials</th>
-                  <th data-field="spells1" ng-show="classController.hasSpells(class.name, 1)">1st</th>
-                  <th data-field="spells2" ng-show="classController.hasSpells(class.name, 2)">2nd</th>
-                  <th data-field="spells3" ng-show="classController.hasSpells(class.name, 3)">3rd</th>
-                  <th data-field="spells4" ng-show="classController.hasSpells(class.name, 4)">4th</th>
-                  <th data-field="spells5" ng-show="classController.hasSpells(class.name, 5)">5th</th>
-                  <th data-field="spells6" ng-show="classController.hasSpells(class.name, 6)">6th</th>
-                  <th data-field="spells7" ng-show="classController.hasSpells(class.name, 7)">7th</th>
-                  <th data-field="spells8" ng-show="classController.hasSpells(class.name, 8)">8th</th>
-                  <th data-field="spells9" ng-show="classController.hasSpells(class.name, 9)">9th</th>
+                  <th data-field="spells1" ng-show="classController.hasSpellsAtLevel(class.name, 1)">1st</th>
+                  <th data-field="spells2" ng-show="classController.hasSpellsAtLevel(class.name, 2)">2nd</th>
+                  <th data-field="spells3" ng-show="classController.hasSpellsAtLevel(class.name, 3)">3rd</th>
+                  <th data-field="spells4" ng-show="classController.hasSpellsAtLevel(class.name, 4)">4th</th>
+                  <th data-field="spells5" ng-show="classController.hasSpellsAtLevel(class.name, 5)">5th</th>
+                  <th data-field="spells6" ng-show="classController.hasSpellsAtLevel(class.name, 6)">6th</th>
+                  <th data-field="spells7" ng-show="classController.hasSpellsAtLevel(class.name, 7)">7th</th>
+                  <th data-field="spells8" ng-show="classController.hasSpellsAtLevel(class.name, 8)">8th</th>
+                  <th data-field="spells9" ng-show="classController.hasSpellsAtLevel(class.name, 9)">9th</th>
                 </tr>
               </thead>
               <tbody>
-                <tr ng-repeat="row in classController.getSpellsPerDayForClass(class.name)">
+                <tr ng-repeat="row in classController.getTableForClass(class.name)">
                   <td>{{ row.level }}</td>
                   <td>{{ row.baseAttackBonus }}</td>
                   <td>{{ row.fortSave }}</td>
