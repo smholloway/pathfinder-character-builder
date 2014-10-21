@@ -11,7 +11,9 @@
       <h1 class="text-center">Pathfinder Character Builder</h1>
     </header>
     <div class="list-group">
-      <div class="list-group-item" ng-repeat="class in classController.classes">
+      <div class="list-group-item"
+        ng-repeat="className in classController.classes"
+        ng-init="class = classController.getClassDetails(className)">
         <h3>{{ class.name }}</h3>
         <p>{{ class.shortDescription }}</p>
         <section ng-controller="TabController as tab">
