@@ -520,485 +520,1788 @@
     ],
     bard: [
       {
-        "Level": "1st",
-        "Base Attack Bonus": "+0",
-        "Fort Save": "+0",
-        "Ref Save": "+2",
-        "Will Save": "+2",
-        "Special": "<a href=\"#bardic-knowledge\">Bardic knowledge</a>, <a href=\"#bardic-performance\">bardic performance</a>, <a href=\"#cantrips-bard\">cantrips</a>,<a href=\"#countersong\">countersong</a>, <a href=\"#distraction\">distraction</a>, <a href=\"#fascinate\">fascinate</a>, <a href=\"#inspire-courage\">inspire courage</a> +1",
-        "Spells per Day": "1",
-        "1st": "—",
-        "2nd": "—",
-        "3rd": "—",
-        "4th": "—",
-        "5th": "—"
+        level: "1st",
+        baseAttackBonus: "+0",
+        fortSave: "+0",
+        reflexSave: "+2",
+        willSave: "+2",
+        specials: ["<a href=\"#bardic-knowledge\">Bardic knowledge</a>, <a href=\"#bardic-performance\">bardic performance</a>, <a href=\"#cantrips-bard\">cantrips</a>,<a href=\"#countersong\">countersong</a>, <a href=\"#distraction\">distraction</a>, <a href=\"#fascinate\">fascinate</a>, <a href=\"#inspire-courage\">inspire courage</a> +1"],
+        spellsPerDay: [
+          { level: 0, spells: 1, },
+          { level: 1, spells: 0, },
+          { level: 2, spells: 0, },
+          { level: 3, spells: 0, },
+          { level: 4, spells: 0, },
+          { level: 5, spells: 0, }
+        ]
       },
       {
-        "Level": "2nd",
-        "Base Attack Bonus": "+1",
-        "Fort Save": "+0",
-        "Ref Save": "+3",
-        "Will Save": "+3",
-        "Special": "<a href=\"#versatile-performance\">Versatile performance</a>, <a href=\"#well-versed\">well-versed</a>",
-        "Spells per Day": "2",
-        "1st": "—",
-        "2nd": "—",
-        "3rd": "—",
-        "4th": "—",
-        "5th": "—"
+        level: "2nd",
+        baseAttackBonus: "+1",
+        fortSave: "+0",
+        reflexSave: "+3",
+        willSave: "+3",
+        specials: ["<a href=\"#versatile-performance\">Versatile performance</a>, <a href=\"#well-versed\">well-versed</a>"],
+        spellsPerDay: [
+          { level: 0, spells: 2, },
+          { level: 1, spells: 0, },
+          { level: 2, spells: 0, },
+          { level: 3, spells: 0, },
+          { level: 4, spells: 0, },
+          { level: 5, spells: 0, }
+        ]
       },
       {
-        "Level": "3rd",
-        "Base Attack Bonus": "+2",
-        "Fort Save": "+1",
-        "Ref Save": "+3",
-        "Will Save": "+3",
-        "Special": "<a href=\"#inspire-competence\">Inspire competence</a> +2",
-        "Spells per Day": "3",
-        "1st": "—",
-        "2nd": "—",
-        "3rd": "—",
-        "4th": "—",
-        "5th": "—"
+        level: "3rd",
+        baseAttackBonus: "+2",
+        fortSave: "+1",
+        reflexSave: "+3",
+        willSave: "+3",
+        specials: ["<a href=\"#inspire-competence\">Inspire competence</a> +2"],
+        spellsPerDay: [
+          { level: 0, spells: 3, },
+          { level: 1, spells: 0, },
+          { level: 2, spells: 0, },
+          { level: 3, spells: 0, },
+          { level: 4, spells: 0, },
+          { level: 5, spells: 0, }
+        ]
       },
       {
-        "Level": "4th",
-        "Base Attack Bonus": "+3",
-        "Fort Save": "+1",
-        "Ref Save": "+4",
-        "Will Save": "+4",
-        "Special": "",
-        "Spells per Day": "3",
-        "1st": "1",
-        "2nd": "—",
-        "3rd": "—",
-        "4th": "—",
-        "5th": "—"
+        level: "4th",
+        baseAttackBonus: "+3",
+        fortSave: "+1",
+        reflexSave: "+4",
+        willSave: "+4",
+        specials: [""],
+        spellsPerDay: [
+          { level: 0, spells: 3, },
+          { level: 1, spells: 1, },
+          { level: 2, spells: 0, },
+          { level: 3, spells: 0, },
+          { level: 4, spells: 0, },
+          { level: 5, spells: 0, }
+        ]
       },
       {
-        "Level": "5th",
-        "Base Attack Bonus": "+3",
-        "Fort Save": "+1",
-        "Ref Save": "+4",
-        "Will Save": "+4",
-        "Special": "<a href=\"#inspire-courage\">inspire courage</a> +2, <a href=\"#lore-master\">lore master</a> 1/day",
-        "Spells per Day": "4",
-        "1st": "2",
-        "2nd": "—",
-        "3rd": "—",
-        "4th": "—",
-        "5th": "—"
+        level: "5th",
+        baseAttackBonus: "+3",
+        fortSave: "+1",
+        reflexSave: "+4",
+        willSave: "+4",
+        specials: ["<a href=\"#inspire-courage\">inspire courage</a> +2, <a href=\"#lore-master\">lore master</a> 1/day"],
+        spellsPerDay: [
+          { level: 0, spells: 4, },
+          { level: 1, spells: 2, },
+          { level: 2, spells: 0, },
+          { level: 3, spells: 0, },
+          { level: 4, spells: 0, },
+          { level: 5, spells: 0, }
+        ]
       },
       {
-        "Level": "6th",
-        "Base Attack Bonus": "+4",
-        "Fort Save": "+2",
-        "Ref Save": "+5",
-        "Will Save": "+5",
-        "Special": "<a href=\"#suggestion\">Suggestion</a>, <a href=\"#versatile-performance\">Versatile performance</a>",
-        "Spells per Day": "4",
-        "1st": "3",
-        "2nd": "—",
-        "3rd": "—",
-        "4th": "—",
-        "5th": "—"
+        level: "6th",
+        baseAttackBonus: "+4",
+        fortSave: "+2",
+        reflexSave: "+5",
+        willSave: "+5",
+        specials: ["<a href=\"#suggestion\">Suggestion</a>, <a href=\"#versatile-performance\">Versatile performance</a>"],
+        spellsPerDay: [
+          { level: 0, spells: 4, },
+          { level: 1, spells: 3, },
+          { level: 2, spells: 0, },
+          { level: 3, spells: 0, },
+          { level: 4, spells: 0, },
+          { level: 5, spells: 0, }
+        ]
       },
       {
-        "Level": "7th",
-        "Base Attack Bonus": "+5",
-        "Fort Save": "+2",
-        "Ref Save": "+5",
-        "Will Save": "+5",
-        "Special": "<a href=\"#inspire-competence\">Inspire competence</a> +3",
-        "Spells per Day": "4",
-        "1st": "3",
-        "2nd": "1",
-        "3rd": "—",
-        "4th": "—",
-        "5th": "—"
+        level: "7th",
+        baseAttackBonus: "+5",
+        fortSave: "+2",
+        reflexSave: "+5",
+        willSave: "+5",
+        specials: ["<a href=\"#inspire-competence\">Inspire competence</a> +3"],
+        spellsPerDay: [
+          { level: 0, spells: 4, },
+          { level: 1, spells: 3, },
+          { level: 2, spells: 1, },
+          { level: 3, spells: 0, },
+          { level: 4, spells: 0, },
+          { level: 5, spells: 0, }
+        ]
       },
       {
-        "Level": "8th",
-        "Base Attack Bonus": "+6/+1",
-        "Fort Save": "+2",
-        "Ref Save": "+6",
-        "Will Save": "+6",
-        "Special": "<a href=\"#dirge-of-doom\">Dirge of doom</a>",
-        "Spells per Day": "4",
-        "1st": "4",
-        "2nd": "2",
-        "3rd": "—",
-        "4th": "—",
-        "5th": "—"
+        level: "8th",
+        baseAttackBonus: "+6/+1",
+        fortSave: "+2",
+        reflexSave: "+6",
+        willSave: "+6",
+        specials: ["<a href=\"#dirge-of-doom\">Dirge of doom</a>"],
+        spellsPerDay: [
+          { level: 0, spells: 4, },
+          { level: 1, spells: 4, },
+          { level: 2, spells: 2, },
+          { level: 3, spells: 0, },
+          { level: 4, spells: 0, },
+          { level: 5, spells: 0, }
+        ]
       },
       {
-        "Level": "9th",
-        "Base Attack Bonus": "+6/+1",
-        "Fort Save": "+3",
-        "Ref Save": "+6",
-        "Will Save": "+6",
-        "Special": "<a href=\"#inspire-greatness\">Inspire greatness</a>",
-        "Spells per Day": "5",
-        "1st": "4",
-        "2nd": "3",
-        "3rd": "—",
-        "4th": "—",
-        "5th": "—"
+        level: "9th",
+        baseAttackBonus: "+6/+1",
+        fortSave: "+3",
+        reflexSave: "+6",
+        willSave: "+6",
+        specials: ["<a href=\"#inspire-greatness\">Inspire greatness</a>"],
+        spellsPerDay: [
+          { level: 0, spells: 5, },
+          { level: 1, spells: 4, },
+          { level: 2, spells: 3, },
+          { level: 3, spells: 0, },
+          { level: 4, spells: 0, },
+          { level: 5, spells: 0, }
+        ]
       },
       {
-        "Level": "10th",
-        "Base Attack Bonus": "+7/+2",
-        "Fort Save": "+3",
-        "Ref Save": "+7",
-        "Will Save": "+7",
-        "Special": "<a href=\"#jack-of-all-trades\">Jack-of-all-trades</a>, <a href=\"#versatile-performance\">Versatile performance</a>",
-        "Spells per Day": "5",
-        "1st": "4",
-        "2nd": "3",
-        "3rd": "1",
-        "4th": "—",
-        "5th": "—"
+        level: "10th",
+        baseAttackBonus: "+7/+2",
+        fortSave: "+3",
+        reflexSave: "+7",
+        willSave: "+7",
+        specials: ["<a href=\"#jack-of-all-trades\">Jack-of-all-trades</a>, <a href=\"#versatile-performance\">Versatile performance</a>"],
+        spellsPerDay: [
+          { level: 0, spells: 5, },
+          { level: 1, spells: 4, },
+          { level: 2, spells: 3, },
+          { level: 3, spells: 1, },
+          { level: 4, spells: 0, },
+          { level: 5, spells: 0, }
+        ]
       },
       {
-        "Level": "11th",
-        "Base Attack Bonus": "+8/+3",
-        "Fort Save": "+3",
-        "Ref Save": "+7",
-        "Will Save": "+7",
-        "Special": "<a href=\"#inspire-competence\">Inspire competence</a> +4, <a href=\"#inspire-courage\">inspire courage</a> +3, <a href=\"#lore-master\">lore master</a> 2/day",
-        "Spells per Day": "5",
-        "1st": "4",
-        "2nd": "4",
-        "3rd": "2",
-        "4th": "—",
-        "5th": "—"
+        level: "11th",
+        baseAttackBonus: "+8/+3",
+        fortSave: "+3",
+        reflexSave: "+7",
+        willSave: "+7",
+        specials: ["<a href=\"#inspire-competence\">Inspire competence</a> +4, <a href=\"#inspire-courage\">inspire courage</a> +3, <a href=\"#lore-master\">lore master</a> 2/day"],
+        spellsPerDay: [
+          { level: 0, spells: 5, },
+          { level: 1, spells: 4, },
+          { level: 2, spells: 4, },
+          { level: 3, spells: 2, },
+          { level: 4, spells: 0, },
+          { level: 5, spells: 0, }
+        ]
       },
       {
-        "Level": "12th",
-        "Base Attack Bonus": "+9/+4",
-        "Fort Save": "+4",
-        "Ref Save": "+8",
-        "Will Save": "+8",
-        "Special": "<a href=\"#soothing-performance\">Soothing performance</a>",
-        "Spells per Day": "5",
-        "1st": "5",
-        "2nd": "4",
-        "3rd": "3",
-        "4th": "—",
-        "5th": "—"
+        level: "12th",
+        baseAttackBonus: "+9/+4",
+        fortSave: "+4",
+        reflexSave: "+8",
+        willSave: "+8",
+        specials: ["<a href=\"#soothing-performance\">Soothing performance</a>"],
+        spellsPerDay: [
+          { level: 0, spells: 5, },
+          { level: 1, spells: 5, },
+          { level: 2, spells: 4, },
+          { level: 3, spells: 3, },
+          { level: 4, spells: 0, },
+          { level: 5, spells: 0, }
+        ]
       },
       {
-        "Level": "13th",
-        "Base Attack Bonus": "+9/+4",
-        "Fort Save": "+4",
-        "Ref Save": "+8",
-        "Will Save": "+8",
-        "Special": "",
-        "Spells per Day": "5",
-        "1st": "5",
-        "2nd": "4",
-        "3rd": "3",
-        "4th": "1",
-        "5th": "—"
+        level: "13th",
+        baseAttackBonus: "+9/+4",
+        fortSave: "+4",
+        reflexSave: "+8",
+        willSave: "+8",
+        specials: [""],
+        spellsPerDay: [
+          { level: 0, spells: 5, },
+          { level: 1, spells: 5, },
+          { level: 2, spells: 4, },
+          { level: 3, spells: 3, },
+          { level: 4, spells: 1, },
+          { level: 5, spells: 0, }
+        ]
       },
       {
-        "Level": "14th",
-        "Base Attack Bonus": "+10/+5",
-        "Fort Save": "+4",
-        "Ref Save": "+9",
-        "Will Save": "+9",
-        "Special": "<a href=\"#frightening-tune\">Frightening tune</a>, <a href=\"#versatile-performance\">Versatile performance</a>",
-        "Spells per Day": "5",
-        "1st": "5",
-        "2nd": "4",
-        "3rd": "4",
-        "4th": "2",
-        "5th": "—"
+        level: "14th",
+        baseAttackBonus: "+10/+5",
+        fortSave: "+4",
+        reflexSave: "+9",
+        willSave: "+9",
+        specials: ["<a href=\"#frightening-tune\">Frightening tune</a>, <a href=\"#versatile-performance\">Versatile performance</a>"],
+        spellsPerDay: [
+          { level: 0, spells: 5, },
+          { level: 1, spells: 5, },
+          { level: 2, spells: 4, },
+          { level: 3, spells: 4, },
+          { level: 4, spells: 2, },
+          { level: 5, spells: 0, }
+        ]
       },
       {
-        "Level": "15th",
-        "Base Attack Bonus": "+11/+6/+1",
-        "Fort Save": "+5",
-        "Ref Save": "+9",
-        "Will Save": "+9",
-        "Special": "<a href=\"#inspire-competence\">Inspire competence</a> +5, <a href=\"#inspire-heroics\">inspire heroics</a>",
-        "Spells per Day": "5",
-        "1st": "5",
-        "2nd": "5",
-        "3rd": "4",
-        "4th": "3",
-        "5th": "—"
+        level: "15th",
+        baseAttackBonus: "+11/+6/+1",
+        fortSave: "+5",
+        reflexSave: "+9",
+        willSave: "+9",
+        specials: ["<a href=\"#inspire-competence\">Inspire competence</a> +5, <a href=\"#inspire-heroics\">inspire heroics</a>"],
+        spellsPerDay: [
+          { level: 0, spells: 5, },
+          { level: 1, spells: 5, },
+          { level: 2, spells: 5, },
+          { level: 3, spells: 4, },
+          { level: 4, spells: 3, },
+          { level: 5, spells: 0, }
+        ]
       },
       {
-        "Level": "16th",
-        "Base Attack Bonus": "+12/+7/+2",
-        "Fort Save": "+5",
-        "Ref Save": "+10",
-        "Will Save": "+10",
-        "Special": "",
-        "Spells per Day": "5",
-        "1st": "5",
-        "2nd": "5",
-        "3rd": "4",
-        "4th": "3",
-        "5th": "1"
+        level: "16th",
+        baseAttackBonus: "+12/+7/+2",
+        fortSave: "+5",
+        reflexSave: "+10",
+        willSave: "+10",
+        specials: [""],
+        spellsPerDay: [
+          { level: 0, spells: 5, },
+          { level: 1, spells: 5, },
+          { level: 2, spells: 5, },
+          { level: 3, spells: 4, },
+          { level: 4, spells: 3, },
+          { level: 5, spells: 1, }
+        ]
       },
       {
-        "Level": "17th",
-        "Base Attack Bonus": "+12/+7/+2",
-        "Fort Save": "+5",
-        "Ref Save": "+10",
-        "Will Save": "+10",
-        "Special": "<a href=\"#inspire-courage\">inspire courage</a> +4, <a href=\"#lore-master\">lore master</a> 3/day",
-        "Spells per Day": "5",
-        "1st": "5",
-        "2nd": "5",
-        "3rd": "4",
-        "4th": "4",
-        "5th": "2"
+        level: "17th",
+        baseAttackBonus: "+12/+7/+2",
+        fortSave: "+5",
+        reflexSave: "+10",
+        willSave: "+10",
+        specials: ["<a href=\"#inspire-courage\">inspire courage</a> +4, <a href=\"#lore-master\">lore master</a> 3/day"],
+        spellsPerDay: [
+          { level: 0, spells: 5, },
+          { level: 1, spells: 5, },
+          { level: 2, spells: 5, },
+          { level: 3, spells: 4, },
+          { level: 4, spells: 4, },
+          { level: 5, spells: 2, }
+        ]
       },
       {
-        "Level": "18th",
-        "Base Attack Bonus": "+13/+8/+3",
-        "Fort Save": "+6",
-        "Ref Save": "+11",
-        "Will Save": "+11",
-        "Special": "<a href=\"#mass-suggestion-bardic-music\">Mass suggestion</a>, <a href=\"#versatile-performance\">Versatile performance</a>",
-        "Spells per Day": "5",
-        "1st": "5",
-        "2nd": "5",
-        "3rd": "5",
-        "4th": "4",
-        "5th": "3"
+        level: "18th",
+        baseAttackBonus: "+13/+8/+3",
+        fortSave: "+6",
+        reflexSave: "+11",
+        willSave: "+11",
+        specials: ["<a href=\"#mass-suggestion-bardic-music\">Mass suggestion</a>, <a href=\"#versatile-performance\">Versatile performance</a>"],
+        spellsPerDay: [
+          { level: 0, spells: 5, },
+          { level: 1, spells: 5, },
+          { level: 2, spells: 5, },
+          { level: 3, spells: 5, },
+          { level: 4, spells: 4, },
+          { level: 5, spells: 3, }
+        ]
       },
       {
-        "Level": "19th",
-        "Base Attack Bonus": "+14/+9/+4",
-        "Fort Save": "+6",
-        "Ref Save": "+11",
-        "Will Save": "+11",
-        "Special": "<a href=\"#inspire-competence\">Inspire competence</a> +6",
-        "Spells per Day": "5",
-        "1st": "5",
-        "2nd": "5",
-        "3rd": "5",
-        "4th": "5",
-        "5th": "4"
+        level: "19th",
+        baseAttackBonus: "+14/+9/+4",
+        fortSave: "+6",
+        reflexSave: "+11",
+        willSave: "+11",
+        specials: ["<a href=\"#inspire-competence\">Inspire competence</a> +6"],
+        spellsPerDay: [
+          { level: 0, spells: 5, },
+          { level: 1, spells: 5, },
+          { level: 2, spells: 5, },
+          { level: 3, spells: 5, },
+          { level: 4, spells: 5, },
+          { level: 5, spells: 4, }
+        ]
       },
       {
-        "Level": "20th",
-        "Base Attack Bonus": "+15/+10/+5",
-        "Fort Save": "+6",
-        "Ref Save": "+12",
-        "Will Save": "+12",
-        "Special": "<a href=\"#deadly-performance\">Deadly performance</a>",
-        "Spells per Day": "5",
-        "1st": "5",
-        "2nd": "5",
-        "3rd": "5",
-        "4th": "5",
-        "5th": "5"
+        level: "20th",
+        baseAttackBonus: "+15/+10/+5",
+        fortSave: "+6",
+        reflexSave: "+12",
+        willSave: "+12",
+        specials: ["<a href=\"#deadly-performance\">Deadly performance</a>"],
+        spellsPerDay: [
+          { level: 0, spells: 5, },
+          { level: 1, spells: 5, },
+          { level: 2, spells: 5, },
+          { level: 3, spells: 5, },
+          { level: 4, spells: 5, },
+          { level: 5, spells: 5, }
+        ]
       },
-      {},
+    ],
+    cleric: [
       {
-        "Level": "1st",
-        "Base Attack Bonus": "4",
-        "Fort Save": "2",
-        "Ref Save": "—",
-        "Will Save": "—",
-        "Special": "—",
-        "Spells per Day": "—",
-        "1st": "—"
-      },
-      {
-        "Level": "2nd",
-        "Base Attack Bonus": "5",
-        "Fort Save": "3",
-        "Ref Save": "—",
-        "Will Save": "—",
-        "Special": "—",
-        "Spells per Day": "—",
-        "1st": "—"
-      },
-      {
-        "Level": "3rd",
-        "Base Attack Bonus": "6",
-        "Fort Save": "4",
-        "Ref Save": "—",
-        "Will Save": "—",
-        "Special": "—",
-        "Spells per Day": "—",
-        "1st": "—"
+        "0": "1+1",
+        level: "1st",
+        baseAttackBonus: "+0",
+        fortSave: "+2",
+        reflexSave: "+0",
+        willSave: "+2",
+        specials: ["<a href=\"#aura-cleric\">Aura</a>, <a href=\"#channel-energy-cleric\">channel energy</a> 1d6,<a href=\"#domains\">domains</a>, <a href=\"#orisons-cleric\">orisons</a>"],
+        spellsPerDay: [
+          { level: 0, spells: 3, },
+          { level: 1, spells: 0, },
+          { level: 2, spells: 0, },
+          { level: 3, spells: 0, },
+          { level: 4, spells: 0, },
+          { level: 5, spells: 0, },
+          { level: 6, spells: 0, },
+          { level: 7, spells: 0, },
+          { level: 8, spells: 0, }
+        ]
       },
       {
-        "Level": "4th",
-        "Base Attack Bonus": "6",
-        "Fort Save": "4",
-        "Ref Save": "2",
-        "Will Save": "—",
-        "Special": "—",
-        "Spells per Day": "—",
-        "1st": "—"
+        "0": "2+1",
+        level: "2nd",
+        baseAttackBonus: "+1",
+        fortSave: "+3",
+        reflexSave: "+0",
+        willSave: "+3",
+        specials: [""],
+        spellsPerDay: [
+          { level: 0, spells: 4, },
+          { level: 1, spells: 0, },
+          { level: 2, spells: 0, },
+          { level: 3, spells: 0, },
+          { level: 4, spells: 0, },
+          { level: 5, spells: 0, },
+          { level: 6, spells: 0, },
+          { level: 7, spells: 0, },
+          { level: 8, spells: 0, }
+        ]
       },
       {
-        "Level": "5th",
-        "Base Attack Bonus": "6",
-        "Fort Save": "4",
-        "Ref Save": "3",
-        "Will Save": "—",
-        "Special": "—",
-        "Spells per Day": "—",
-        "1st": "—"
+        "0": "2+1",
+        level: "3rd",
+        baseAttackBonus: "+2",
+        fortSave: "+3",
+        reflexSave: "+1",
+        willSave: "+3",
+        specials: ["<a href=\"#channel-energy-cleric\">Channel energy</a> 2d6"],
+        spellsPerDay: [
+          { level: 0, spells: 4, },
+          { level: 1, spells: "1+1", },
+          { level: 2, spells: 0, },
+          { level: 3, spells: 0, },
+          { level: 4, spells: 0, },
+          { level: 5, spells: 0, },
+          { level: 6, spells: 0, },
+          { level: 7, spells: 0, },
+          { level: 8, spells: 0, }
+        ]
       },
       {
-        "Level": "6th",
-        "Base Attack Bonus": "6",
-        "Fort Save": "4",
-        "Ref Save": "4",
-        "Will Save": "—",
-        "Special": "—",
-        "Spells per Day": "—",
-        "1st": "—"
+        "0": "3+1",
+        level: "4th",
+        baseAttackBonus: "+3",
+        fortSave: "+4",
+        reflexSave: "+1",
+        willSave: "+4",
+        specials: [""],
+        spellsPerDay: [
+          { level: 0, spells: 4, },
+          { level: 1, spells: "2+1", },
+          { level: 2, spells: 0, },
+          { level: 3, spells: 0, },
+          { level: 4, spells: 0, },
+          { level: 5, spells: 0, },
+          { level: 6, spells: 0, },
+          { level: 7, spells: 0, },
+          { level: 8, spells: 0, }
+        ]
       },
       {
-        "Level": "7th",
-        "Base Attack Bonus": "6",
-        "Fort Save": "5",
-        "Ref Save": "4",
-        "Will Save": "2",
-        "Special": "—",
-        "Spells per Day": "—",
-        "1st": "—"
+        "0": "3+1",
+        level: "5th",
+        baseAttackBonus: "+3",
+        fortSave: "+4",
+        reflexSave: "+1",
+        willSave: "+4",
+        specials: ["<a href=\"#channel-energy-cleric\">Channel energy</a> 3d6"],
+        spellsPerDay: [
+          { level: 0, spells: 4, },
+          { level: 1, spells: "2+1", },
+          { level: 2, spells: "1+1", },
+          { level: 3, spells: 0, },
+          { level: 4, spells: 0, },
+          { level: 5, spells: 0, },
+          { level: 6, spells: 0, },
+          { level: 7, spells: 0, },
+          { level: 8, spells: 0, }
+        ]
       },
       {
-        "Level": "8th",
-        "Base Attack Bonus": "6",
-        "Fort Save": "5",
-        "Ref Save": "4",
-        "Will Save": "3",
-        "Special": "—",
-        "Spells per Day": "—",
-        "1st": "—"
+        "0": "3+1",
+        level: "6th",
+        baseAttackBonus: "+4",
+        fortSave: "+5",
+        reflexSave: "+2",
+        willSave: "+5",
+        specials: [""],
+        spellsPerDay: [
+          { level: 0, spells: 4, },
+          { level: 1, spells: "3+1", },
+          { level: 2, spells: "2+1", },
+          { level: 3, spells: 0, },
+          { level: 4, spells: 0, },
+          { level: 5, spells: 0, },
+          { level: 6, spells: 0, },
+          { level: 7, spells: 0, },
+          { level: 8, spells: 0, }
+        ]
       },
       {
-        "Level": "9th",
-        "Base Attack Bonus": "6",
-        "Fort Save": "5",
-        "Ref Save": "4",
-        "Will Save": "4",
-        "Special": "—",
-        "Spells per Day": "—",
-        "1st": "—"
+        "0": "4+1",
+        level: "7th",
+        baseAttackBonus: "+5",
+        fortSave: "+5",
+        reflexSave: "+2",
+        willSave: "+5",
+        specials: ["<a href=\"#channel-energy-cleric\">Channel energy</a> 4d6"],
+        spellsPerDay: [
+          { level: 0, spells: 4, },
+          { level: 1, spells: "3+1", },
+          { level: 2, spells: "2+1", },
+          { level: 3, spells: "1+1", },
+          { level: 4, spells: 0, },
+          { level: 5, spells: 0, },
+          { level: 6, spells: 0, },
+          { level: 7, spells: 0, },
+          { level: 8, spells: 0, }
+        ]
       },
       {
-        "Level": "10th",
-        "Base Attack Bonus": "6",
-        "Fort Save": "5",
-        "Ref Save": "5",
-        "Will Save": "4",
-        "Special": "2",
-        "Spells per Day": "—",
-        "1st": "—"
+        "0": "4+1",
+        level: "8th",
+        baseAttackBonus: "+6/+1",
+        fortSave: "+6",
+        reflexSave: "+2",
+        willSave: "+6",
+        specials: [""],
+        spellsPerDay: [
+          { level: 0, spells: 4, },
+          { level: 1, spells: "3+1", },
+          { level: 2, spells: "3+1", },
+          { level: 3, spells: "2+1", },
+          { level: 4, spells: 0, },
+          { level: 5, spells: 0, },
+          { level: 6, spells: 0, },
+          { level: 7, spells: 0, },
+          { level: 8, spells: 0, }
+        ]
       },
       {
-        "Level": "11th",
-        "Base Attack Bonus": "6",
-        "Fort Save": "6",
-        "Ref Save": "5",
-        "Will Save": "4",
-        "Special": "3",
-        "Spells per Day": "—",
-        "1st": "—"
+        "0": "4+1",
+        level: "9th",
+        baseAttackBonus: "+6/+1",
+        fortSave: "+6",
+        reflexSave: "+3",
+        willSave: "+6",
+        specials: ["<a href=\"#channel-energy-cleric\">Channel energy</a> 5d6"],
+        spellsPerDay: [
+          { level: 0, spells: 4, },
+          { level: 1, spells: "4+1", },
+          { level: 2, spells: "3+1", },
+          { level: 3, spells: "2+1", },
+          { level: 4, spells: "1+1", },
+          { level: 5, spells: 0, },
+          { level: 6, spells: 0, },
+          { level: 7, spells: 0, },
+          { level: 8, spells: 0, }
+        ]
       },
       {
-        "Level": "12th",
-        "Base Attack Bonus": "6",
-        "Fort Save": "6",
-        "Ref Save": "5",
-        "Will Save": "4",
-        "Special": "4",
-        "Spells per Day": "—",
-        "1st": "—"
+        "0": "4+1",
+        level: "10th",
+        baseAttackBonus: "+7/+2",
+        fortSave: "+7",
+        reflexSave: "+3",
+        willSave: "+7",
+        specials: [""],
+        spellsPerDay: [
+          { level: 0, spells: 4, },
+          { level: 1, spells: "4+1", },
+          { level: 2, spells: "3+1", },
+          { level: 3, spells: "3+1", },
+          { level: 4, spells: "2+1", },
+          { level: 5, spells: 0, },
+          { level: 6, spells: 0, },
+          { level: 7, spells: 0, },
+          { level: 8, spells: 0, }
+        ]
       },
       {
-        "Level": "13th",
-        "Base Attack Bonus": "6",
-        "Fort Save": "6",
-        "Ref Save": "5",
-        "Will Save": "5",
-        "Special": "4",
-        "Spells per Day": "2",
-        "1st": "—"
+        "0": "4+1",
+        level: "11th",
+        baseAttackBonus: "+8/+3",
+        fortSave: "+7",
+        reflexSave: "+3",
+        willSave: "+7",
+        specials: ["<a href=\"#channel-energy-cleric\">Channel energy</a> 6d6"],
+        spellsPerDay: [
+          { level: 0, spells: 4, },
+          { level: 1, spells: "4+1", },
+          { level: 2, spells: "4+1", },
+          { level: 3, spells: "3+1", },
+          { level: 4, spells: "2+1", },
+          { level: 5, spells: "1+1", },
+          { level: 6, spells: 0, },
+          { level: 7, spells: 0, },
+          { level: 8, spells: 0, }
+        ]
       },
       {
-        "Level": "14th",
-        "Base Attack Bonus": "6",
-        "Fort Save": "6",
-        "Ref Save": "6",
-        "Will Save": "5",
-        "Special": "4",
-        "Spells per Day": "3",
-        "1st": "—"
+        "0": "4+1",
+        level: "12th",
+        baseAttackBonus: "+9/+4",
+        fortSave: "+8",
+        reflexSave: "+4",
+        willSave: "+8",
+        specials: [""],
+        spellsPerDay: [
+          { level: 0, spells: 4, },
+          { level: 1, spells: "4+1", },
+          { level: 2, spells: "4+1", },
+          { level: 3, spells: "3+1", },
+          { level: 4, spells: "3+1", },
+          { level: 5, spells: "2+1", },
+          { level: 6, spells: 0, },
+          { level: 7, spells: 0, },
+          { level: 8, spells: 0, }
+        ]
       },
       {
-        "Level": "15th",
-        "Base Attack Bonus": "6",
-        "Fort Save": "6",
-        "Ref Save": "6",
-        "Will Save": "5",
-        "Special": "4",
-        "Spells per Day": "4",
-        "1st": "—"
+        "0": "4+1",
+        level: "13th",
+        baseAttackBonus: "+9/+4",
+        fortSave: "+8",
+        reflexSave: "+4",
+        willSave: "+8",
+        specials: ["<a href=\"#channel-energy-cleric\">Channel energy</a> 7d6"],
+        spellsPerDay: [
+          { level: 0, spells: 4, },
+          { level: 1, spells: "4+1", },
+          { level: 2, spells: "4+1", },
+          { level: 3, spells: "4+1", },
+          { level: 4, spells: "3+1", },
+          { level: 5, spells: "2+1", },
+          { level: 6, spells: "1+1", },
+          { level: 7, spells: 0, },
+          { level: 8, spells: 0, }
+        ]
       },
       {
-        "Level": "16th",
-        "Base Attack Bonus": "6",
-        "Fort Save": "6",
-        "Ref Save": "6",
-        "Will Save": "5",
-        "Special": "5",
-        "Spells per Day": "4",
-        "1st": "2"
+        "0": "4+1",
+        level: "14th",
+        baseAttackBonus: "+10/+5",
+        fortSave: "+9",
+        reflexSave: "+4",
+        willSave: "+9",
+        specials: [""],
+        spellsPerDay: [
+          { level: 0, spells: 4, },
+          { level: 1, spells: "4+1", },
+          { level: 2, spells: "4+1", },
+          { level: 3, spells: "4+1", },
+          { level: 4, spells: "3+1", },
+          { level: 5, spells: "3+1", },
+          { level: 6, spells: "2+1", },
+          { level: 7, spells: 0, },
+          { level: 8, spells: 0, }
+        ]
       },
       {
-        "Level": "17th",
-        "Base Attack Bonus": "6",
-        "Fort Save": "6",
-        "Ref Save": "6",
-        "Will Save": "6",
-        "Special": "5",
-        "Spells per Day": "4",
-        "1st": "3"
+        "0": "4+1",
+        level: "15th",
+        baseAttackBonus: "+11/+6/+1",
+        fortSave: "+9",
+        reflexSave: "+5",
+        willSave: "+9",
+        specials: ["<a href=\"#channel-energy-cleric\">Channel energy</a> 8d6"],
+        spellsPerDay: [
+          { level: 0, spells: 4, },
+          { level: 1, spells: "4+1", },
+          { level: 2, spells: "4+1", },
+          { level: 3, spells: "4+1", },
+          { level: 4, spells: "4+1", },
+          { level: 5, spells: "3+1", },
+          { level: 6, spells: "2+1", },
+          { level: 7, spells: "1+1", },
+          { level: 8, spells: 0, }
+        ]
       },
       {
-        "Level": "18th",
-        "Base Attack Bonus": "6",
-        "Fort Save": "6",
-        "Ref Save": "6",
-        "Will Save": "6",
-        "Special": "5",
-        "Spells per Day": "4",
-        "1st": "4"
+        "0": "4+1",
+        level: "16th",
+        baseAttackBonus: "+12/+7/+2",
+        fortSave: "+10",
+        reflexSave: "+5",
+        willSave: "+10",
+        specials: [""],
+        spellsPerDay: [
+          { level: 0, spells: 4, },
+          { level: 1, spells: "4+1", },
+          { level: 2, spells: "4+1", },
+          { level: 3, spells: "4+1", },
+          { level: 4, spells: "4+1", },
+          { level: 5, spells: "3+1", },
+          { level: 6, spells: "3+1", },
+          { level: 7, spells: "2+1", },
+          { level: 8, spells: 0, }
+        ]
       },
       {
-        "Level": "19th",
-        "Base Attack Bonus": "6",
-        "Fort Save": "6",
-        "Ref Save": "6",
-        "Will Save": "6",
-        "Special": "5",
-        "Spells per Day": "5",
-        "1st": "4"
+        "0": "4+1",
+        level: "17th",
+        baseAttackBonus: "+12/+7/+2",
+        fortSave: "+10",
+        reflexSave: "+5",
+        willSave: "+10",
+        specials: ["<a href=\"#channel-energy-cleric\">Channel energy</a> 9d6"],
+        spellsPerDay: [
+          { level: 0, spells: 4, },
+          { level: 1, spells: "4+1", },
+          { level: 2, spells: "4+1", },
+          { level: 3, spells: "4+1", },
+          { level: 4, spells: "4+1", },
+          { level: 5, spells: "4+1", },
+          { level: 6, spells: "3+1", },
+          { level: 7, spells: "2+1", },
+          { level: 8, spells: "1+1", }
+        ]
       },
       {
-        "Level": "20th",
-        "Base Attack Bonus": "6",
-        "Fort Save": "6",
-        "Ref Save": "6",
-        "Will Save": "6",
-        "Special": "6",
-        "Spells per Day": "5",
-        "1st": "5"
+        "0": "4+1",
+        level: "18th",
+        baseAttackBonus: "+13/+8/+3",
+        fortSave: "+11",
+        reflexSave: "+6",
+        willSave: "+11",
+        specials: [""],
+        spellsPerDay: [
+          { level: 0, spells: 4, },
+          { level: 1, spells: "4+1", },
+          { level: 2, spells: "4+1", },
+          { level: 3, spells: "4+1", },
+          { level: 4, spells: "4+1", },
+          { level: 5, spells: "4+1", },
+          { level: 6, spells: "3+1", },
+          { level: 7, spells: "3+1", },
+          { level: 8, spells: "2+1", }
+        ]
+      },
+      {
+        "0": "4+1",
+        level: "19th",
+        baseAttackBonus: "+14/+9/+4",
+        fortSave: "+11",
+        reflexSave: "+6",
+        willSave: "+11",
+        specials: ["<a href=\"#channel-energy-cleric\">Channel energy</a> 10d6"],
+        spellsPerDay: [
+          { level: 0, spells: 4, },
+          { level: 1, spells: "4+1", },
+          { level: 2, spells: "4+1", },
+          { level: 3, spells: "4+1", },
+          { level: 4, spells: "4+1", },
+          { level: 5, spells: "4+1", },
+          { level: 6, spells: "4+1", },
+          { level: 7, spells: "3+1", },
+          { level: 8, spells: "3+1", }
+        ]
+      },
+      {
+        "0": "4+1",
+        level: "20th",
+        baseAttackBonus: "+15/+10/+5",
+        fortSave: "+12",
+        reflexSave: "+6",
+        willSave: "+12",
+        specials: [""],
+        spellsPerDay: [
+          { level: 0, spells: 4, },
+          { level: 1, spells: "4+1", },
+          { level: 2, spells: "4+1", },
+          { level: 3, spells: "4+1", },
+          { level: 4, spells: "4+1", },
+          { level: 5, spells: "4+1", },
+          { level: 6, spells: "4+1", },
+          { level: 7, spells: "4+1", },
+          { level: 8, spells: "4+1", }
+        ]
+      }
+    ],
+    druid: [
+      {
+        "0": "1",
+        level: "1st",
+        baseAttackBonus: "+0",
+        fortSave: "+2",
+        reflexSave: "+0",
+        willSave: "+2",
+        specials: ["<a href=\"#nature-bond\">Nature bond</a>, <a href=\"#nature-sense\">nature sense</a>, <a href=\"#orisons-druid\">orisons</a>, <a href=\"#wild-empathy-druid\">wild empathy</a>"],
+        spellsPerDay: [
+          { level: 0, spells: 3, },
+          { level: 1, spells: 0, },
+          { level: 2, spells: 0, },
+          { level: 3, spells: 0, },
+          { level: 4, spells: 0, },
+          { level: 5, spells: 0, },
+          { level: 6, spells: 0, },
+          { level: 7, spells: 0, },
+          { level: 8, spells: 0, }
+        ]
+      },
+      {
+        "0": "2",
+        level: "2nd",
+        baseAttackBonus: "+1",
+        fortSave: "+3",
+        reflexSave: "+0",
+        willSave: "+3",
+        specials: ["<a href=\"#woodland-stride-druid\">Woodland stride</a>"],
+        spellsPerDay: [
+          { level: 0, spells: 4, },
+          { level: 1, spells: 0, },
+          { level: 2, spells: 0, },
+          { level: 3, spells: 0, },
+          { level: 4, spells: 0, },
+          { level: 5, spells: 0, },
+          { level: 6, spells: 0, },
+          { level: 7, spells: 0, },
+          { level: 8, spells: 0, }
+        ]
+      },
+      {
+        "0": "2",
+        level: "3rd",
+        baseAttackBonus: "+2",
+        fortSave: "+3",
+        reflexSave: "+1",
+        willSave: "+3",
+        specials: ["<a href=\"#trackless-step\">Trackless step</a>"],
+        spellsPerDay: [
+          { level: 0, spells: 4, },
+          { level: 1, spells: 1, },
+          { level: 2, spells: 0, },
+          { level: 3, spells: 0, },
+          { level: 4, spells: 0, },
+          { level: 5, spells: 0, },
+          { level: 6, spells: 0, },
+          { level: 7, spells: 0, },
+          { level: 8, spells: 0, }
+        ]
+      },
+      {
+        "0": "3",
+        level: "4th",
+        baseAttackBonus: "+3",
+        fortSave: "+4",
+        reflexSave: "+1",
+        willSave: "+4",
+        specials: ["<a href=\"#resist-nature-s-lure\">Resist nature's lure</a>,<a href=\"#wild-shape\">Wild shape</a> (1/day)"],
+        spellsPerDay: [
+          { level: 0, spells: 4, },
+          { level: 1, spells: 2, },
+          { level: 2, spells: 0, },
+          { level: 3, spells: 0, },
+          { level: 4, spells: 0, },
+          { level: 5, spells: 0, },
+          { level: 6, spells: 0, },
+          { level: 7, spells: 0, },
+          { level: 8, spells: 0, }
+        ]
+      },
+      {
+        "0": "3",
+        level: "5th",
+        baseAttackBonus: "+3",
+        fortSave: "+4",
+        reflexSave: "+1",
+        willSave: "+4",
+        specials: [""],
+        spellsPerDay: [
+          { level: 0, spells: 4, },
+          { level: 1, spells: 2, },
+          { level: 2, spells: 1, },
+          { level: 3, spells: 0, },
+          { level: 4, spells: 0, },
+          { level: 5, spells: 0, },
+          { level: 6, spells: 0, },
+          { level: 7, spells: 0, },
+          { level: 8, spells: 0, }
+        ]
+      },
+      {
+        "0": "3",
+        level: "6th",
+        baseAttackBonus: "+4",
+        fortSave: "+5",
+        reflexSave: "+2",
+        willSave: "+5",
+        specials: ["<a href=\"#wild-shape\">Wild shape</a> (2/day)"],
+        spellsPerDay: [ { level: 0, spells: 4, },
+        { level: 1, spells: 3, },
+        { level: 2, spells: 2, },
+        { level: 3, spells: 0, },
+        { level: 4, spells: 0, },
+        { level: 5, spells: 0, },
+        { level: 6, spells: 0, },
+        { level: 7, spells: 0, },
+        { level: 8, spells: 0, }]
+      },
+      {
+        "0": "4",
+        level: "7th",
+        baseAttackBonus: "+5",
+        fortSave: "+5",
+        reflexSave: "+2",
+        willSave: "+5",
+        specials: [""],
+        spellsPerDay: [ { level: 0, spells: 4, },
+        { level: 1, spells: 3, },
+        { level: 2, spells: 2, },
+        { level: 3, spells: 1, },
+        { level: 4, spells: 0, },
+        { level: 5, spells: 0, },
+        { level: 6, spells: 0, },
+        { level: 7, spells: 0, },
+        { level: 8, spells: 0, }]
+      },
+      {
+        "0": "4",
+        level: "8th",
+        baseAttackBonus: "+6/+1",
+        fortSave: "+6",
+        reflexSave: "+2",
+        willSave: "+6",
+        specials: ["<a href=\"#wild-shape\">Wild shape</a> (3/day)"],
+        spellsPerDay: [ { level: 0, spells: 4, },
+        { level: 1, spells: 3, },
+        { level: 2, spells: 3, },
+        { level: 3, spells: 2, },
+        { level: 4, spells: 0, },
+        { level: 5, spells: 0, },
+        { level: 6, spells: 0, },
+        { level: 7, spells: 0, },
+        { level: 8, spells: 0, }]
+      },
+      {
+        "0": "4",
+        level: "9th",
+        baseAttackBonus: "+6/+1",
+        fortSave: "+6",
+        reflexSave: "+3",
+        willSave: "+6",
+        specials: ["<a href=\"#venom-immunity\">Venom immunity</a>"],
+        spellsPerDay: [ { level: 0, spells: 4, },
+        { level: 1, spells: 4, },
+        { level: 2, spells: 3, },
+        { level: 3, spells: 2, },
+        { level: 4, spells: 1, },
+        { level: 5, spells: 0, },
+        { level: 6, spells: 0, },
+        { level: 7, spells: 0, },
+        { level: 8, spells: 0, }]
+      },
+      {
+        "0": "4",
+        level: "10th",
+        baseAttackBonus: "+7/+2",
+        fortSave: "+7",
+        reflexSave: "+3",
+        willSave: "+7",
+        specials: ["<a href=\"#wild-shape\">Wild shape</a> (4/day)"],
+        spellsPerDay: [ { level: 0, spells: 4, },
+        { level: 1, spells: 4, },
+        { level: 2, spells: 3, },
+        { level: 3, spells: 3, },
+        { level: 4, spells: 2, },
+        { level: 5, spells: 0, },
+        { level: 6, spells: 0, },
+        { level: 7, spells: 0, },
+        { level: 8, spells: 0, }]
+      },
+      {
+        "0": "4",
+        level: "11th",
+        baseAttackBonus: "+8/+3",
+        fortSave: "+7",
+        reflexSave: "+3",
+        willSave: "+7",
+        specials: [""],
+        spellsPerDay: [ { level: 0, spells: 4, },
+        { level: 1, spells: 4, },
+        { level: 2, spells: 4, },
+        { level: 3, spells: 3, },
+        { level: 4, spells: 2, },
+        { level: 5, spells: 1, },
+        { level: 6, spells: 0, },
+        { level: 7, spells: 0, },
+        { level: 8, spells: 0, }]
+      },
+      {
+        "0": "4",
+        level: "12th",
+        baseAttackBonus: "+9/+4",
+        fortSave: "+8",
+        reflexSave: "+4",
+        willSave: "+8",
+        specials: ["<a href=\"#wild-shape\">Wild shape</a> (5/day)"],
+        spellsPerDay: [ { level: 0, spells: 4, },
+        { level: 1, spells: 4, },
+        { level: 2, spells: 4, },
+        { level: 3, spells: 3, },
+        { level: 4, spells: 3, },
+        { level: 5, spells: 2, },
+        { level: 6, spells: 0, },
+        { level: 7, spells: 0, },
+        { level: 8, spells: 0, }]
+      },
+      {
+        "0": "4",
+        level: "13th",
+        baseAttackBonus: "+9/+4",
+        fortSave: "+8",
+        reflexSave: "+4",
+        willSave: "+8",
+        specials: ["<a href=\"#a-thousand-faces\">A thousand faces</a>"],
+        spellsPerDay: [ { level: 0, spells: 4, },
+        { level: 1, spells: 4, },
+        { level: 2, spells: 4, },
+        { level: 3, spells: 4, },
+        { level: 4, spells: 3, },
+        { level: 5, spells: 2, },
+        { level: 6, spells: 1, },
+        { level: 7, spells: 0, },
+        { level: 8, spells: 0, }]
+      },
+      {
+        "0": "4",
+        level: "14th",
+        baseAttackBonus: "+10/+5",
+        fortSave: "+9",
+        reflexSave: "+4",
+        willSave: "+9",
+        specials: ["<a href=\"#wild-shape\">Wild shape</a> (6/day)"],
+        spellsPerDay: [ { level: 0, spells: 4, },
+        { level: 1, spells: 4, },
+        { level: 2, spells: 4, },
+        { level: 3, spells: 4, },
+        { level: 4, spells: 3, },
+        { level: 5, spells: 3, },
+        { level: 6, spells: 2, },
+        { level: 7, spells: 0, },
+        { level: 8, spells: 0, }]
+      },
+      {
+        "0": "4",
+        level: "15th",
+        baseAttackBonus: "+11/+6/+1",
+        fortSave: "+9",
+        reflexSave: "+5",
+        willSave: "+9",
+        specials: ["<a href=\"#timeless-body\">Timeless body</a>"],
+        spellsPerDay: [ { level: 0, spells: 4, },
+        { level: 1, spells: 4, },
+        { level: 2, spells: 4, },
+        { level: 3, spells: 4, },
+        { level: 4, spells: 4, },
+        { level: 5, spells: 3, },
+        { level: 6, spells: 2, },
+        { level: 7, spells: 1, },
+        { level: 8, spells: 0, }]
+      },
+      {
+        "0": "4",
+        level: "16th",
+        baseAttackBonus: "+12/+7/+2",
+        fortSave: "+10",
+        reflexSave: "+5",
+        willSave: "+10",
+        specials: ["<a href=\"#wild-shape\">Wild shape</a> (7/day)"],
+        spellsPerDay: [ { level: 0, spells: 4, },
+        { level: 1, spells: 4, },
+        { level: 2, spells: 4, },
+        { level: 3, spells: 4, },
+        { level: 4, spells: 4, },
+        { level: 5, spells: 3, },
+        { level: 6, spells: 3, },
+        { level: 7, spells: 2, },
+        { level: 8, spells: 0, }]
+      },
+      {
+        "0": "4",
+        level: "17th",
+        baseAttackBonus: "+12/+7/+2",
+        fortSave: "+10",
+        reflexSave: "+5",
+        willSave: "+10",
+        specials: [""],
+        spellsPerDay: [
+          { level: 0, spells: 4, },
+          { level: 1, spells: 4, },
+          { level: 2, spells: 4, },
+          { level: 3, spells: 4, },
+          { level: 4, spells: 4, },
+          { level: 5, spells: 4, },
+          { level: 6, spells: 3, },
+          { level: 7, spells: 2, },
+          { level: 8, spells: 1, }
+        ]
+      },
+      {
+        "0": "4",
+        level: "18th",
+        baseAttackBonus: "+13/+8/+3",
+        fortSave: "+11",
+        reflexSave: "+6",
+        willSave: "+11",
+        specials: ["<a href=\"#wild-shape\">Wild shape</a> (8/day)"],
+        spellsPerDay: [
+          { level: 0, spells: 4, },
+          { level: 1, spells: 4, },
+          { level: 2, spells: 4, },
+          { level: 3, spells: 4, },
+          { level: 4, spells: 4, },
+          { level: 5, spells: 4, },
+          { level: 6, spells: 3, },
+          { level: 7, spells: 3, },
+          { level: 8, spells: 2, }
+        ]
+      },
+      {
+        "0": "4",
+        level: "19th",
+        baseAttackBonus: "+14/+9/+4",
+        fortSave: "+11",
+        reflexSave: "+6",
+        willSave: "+11",
+        specials: [""],
+        spellsPerDay: [
+          { level: 0, spells: 4, },
+          { level: 1, spells: 4, },
+          { level: 2, spells: 4, },
+          { level: 3, spells: 4, },
+          { level: 4, spells: 4, },
+          { level: 5, spells: 4, },
+          { level: 6, spells: 4, },
+          { level: 7, spells: 3, },
+          { level: 8, spells: 3, }
+        ]
+      },
+      {
+        "0": "4",
+        level: "20th",
+        baseAttackBonus: "+15/+10/+5",
+        fortSave: "+12",
+        reflexSave: "+6",
+        willSave: "+12",
+        specials: ["<a href=\"#wild-shape\">Wild shape</a> (at will)"],
+        spellsPerDay: [
+          { level: 0, spells: 4, },
+          { level: 1, spells: 4, },
+          { level: 2, spells: 4, },
+          { level: 3, spells: 4, },
+          { level: 4, spells: 4, },
+          { level: 5, spells: 4, },
+          { level: 6, spells: 4, },
+          { level: 7, spells: 4, },
+          { level: 8, spells: 4, }
+        ]
+      },
+    ],
+    fighter: [
+      {
+        level: "1st",
+        baseAttackBonus: "+1",
+        fortSave: "+2",
+        reflexSave: "+0",
+        willSave: "+0",
+        specials: ["<a href=\"#bonus-feats-fighter\">Bonus feat</a>"]
+      },
+      {
+        level: "2nd",
+        baseAttackBonus: "+2",
+        fortSave: "+3",
+        reflexSave: "+0",
+        willSave: "+0",
+        specials: ["<a href=\"#bonus-feats-fighter\">Bonus feat</a>, <a href=\"#bravery\">bravery</a> +1"]
+      },
+      {
+        level: "3rd",
+        baseAttackBonus: "+3",
+        fortSave: "+3",
+        reflexSave: "+1",
+        willSave: "+1",
+        specials: ["<a href=\"#armor-training\">Armor training</a> 1"]
+      },
+      {
+        level: "4th",
+        baseAttackBonus: "+4",
+        fortSave: "+4",
+        reflexSave: "+1",
+        willSave: "+1",
+        specials: ["<a href=\"#bonus-feats-fighter\">Bonus feat</a>"]
+      },
+      {
+        level: "5th",
+        baseAttackBonus: "+5",
+        fortSave: "+4",
+        reflexSave: "+1",
+        willSave: "+1",
+        specials: ["<a href=\"#weapon-training\">Weapon training</a> 1"]
+      },
+      {
+        level: "6th",
+        baseAttackBonus: "+6/+1",
+        fortSave: "+5",
+        reflexSave: "+2",
+        willSave: "+2",
+        specials: ["<a href=\"#bonus-feats-fighter\">Bonus feat</a>, <a href=\"#bravery\">bravery</a> +2"]
+      },
+      {
+        level: "7th",
+        baseAttackBonus: "+7/+2",
+        fortSave: "+5",
+        reflexSave: "+2",
+        willSave: "+2",
+        specials: ["<a href=\"#armor-training\">Armor training</a> 2"]
+      },
+      {
+        level: "8th",
+        baseAttackBonus: "+8/+3",
+        fortSave: "+6",
+        reflexSave: "+2",
+        willSave: "+2",
+        specials: ["<a href=\"#bonus-feats-fighter\">Bonus feat</a>"]
+      },
+      {
+        level: "9th",
+        baseAttackBonus: "+9/+4",
+        fortSave: "+6",
+        reflexSave: "+3",
+        willSave: "+3",
+        specials: ["<a href=\"#weapon-training\">Weapon training</a> 2"]
+      },
+      {
+        level: "10th",
+        baseAttackBonus: "+10/+5",
+        fortSave: "+7",
+        reflexSave: "+3",
+        willSave: "+3",
+        specials: ["<a href=\"#bonus-feats-fighter\">Bonus feat</a>, <a href=\"#bravery\">bravery</a> +3"]
+      },
+      {
+        level: "11th",
+        baseAttackBonus: "+11/+6/+1",
+        fortSave: "+7",
+        reflexSave: "+3",
+        willSave: "+3",
+        specials: ["<a href=\"#armor-training\">Armor training</a> 3"]
+      },
+      {
+        level: "12th",
+        baseAttackBonus: "+12/+7/+2",
+        fortSave: "+8",
+        reflexSave: "+4",
+        willSave: "+4",
+        specials: ["<a href=\"#bonus-feats-fighter\">Bonus feat</a>"]
+      },
+      {
+        level: "13th",
+        baseAttackBonus: "+13/+8/+3",
+        fortSave: "+8",
+        reflexSave: "+4",
+        willSave: "+4",
+        specials: ["<a href=\"#weapon-training\">Weapon training</a> 3"]
+      },
+      {
+        level: "14th",
+        baseAttackBonus: "+14/+9/+4",
+        fortSave: "+9",
+        reflexSave: "+4",
+        willSave: "+4",
+        specials: ["<a href=\"#bonus-feats-fighter\">Bonus feat</a>, <a href=\"#bravery\">bravery</a> +4"]
+      },
+      {
+        level: "15th",
+        baseAttackBonus: "+15/+10/+5",
+        fortSave: "+9",
+        reflexSave: "+5",
+        willSave: "+5",
+        specials: ["<a href=\"#armor-training\">Armor training</a> 4"]
+      },
+      {
+        level: "16th",
+        baseAttackBonus: "+16/+11/+6/+1",
+        fortSave: "+10",
+        reflexSave: "+5",
+        willSave: "+5",
+        specials: ["<a href=\"#bonus-feats-fighter\">Bonus feat</a>"]
+      },
+      {
+        level: "17th",
+        baseAttackBonus: "+17/+12/+7/+2",
+        fortSave: "+10",
+        reflexSave: "+5",
+        willSave: "+5",
+        specials: ["<a href=\"#weapon-training\">Weapon training</a> 4"]
+      },
+      {
+        level: "18th",
+        baseAttackBonus: "+18/+13/+8/+3",
+        fortSave: "+11",
+        reflexSave: "+6",
+        willSave: "+6",
+        specials: ["<a href=\"#bonus-feats-fighter\">Bonus feat</a>, <a href=\"#bravery\">bravery</a> +5"]
+      },
+      {
+        level: "19th",
+        baseAttackBonus: "+19/+14/+9/+4",
+        fortSave: "+11",
+        reflexSave: "+6",
+        willSave: "+6",
+        specials: ["<a href=\"#armor-mastery\">Armor mastery</a>"]
+      },
+      {
+        level: "20th",
+        baseAttackBonus: "+20/+15/+10/+5",
+        fortSave: "+12",
+        reflexSave: "+6",
+        willSave: "+6",
+        specials: ["<a href=\"#bonus-feats-fighter\">Bonus feat</a>, <a href=\"#weapon-mastery\">weapon mastery</a>"]
+      }
+    ],
+    // monk: [
+    //   {
+    //     level: "1st",
+    //     baseAttackBonus: "+0",
+    //     fortSave: "+2",
+    //     reflexSave: "+2",
+    //     willSave: "+2",
+    //     specials: ["<a href=\"#bonus-feat-monk\">Bonus feat</a>, <a href=\"#flurry-of-blows\">flurry of blows</a>, <a href=\"#stunning-fist\">stunning fist</a>, <a href=\"#unarmed-strike\">unarmed strike</a>"],
+    //     "Flurry of Blows Attack Bonus": "–1/<wbr>–1",
+    //     "Unarmed Damage": "1d6",
+    //     "AC Bonus": "+0",
+    //     "Fast Movement": "+0 ft."
+    //   },
+    //   {
+    //     level: "2nd",
+    //     baseAttackBonus: "+1",
+    //     fortSave: "+3",
+    //     reflexSave: "+3",
+    //     willSave: "+3",
+    //     specials: ["<a href=\"#bonus-feat-monk\">Bonus feat</a>", "<a href=\"#evasion-monk\">evasion</a>", "Flurry of Blows Attack Bonus": "+0/<wbr>+0", "Unarmed Damage": "1d6", "AC Bonus": "+0", "Fast Movement": "+0 ft."]
+    //   },
+    //   {
+    //     level: "3rd",
+    //     baseAttackBonus: "+2",
+    //     fortSave: "+3",
+    //     reflexSave: "+3",
+    //     willSave: "+3",
+    //     specials: ["<a href=\"#fast-movement-monk\">Fast movement</a>, <a href=\"#maneuver-training\">maneuver training</a>, <a href=\"#still-mind\">still mind</a>",
+    //     "Flurry of Blows Attack Bonus": "+1/<wbr>+1",
+    //     "Unarmed Damage": "1d6",
+    //     "AC Bonus": "+0",
+    //     "Fast Movement": "+10 ft."]
+    //   },
+    //   {
+    //     level: "4th",
+    //     baseAttackBonus: "+3",
+    //     fortSave: "+4",
+    //     reflexSave: "+4",
+    //     willSave: "+4",
+    //     specials: ["<i><a href=\"#ki-pool\">Ki</a></i><a href=\"#ki-pool\"> pool</a> (magic), <a href=\"#slow-fall\">slow fall</a> 20 ft.",
+    //     "Flurry of Blows Attack Bonus": "+2/<wbr>+2",
+    //     "Unarmed Damage": "1d8",
+    //     "AC Bonus": "+1",
+    //     "Fast Movement": "+10 ft."]
+    //   },
+    //   {
+    //     level: "5th",
+    //     baseAttackBonus: "+3",
+    //     fortSave: "+4",
+    //     reflexSave: "+4",
+    //     willSave: "+4",
+    //     specials: ["<a href=\"#high-jump\">High jump</a>, <a href=\"#purity-of-body\">purity of body</a>",
+    //     "Flurry of Blows Attack Bonus": "+3/<wbr>+3",
+    //     "Unarmed Damage": "1d8",
+    //     "AC Bonus": "+1",
+    //     "Fast Movement": "+10 ft."]
+    //   },
+    //   {
+    //     level: "6th",
+    //     baseAttackBonus: "+4",
+    //     fortSave: "+5",
+    //     reflexSave: "+5",
+    //     willSave: "+5",
+    //     specials: ["<a href=\"#bonus-feat-monk\">Bonus feat</a>, <a href=\"#slow-fall\">slow fall</a> 30 ft.",
+    //     "Flurry of Blows Attack Bonus": "+4/<wbr>+4/<wbr>–1",
+    //     "Unarmed Damage": "1d8",
+    //     "AC Bonus": "+1",
+    //     "Fast Movement": "+20 ft."]
+    //   },
+    //   {
+    //     level: "7th",
+    //     baseAttackBonus: "+5",
+    //     fortSave: "+5",
+    //     reflexSave: "+5",
+    //     willSave: "+5",
+    //     specials: ["Ki pool (cold iron/silver), <a href=\"#wholeness-of-body\">wholeness of body</a>",
+    //     "Flurry of Blows Attack Bonus": "+5/+5/+0",
+    //     "Unarmed Damage": "1d8",
+    //     "AC Bonus": "+1",
+    //     "Fast Movement": "+20 ft."]
+    //   },
+    //   {
+    //     level: "8th",
+    //     baseAttackBonus: "+6/+1",
+    //     fortSave: "+6",
+    //     reflexSave: "+6",
+    //     willSave: "+6",
+    //     specials: ["<a href=\"#slow-fall\">Slow fall</a> 40 ft.",
+    //     "Flurry of Blows Attack Bonus": "+6/<wbr>+6/<wbr>+1/<wbr>+1",
+    //     "Unarmed Damage": "1d10",
+    //     "AC Bonus": "+2",
+    //     "Fast Movement": "+20 ft."]
+    //   },
+    //   {
+    //     level: "9th",
+    //     baseAttackBonus: "+6/+1",
+    //     fortSave: "+6",
+    //     reflexSave: "+6",
+    //     willSave: "+6",
+    //     specials: ["<a href=\"#improved-evasion-monk\">Improved evasion</a>",
+    //     "Flurry of Blows Attack Bonus": "+7/<wbr>+7/<wbr>+2/<wbr>+2",
+    //     "Unarmed Damage": "1d10",
+    //     "AC Bonus": "+2",
+    //     "Fast Movement": "+30 ft."]
+    //   },
+    //   {
+    //     level: "10th",
+    //     baseAttackBonus: "+7/+2",
+    //     fortSave: "+7",
+    //     reflexSave: "+7",
+    //     willSave: "+7",
+    //     specials: ["<a href=\"#bonus-feat-monk\">Bonus feat</a>, <i><a href=\"#ki-pool\">ki</a></i><a href=\"#ki-pool\"> pool</a> (lawful), <a href=\"#slow-fall\">slow fall</a> 50 ft.",
+    //     "Flurry of Blows Attack Bonus": "+8/<wbr>+8/<wbr>+3/<wbr>+3",
+    //     "Unarmed Damage": "1d10",
+    //     "AC Bonus": "+2",
+    //     "Fast Movement": "+30 ft."]
+    //   },
+    //   {
+    //     level: "11th",
+    //     baseAttackBonus: "+8/+3",
+    //     fortSave: "+7",
+    //     reflexSave: "+7",
+    //     willSave: "+7",
+    //     specials: ["<a href=\"#diamond-body\">Diamond body</a>",
+    //     "Flurry of Blows Attack Bonus": "+9/+9/+4/+4/–1",
+    //     "Unarmed Damage": "1d10",
+    //     "AC Bonus": "+2",
+    //     "Fast Movement": "+30 ft."]
+    //   },
+    //   {
+    //     level: "12th",
+    //     baseAttackBonus: "+9/+4",
+    //     fortSave: "+8",
+    //     reflexSave: "+8",
+    //     willSave: "+8",
+    //     specials: ["<a href=\"#abundant-step\">Abundant step</a>, <a href=\"#slow-fall\">slow fall</a> 60 ft.",
+    //     "Flurry of Blows Attack Bonus": "+10/<wbr>+10/<wbr>+5/<wbr>+5/<wbr>+0",
+    //     "Unarmed Damage": "2d6",
+    //     "AC Bonus": "+3",
+    //     "Fast Movement": "+40 ft."]
+    //   },
+    //   {
+    //     level: "13th",
+    //     baseAttackBonus: "+9/+4",
+    //     fortSave: "+8",
+    //     reflexSave: "+8",
+    //     willSave: "+8",
+    //     specials: ["<a href=\"#diamond-soul\">Diamond soul</a>",
+    //     "Flurry of Blows Attack Bonus": "+11/<wbr>+11/<wbr>+6/<wbr>+6/<wbr>+1",
+    //     "Unarmed Damage": "2d6",
+    //     "AC Bonus": "+3",
+    //     "Fast Movement": "+40 ft."]
+    //   },
+    //   {
+    //     level: "14th",
+    //     baseAttackBonus: "+10/+5",
+    //     fortSave: "+9",
+    //     reflexSave: "+9",
+    //     willSave: "+9",
+    //     specials: ["<a href=\"#bonus-feat-monk\">Bonus feat</a>, <a href=\"#slow-fall\">slow fall</a> 70 ft.",
+    //     "Flurry of Blows Attack Bonus": "+12/<wbr>+12/<wbr>+7/<wbr>+7/<wbr>+2",
+    //     "Unarmed Damage": "2d6",
+    //     "AC Bonus": "+3",
+    //     "Fast Movement": "+40 ft."]
+    //   },
+    //   {
+    //     level: "15th",
+    //     baseAttackBonus: "+11/+6/+1",
+    //     fortSave: "+9",
+    //     reflexSave: "+9",
+    //     willSave: "+9",
+    //     specials: ["<a href=\"#quivering-palm\">Quivering palm</a>",
+    //     "Flurry of Blows Attack Bonus": "+13/<wbr>+13/<wbr>+8/<wbr>+8/<wbr>+3/<wbr>+3",
+    //     "Unarmed Damage": "2d6",
+    //     "AC Bonus": "+3",
+    //     "Fast Movement": "+50 ft."]
+    //   },
+    //   {
+    //     level: "16th",
+    //     baseAttackBonus: "+12/+7/+2",
+    //     fortSave: "+10",
+    //     reflexSave: "+10",
+    //     willSave: "+10",
+    //     specials: ["<i><a href=\"#ki-pool\">Ki</a></i><a href=\"#ki-pool\"> pool</a> (adamantine), <a href=\"#slow-fall\">slow fall</a> 80 ft.",
+    //     "Flurry of Blows Attack Bonus": "+14/<wbr>+14/<wbr>+9/<wbr>+9/<wbr>+4/<wbr>+4/<wbr>–1",
+    //     "Unarmed Damage": "2d8",
+    //     "AC Bonus": "+4",
+    //     "Fast Movement": "+50 ft."]
+    //   },
+    //   {
+    //     level: "17th",
+    //     baseAttackBonus: "+12/+7/+2",
+    //     fortSave: "+10",
+    //     reflexSave: "+10",
+    //     willSave: "+10",
+    //     specials: ["<a href=\"#timeless-body-monk\">Timeless body</a>, <a href=\"#tongue-of-the-sun-and-moon\">tongue of the sun and moon</a>",
+    //     "Flurry of Blows Attack Bonus": "+15/<wbr>+15/<wbr>+10/<wbr>+10/<wbr>+5/<wbr>+5/<wbr>+0",
+    //     "Unarmed Damage": "2d8",
+    //     "AC Bonus": "+4",
+    //     "Fast Movement": "+50 ft."]
+    //   },
+    //   {
+    //     level: "18th",
+    //     baseAttackBonus: "+13/+8/+3",
+    //     fortSave: "+11",
+    //     reflexSave: "+11",
+    //     willSave: "+11",
+    //     specials: ["<a href=\"#bonus-feat-monk\">Bonus feat</a>, <a href=\"#slow-fall\">slow fall</a> 90 ft.",
+    //     "Flurry of Blows Attack Bonus": "+16/<wbr>+16/<wbr>+11/<wbr>+11/<wbr>+6/<wbr>+6/<wbr>+1",
+    //     "Unarmed Damage": "2d8",
+    //     "AC Bonus": "+4",
+    //     "Fast Movement": "+60 ft."]
+    //   },
+    //   {
+    //     level: "19th",
+    //     baseAttackBonus: "+14/+9/+4",
+    //     fortSave: "+11",
+    //     reflexSave: "+11",
+    //     willSave: "+11",
+    //     specials: ["<a href=\"#empty-body\">Empty body</a>",
+    //     "Flurry of Blows Attack Bonus": "+17/<wbr>+17/<wbr>+12/<wbr>+12/<wbr>+7/<wbr>+7/<wbr>+2",
+    //     "Unarmed Damage": "2d8",
+    //     "AC Bonus": "+4",
+    //     "Fast Movement": "+60 ft."]
+    //   },
+    //   {
+    //     level: "20th",
+    //     baseAttackBonus: "+15/+10/+5",
+    //     fortSave: "+12",
+    //     reflexSave: "+12",
+    //     willSave: "+12",
+    //     specials: ["<a href=\"#perfect-self\">Perfect self</a>, <a href=\"#slow-fall\">slow fall any distance</a>",
+    //     "Flurry of Blows Attack Bonus": "+18/<wbr>+18/<wbr>+13/<wbr>+13/<wbr>+8/<wbr>+8/<wbr>+3",
+    //     "Unarmed Damage": "2d10",
+    //     "AC Bonus": "+5",
+    //     "Fast Movement": "+60 ft."]
+    //   },
+    // ],
+    paladin: [
+      {
+        level: "1st",
+        baseAttackBonus: "+1",
+        fortSave: "+2",
+        reflexSave: "+0",
+        willSave: "+2",
+        specials: ["<a href=\"#aura-of-good\">Aura of good</a><i>, </i><a href=\"#detect-evil\">detect evil</a>, <a href=\"#smite-evil\">smite evil</a> 1/day"],
+        spellsPerDay: [
+          { level: 0, spells: 0, },
+          { level: 1, spells: 0, },
+          { level: 2, spells: 0, },
+          { level: 3, spells: 0, }
+        ]
+      },
+      {
+        level: "2nd",
+        baseAttackBonus: "+2",
+        fortSave: "+3",
+        reflexSave: "+0",
+        willSave: "+3",
+        specials: ["<a href=\"#divine-grace\">Divine grace</a>, <a href=\"#lay-on-hands\">lay on hands</a>"],
+        spellsPerDay: [
+          { level: 0, spells: 0, },
+          { level: 1, spells: 0, },
+          { level: 2, spells: 0, },
+          { level: 3, spells: 0, }
+        ]
+      },
+      {
+        level: "3rd",
+        baseAttackBonus: "+3",
+        fortSave: "+3",
+        reflexSave: "+1",
+        willSave: "+3",
+        specials: ["<a href=\"#aura-of-courage\">Aura of courage</a>, <a href=\"#divine-health\">divine health</a>, <a href=\"#mercy\">mercy</a>"],
+        spellsPerDay: [
+          { level: 0, spells: 0, },
+          { level: 1, spells: 0, },
+          { level: 2, spells: 0, },
+          { level: 3, spells: 0, }
+        ]
+      },
+      {
+        level: "4th",
+        baseAttackBonus: "+4",
+        fortSave: "+4",
+        reflexSave: "+1",
+        willSave: "+4",
+        specials: ["<a href=\"#channel-positive-energy-paladin\">Channel positive energy</a>, <a href=\"#smite-evil\">smite evil</a> 2/day"],
+        spellsPerDay: [
+          { level: 0, spells: 0, },
+          { level: 1, spells: 0, },
+          { level: 2, spells: 0, },
+          { level: 3, spells: 0, }
+        ]
+      },
+      {
+        level: "5th",
+        baseAttackBonus: "+5",
+        fortSave: "+4",
+        reflexSave: "+1",
+        willSave: "+4",
+        specials: ["<a href=\"#divine-bond\">Divine bond</a>"],
+        spellsPerDay: [
+          { level: 0, spells: 1, },
+          { level: 1, spells: 0, },
+          { level: 2, spells: 0, },
+          { level: 3, spells: 0, }
+        ]
+      },
+      {
+        level: "6th",
+        baseAttackBonus: "+6/+1",
+        fortSave: "+5",
+        reflexSave: "+2",
+        willSave: "+5",
+        specials: ["<a href=\"#mercy\">Mercy</a>"],
+        spellsPerDay: [
+          { level: 0, spells: 1, },
+          { level: 1, spells: 0, },
+          { level: 2, spells: 0, },
+          { level: 3, spells: 0, }
+        ]
+      },
+      {
+        level: "7th",
+        baseAttackBonus: "+7/+2",
+        fortSave: "+5",
+        reflexSave: "+2",
+        willSave: "+5",
+        specials: ["<a href=\"#smite-evil\">Smite evil</a> 3/day"],
+        spellsPerDay: [
+          { level: 0, spells: 1, },
+          { level: 1, spells: 0, },
+          { level: 2, spells: 0, },
+          { level: 3, spells: 0, }
+        ]
+      },
+      {
+        level: "8th",
+        baseAttackBonus: "+8/+3",
+        fortSave: "+6",
+        reflexSave: "+2",
+        willSave: "+6",
+        specials: ["<a href=\"#aura-of-resolve\">Aura of resolve</a>"],
+        spellsPerDay: [
+          { level: 0, spells: 1, },
+          { level: 1, spells: 1, },
+          { level: 2, spells: 0, },
+          { level: 3, spells: 0, }
+        ]
+      },
+      {
+        level: "9th",
+        baseAttackBonus: "+9/+4",
+        fortSave: "+6",
+        reflexSave: "+3",
+        willSave: "+6",
+        specials: ["<a href=\"#mercy\">Mercy</a>"],
+        spellsPerDay: [
+          { level: 0, spells: 2, },
+          { level: 1, spells: 1, },
+          { level: 2, spells: 0, },
+          { level: 3, spells: 0, }
+        ]
+      },
+      {
+        level: "10th",
+        baseAttackBonus: "+10/+5",
+        fortSave: "+7",
+        reflexSave: "+3",
+        willSave: "+7",
+        specials: ["<a href=\"#smite-evil\">Smite evil</a> 4/day"],
+        spellsPerDay: [
+          { level: 0, spells: 2, },
+          { level: 1, spells: 1, },
+          { level: 2, spells: 0, },
+          { level: 3, spells: 0, }
+        ]
+      },
+      {
+        level: "11th",
+        baseAttackBonus: "+11/+6/+1",
+        fortSave: "+7",
+        reflexSave: "+3",
+        willSave: "+7",
+        specials: ["<a href=\"#aura-of-justice\">Aura of justice</a>"],
+        spellsPerDay: [
+          { level: 0, spells: 2, },
+          { level: 1, spells: 1, },
+          { level: 2, spells: 1, },
+          { level: 3, spells: 0, }
+        ]
+      },
+      {
+        level: "12th",
+        baseAttackBonus: "+12/+7/+2",
+        fortSave: "+8",
+        reflexSave: "+4",
+        willSave: "+8",
+        specials: ["<a href=\"#mercy\">Mercy</a>"],
+        spellsPerDay: [
+          { level: 0, spells: 2, },
+          { level: 1, spells: 2, },
+          { level: 2, spells: 1, },
+          { level: 3, spells: 0, }
+        ]
+      },
+      {
+        level: "13th",
+        baseAttackBonus: "+13/+8/+3",
+        fortSave: "+8",
+        reflexSave: "+4",
+        willSave: "+8",
+        specials: ["<a href=\"#smite-evil\">Smite evil</a> 5/day"],
+        spellsPerDay: [
+          { level: 0, spells: 3, },
+          { level: 1, spells: 2, },
+          { level: 2, spells: 1, },
+          { level: 3, spells: 0, }
+        ]
+      },
+      {
+        level: "14th",
+        baseAttackBonus: "+14/+9/+4",
+        fortSave: "+9",
+        reflexSave: "+4",
+        willSave: "+9",
+        specials: ["<a href=\"#aura-of-faith-21\">Aura of faith</a>"],
+        spellsPerDay: [
+          { level: 0, spells: 3, },
+          { level: 1, spells: 2, },
+          { level: 2, spells: 1, },
+          { level: 3, spells: 1, }
+        ]
+      },
+      {
+        level: "15th",
+        baseAttackBonus: "+15/+10/+5",
+        fortSave: "+9",
+        reflexSave: "+5",
+        willSave: "+9",
+        specials: ["<a href=\"#mercy\">Mercy</a>"],
+        spellsPerDay: [
+          { level: 0, spells: 3, },
+          { level: 1, spells: 2, },
+          { level: 2, spells: 2, },
+          { level: 3, spells: 1, }
+        ]
+      },
+      {
+        level: "16th",
+        baseAttackBonus: "+16/+11/+6/+1",
+        fortSave: "+10",
+        reflexSave: "+5",
+        willSave: "+10",
+        specials: ["<a href=\"#smite-evil\">Smite evil</a> 6/day"],
+        spellsPerDay: [
+          { level: 0, spells: 3, },
+          { level: 1, spells: 3, },
+          { level: 2, spells: 2, },
+          { level: 3, spells: 1, }
+        ]
+      },
+      {
+        level: "17th",
+        baseAttackBonus: "+17/+12/+7/+2",
+        fortSave: "+10",
+        reflexSave: "+5",
+        willSave: "+10",
+        specials: ["<a href=\"#aura-of-righteousness\">Aura of righteousness</a>"],
+        spellsPerDay: [
+          { level: 0, spells: 4, },
+          { level: 1, spells: 3, },
+          { level: 2, spells: 2, },
+          { level: 3, spells: 1, }
+        ]
+      },
+      {
+        level: "18th",
+        baseAttackBonus: "+18/+13/+8/+3",
+        fortSave: "+11",
+        reflexSave: "+6",
+        willSave: "+11",
+        specials: ["<a href=\"#mercy\">Mercy</a>"],
+        spellsPerDay: [
+          { level: 0, spells: 4, },
+          { level: 1, spells: 3, },
+          { level: 2, spells: 2, },
+          { level: 3, spells: 2, }
+        ]
+      },
+      {
+        level: "19th",
+        baseAttackBonus: "+19/+14/+9/+4",
+        fortSave: "+11",
+        reflexSave: "+6",
+        willSave: "+11",
+        specials: ["<a href=\"#smite-evil\">Smite evil</a> 7/day"],
+        spellsPerDay: [
+          { level: 0, spells: 4, },
+          { level: 1, spells: 3, },
+          { level: 2, spells: 3, },
+          { level: 3, spells: 2, }
+        ]
+      },
+      {
+        level: "20th",
+        baseAttackBonus: "+20/+15/+10/+5",
+        fortSave: "+12",
+        reflexSave: "+6",
+        willSave: "+12",
+        specials: ["<a href=\"#holy-champion\">Holy champion</a>"],
+        spellsPerDay: [
+          { level: 0, spells: 4, },
+          { level: 1, spells: 4, },
+          { level: 2, spells: 3, },
+          { level: 3, spells: 3, },
+        ]
       }
     ],
     ranger: [
@@ -1281,6 +2584,1232 @@
           { level: 3, spells: 3, },
           { level: 4, spells: 3, },
         ],
+      },
+    ],
+    rogue: [
+      {
+        level: "1st",
+        baseAttackBonus: "+0",
+        fortSave: "+0",
+        reflexSave: "+2",
+        willSave: "+0",
+        specials: ["<a href=\"#sneak-attack\">Sneak attack</a> +1d6, <a href=\"#trapfinding\">trapfinding</a>"]
+      },
+      {
+        level: "2nd",
+        baseAttackBonus: "+1",
+        fortSave: "+0",
+        reflexSave: "+3",
+        willSave: "+0",
+        specials: ["<a href=\"#evasion-rogue\">Evasion</a>, <a href=\"#rogue-talents\">rogue talent</a>"]
+      },
+      {
+        level: "3rd",
+        baseAttackBonus: "+2",
+        fortSave: "+1",
+        reflexSave: "+3",
+        willSave: "+1",
+        specials: ["<a href=\"#sneak-attack\">Sneak attack</a> +2d6, <a href=\"#trap-sense-rogue\">trap sense</a> +1"]
+      },
+      {
+        level: "4th",
+        baseAttackBonus: "+3",
+        fortSave: "+1",
+        reflexSave: "+4",
+        willSave: "+1",
+        specials: ["<a href=\"#rogue-talents\">Rogue talent</a>, <a href=\"#uncanny-dodge-rogue\">uncanny dodge</a>"]
+      },
+      {
+        level: "5th",
+        baseAttackBonus: "+3",
+        fortSave: "+1",
+        reflexSave: "+4",
+        willSave: "+1",
+        specials: ["<a href=\"#sneak-attack\">Sneak attack</a> +3d6"]
+      },
+      {
+        level: "6th",
+        baseAttackBonus: "+4",
+        fortSave: "+2",
+        reflexSave: "+5",
+        willSave: "+2",
+        specials: ["<a href=\"#rogue-talents\">Rogue talent</a>, <a href=\"#trap-sense-rogue\">trap sense</a> +2"]
+      },
+      {
+        level: "7th",
+        baseAttackBonus: "+5",
+        fortSave: "+2",
+        reflexSave: "+5",
+        willSave: "+2",
+        specials: ["<a href=\"#sneak-attack\">Sneak attack</a> +4d6"]
+      },
+      {
+        level: "8th",
+        baseAttackBonus: "+6/+1",
+        fortSave: "+2",
+        reflexSave: "+6",
+        willSave: "+2",
+        specials: ["<a href=\"#improved-uncanny-dodge-rogue\">Improved uncanny dodge</a>, <a href=\"#rogue-talents\">rogue talent</a>"]
+      },
+      {
+        level: "9th",
+        baseAttackBonus: "+6/+1",
+        fortSave: "+3",
+        reflexSave: "+6",
+        willSave: "+3",
+        specials: ["<a href=\"#sneak-attack\">Sneak attack</a> +5d6, <a href=\"#trap-sense-rogue\">trap sense</a> +3"]
+      },
+      {
+        level: "10th",
+        baseAttackBonus: "+7/+2",
+        fortSave: "+3",
+        reflexSave: "+7",
+        willSave: "+3",
+        specials: ["<a href=\"#advanced-talents\">Advanced talents</a>, <a href=\"#rogue-talents\">rogue talent</a>"]
+      },
+      {
+        level: "11th",
+        baseAttackBonus: "+8/+3",
+        fortSave: "+3",
+        reflexSave: "+7",
+        willSave: "+3",
+        specials: ["<a href=\"#sneak-attack\">Sneak attack</a> +6d6"]
+      },
+      {
+        level: "12th",
+        baseAttackBonus: "+9/+4",
+        fortSave: "+4",
+        reflexSave: "+8",
+        willSave: "+4",
+        specials: ["<a href=\"#rogue-talents\">Rogue talent</a>, <a href=\"#trap-sense-rogue\">trap sense</a> +4"]
+      },
+      {
+        level: "13th",
+        baseAttackBonus: "+9/+4",
+        fortSave: "+4",
+        reflexSave: "+8",
+        willSave: "+4",
+        specials: ["<a href=\"#sneak-attack\">Sneak attack</a> +7d6"]
+      },
+      {
+        level: "14th",
+        baseAttackBonus: "+10/+5",
+        fortSave: "+4",
+        reflexSave: "+9",
+        willSave: "+4",
+        specials: ["<a href=\"#rogue-talents\">Rogue talent</a>"]
+      },
+      {
+        level: "15th",
+        baseAttackBonus: "+11/+6/+1",
+        fortSave: "+5",
+        reflexSave: "+9",
+        willSave: "+5",
+        specials: ["<a href=\"#sneak-attack\">Sneak attack</a> +8d6, <a href=\"#trap-sense-rogue\">trap sense</a> +5"]
+      },
+      {
+        level: "16th",
+        baseAttackBonus: "+12/+7/+2",
+        fortSave: "+5",
+        reflexSave: "+10",
+        willSave: "+5",
+        specials: ["<a href=\"#rogue-talents\">Rogue talent</a>"]
+      },
+      {
+        level: "17th",
+        baseAttackBonus: "+12/+7/+2",
+        fortSave: "+5",
+        reflexSave: "+10",
+        willSave: "+5",
+        specials: ["<a href=\"#sneak-attack\">Sneak attack</a> +9d6"]
+      },
+      {
+        level: "18th",
+        baseAttackBonus: "+13/+8/+3",
+        fortSave: "+6",
+        reflexSave: "+11",
+        willSave: "+6",
+        specials: ["<a href=\"#rogue-talents\">Rogue talent</a>, <a href=\"#trap-sense-rogue\">trap sense</a> +6"]
+      },
+      {
+        level: "19th",
+        baseAttackBonus: "+14/+9/+4",
+        fortSave: "+6",
+        reflexSave: "+11",
+        willSave: "+6",
+        specials: ["<a href=\"#sneak-attack\">Sneak attack</a> +10d6"]
+      },
+      {
+        level: "20th",
+        baseAttackBonus: "+15/+10/+5",
+        fortSave: "+6",
+        reflexSave: "+12",
+        willSave: "+6",
+        specials: ["<a href=\"#master-strike\">Master strike</a>, <a href=\"#rogue-talents\">rogue talent</a>"]
+      }
+    ],
+    sorcerer: [
+      {
+        level: "1st",
+        baseAttackBonus: "+0",
+        fortSave: "+0",
+        reflexSave: "+0",
+        willSave: "+2",
+        specials: ["<a href=\"#bloodline\">Bloodline power</a>, <a href=\"#cantrips-sorcerer\">cantrips</a>, <a href=\"#eschew-materials\">eschew materials</a>"],
+        spellsPerDay: [
+          { level: 0, spells: 3, },
+          { level: 1, spells: 0, },
+          { level: 2, spells: 0, },
+          { level: 3, spells: 0, },
+          { level: 4, spells: 0, },
+          { level: 5, spells: 0, },
+          { level: 6, spells: 0, },
+          { level: 7, spells: 0, },
+          { level: 8, spells: 0, }
+        ]
+      },
+      {
+        level: "2nd",
+        baseAttackBonus: "+1",
+        fortSave: "+0",
+        reflexSave: "+0",
+        willSave: "+3",
+        specials: [""],
+        spellsPerDay: [
+          { level: 0, spells: 4, },
+          { level: 1, spells: 0, },
+          { level: 2, spells: 0, },
+          { level: 3, spells: 0, },
+          { level: 4, spells: 0, },
+          { level: 5, spells: 0, },
+          { level: 6, spells: 0, },
+          { level: 7, spells: 0, },
+          { level: 8, spells: 0, }
+        ]
+      },
+      {
+        level: "3rd",
+        baseAttackBonus: "+1",
+        fortSave: "+1",
+        reflexSave: "+1",
+        willSave: "+3",
+        specials: ["<a href=\"#bloodline\">Bloodline power</a>, <a href=\"#bloodline\">bloodline spell</a>"],
+        spellsPerDay: [
+          { level: 0, spells: 5, },
+          { level: 1, spells: 0, },
+          { level: 2, spells: 0, },
+          { level: 3, spells: 0, },
+          { level: 4, spells: 0, },
+          { level: 5, spells: 0, },
+          { level: 6, spells: 0, },
+          { level: 7, spells: 0, },
+          { level: 8, spells: 0, }
+        ]
+      },
+      {
+        level: "4th",
+        baseAttackBonus: "+2",
+        fortSave: "+1",
+        reflexSave: "+1",
+        willSave: "+4",
+        specials: [""],
+        spellsPerDay: [
+          { level: 0, spells: 6, },
+          { level: 1, spells: 3, },
+          { level: 2, spells: 0, },
+          { level: 3, spells: 0, },
+          { level: 4, spells: 0, },
+          { level: 5, spells: 0, },
+          { level: 6, spells: 0, },
+          { level: 7, spells: 0, },
+          { level: 8, spells: 0, }
+        ]
+      },
+      {
+        level: "5th",
+        baseAttackBonus: "+2",
+        fortSave: "+1",
+        reflexSave: "+1",
+        willSave: "+4",
+        specials: ["<a href=\"#bloodline\">Bloodline spell</a>"],
+        spellsPerDay: [
+          { level: 0, spells: 6, },
+          { level: 1, spells: 4, },
+          { level: 2, spells: 0, },
+          { level: 3, spells: 0, },
+          { level: 4, spells: 0, },
+          { level: 5, spells: 0, },
+          { level: 6, spells: 0, },
+          { level: 7, spells: 0, },
+          { level: 8, spells: 0, }
+        ]
+      },
+      {
+        level: "6th",
+        baseAttackBonus: "+3",
+        fortSave: "+2",
+        reflexSave: "+2",
+        willSave: "+5",
+        specials: [""],
+        spellsPerDay: [
+          { level: 0, spells: 6, },
+          { level: 1, spells: 5, },
+          { level: 2, spells: 3, },
+          { level: 3, spells: 0, },
+          { level: 4, spells: 0, },
+          { level: 5, spells: 0, },
+          { level: 6, spells: 0, },
+          { level: 7, spells: 0, },
+          { level: 8, spells: 0, }
+        ]
+      },
+      {
+        level: "7th",
+        baseAttackBonus: "+3",
+        fortSave: "+2",
+        reflexSave: "+2",
+        willSave: "+5",
+        specials: ["<a href=\"#bloodline\">Bloodline feat</a>, <a href=\"#bloodline\">bloodline spell</a>"],
+        spellsPerDay: [
+          { level: 0, spells: 6, },
+          { level: 1, spells: 6, },
+          { level: 2, spells: 4, },
+          { level: 3, spells: 0, },
+          { level: 4, spells: 0, },
+          { level: 5, spells: 0, },
+          { level: 6, spells: 0, },
+          { level: 7, spells: 0, },
+          { level: 8, spells: 0, }
+        ]
+      },
+      {
+        level: "8th",
+        baseAttackBonus: "+4",
+        fortSave: "+2",
+        reflexSave: "+2",
+        willSave: "+6",
+        specials: [""],
+        spellsPerDay: [
+          { level: 0, spells: 6, },
+          { level: 1, spells: 6, },
+          { level: 2, spells: 5, },
+          { level: 3, spells: 3, },
+          { level: 4, spells: 0, },
+          { level: 5, spells: 0, },
+          { level: 6, spells: 0, },
+          { level: 7, spells: 0, },
+          { level: 8, spells: 0, }
+        ]
+      },
+      {
+        level: "9th",
+        baseAttackBonus: "+4",
+        fortSave: "+3",
+        reflexSave: "+3",
+        willSave: "+6",
+        specials: ["<a href=\"#bloodline\">Bloodline power</a>, <a href=\"#bloodline\">bloodline spell</a>"],
+        spellsPerDay: [
+          { level: 0, spells: 6, },
+          { level: 1, spells: 6, },
+          { level: 2, spells: 6, },
+          { level: 3, spells: 4, },
+          { level: 4, spells: 0, },
+          { level: 5, spells: 0, },
+          { level: 6, spells: 0, },
+          { level: 7, spells: 0, },
+          { level: 8, spells: 0, }
+        ]
+      },
+      {
+        level: "10th",
+        baseAttackBonus: "+5",
+        fortSave: "+3",
+        reflexSave: "+3",
+        willSave: "+7",
+        specials: [""],
+        spellsPerDay: [
+          { level: 0, spells: 6, },
+          { level: 1, spells: 6, },
+          { level: 2, spells: 6, },
+          { level: 3, spells: 5, },
+          { level: 4, spells: 3, },
+          { level: 5, spells: 0, },
+          { level: 6, spells: 0, },
+          { level: 7, spells: 0, },
+          { level: 8, spells: 0, }
+        ]
+      },
+      {
+        level: "11th",
+        baseAttackBonus: "+5",
+        fortSave: "+3",
+        reflexSave: "+3",
+        willSave: "+7",
+        specials: ["<a href=\"#bloodline\">Bloodline spell</a>"],
+        spellsPerDay: [
+          { level: 0, spells: 6, },
+          { level: 1, spells: 6, },
+          { level: 2, spells: 6, },
+          { level: 3, spells: 6, },
+          { level: 4, spells: 4, },
+          { level: 5, spells: 0, },
+          { level: 6, spells: 0, },
+          { level: 7, spells: 0, },
+          { level: 8, spells: 0, }
+        ]
+      },
+      {
+        level: "12th",
+        baseAttackBonus: "+6/+1",
+        fortSave: "+4",
+        reflexSave: "+4",
+        willSave: "+8",
+        specials: [""],
+        spellsPerDay: [
+          { level: 0, spells: 6, },
+          { level: 1, spells: 6, },
+          { level: 2, spells: 6, },
+          { level: 3, spells: 6, },
+          { level: 4, spells: 5, },
+          { level: 5, spells: 3, },
+          { level: 6, spells: 0, },
+          { level: 7, spells: 0, },
+          { level: 8, spells: 0, }
+        ]
+      },
+      {
+        level: "13th",
+        baseAttackBonus: "+6/+1",
+        fortSave: "+4",
+        reflexSave: "+4",
+        willSave: "+8",
+        specials: ["<a href=\"#bloodline\">Bloodline feat</a>, <a href=\"#bloodline\">bloodline spell</a>"],
+        spellsPerDay: [
+          { level: 0, spells: 6, },
+          { level: 1, spells: 6, },
+          { level: 2, spells: 6, },
+          { level: 3, spells: 6, },
+          { level: 4, spells: 6, },
+          { level: 5, spells: 4, },
+          { level: 6, spells: 0, },
+          { level: 7, spells: 0, },
+          { level: 8, spells: 0, }
+        ]
+      },
+      {
+        level: "14th",
+        baseAttackBonus: "+7/+2",
+        fortSave: "+4",
+        reflexSave: "+4",
+        willSave: "+9",
+        specials: [""],
+        spellsPerDay: [
+          { level: 0, spells: 6, },
+          { level: 1, spells: 6, },
+          { level: 2, spells: 6, },
+          { level: 3, spells: 6, },
+          { level: 4, spells: 6, },
+          { level: 5, spells: 5, },
+          { level: 6, spells: 3, },
+          { level: 7, spells: 0, },
+          { level: 8, spells: 0, }
+        ]
+      },
+      {
+        level: "15th",
+        baseAttackBonus: "+7/+2",
+        fortSave: "+5",
+        reflexSave: "+5",
+        willSave: "+9",
+        specials: ["<a href=\"#bloodline\">Bloodline power</a>, <a href=\"#bloodline\">bloodline spell</a>"],
+        spellsPerDay: [
+          { level: 0, spells: 6, },
+          { level: 1, spells: 6, },
+          { level: 2, spells: 6, },
+          { level: 3, spells: 6, },
+          { level: 4, spells: 6, },
+          { level: 5, spells: 6, },
+          { level: 6, spells: 4, },
+          { level: 7, spells: 0, },
+          { level: 8, spells: 0, }
+        ]
+      },
+      {
+        level: "16th",
+        baseAttackBonus: "+8/+3",
+        fortSave: "+5",
+        reflexSave: "+5",
+        willSave: "+10",
+        specials: [""],
+        spellsPerDay: [
+          { level: 0, spells: 6, },
+          { level: 1, spells: 6, },
+          { level: 2, spells: 6, },
+          { level: 3, spells: 6, },
+          { level: 4, spells: 6, },
+          { level: 5, spells: 6, },
+          { level: 6, spells: 5, },
+          { level: 7, spells: 3, },
+          { level: 8, spells: 0, }
+        ]
+      },
+      {
+        level: "17th",
+        baseAttackBonus: "+8/+3",
+        fortSave: "+5",
+        reflexSave: "+5",
+        willSave: "+10",
+        specials: ["<a href=\"#bloodline\">Bloodline spell</a>"],
+        spellsPerDay: [
+          { level: 0, spells: 6, },
+          { level: 1, spells: 6, },
+          { level: 2, spells: 6, },
+          { level: 3, spells: 6, },
+          { level: 4, spells: 6, },
+          { level: 5, spells: 6, },
+          { level: 6, spells: 6, },
+          { level: 7, spells: 4, },
+          { level: 8, spells: 0, }
+        ]
+      },
+      {
+        level: "18th",
+        baseAttackBonus: "+9/+4",
+        fortSave: "+6",
+        reflexSave: "+6",
+        willSave: "+11",
+        specials: [""],
+        spellsPerDay: [
+          { level: 0, spells: 6, },
+          { level: 1, spells: 6, },
+          { level: 2, spells: 6, },
+          { level: 3, spells: 6, },
+          { level: 4, spells: 6, },
+          { level: 5, spells: 6, },
+          { level: 6, spells: 6, },
+          { level: 7, spells: 5, },
+          { level: 8, spells: 3, }
+        ]
+      },
+      {
+        level: "19th",
+        baseAttackBonus: "+9/+4",
+        fortSave: "+6",
+        reflexSave: "+6",
+        willSave: "+11",
+        specials: ["<a href=\"#bloodline\">Bloodline feat</a>, <a href=\"#bloodline\">bloodline spell</a>"],
+        spellsPerDay: [
+          { level: 0, spells: 6, },
+          { level: 1, spells: 6, },
+          { level: 2, spells: 6, },
+          { level: 3, spells: 6, },
+          { level: 4, spells: 6, },
+          { level: 5, spells: 6, },
+          { level: 6, spells: 6, },
+          { level: 7, spells: 6, },
+          { level: 8, spells: 4, }
+        ]
+      },
+      {
+        level: "20th",
+        baseAttackBonus: "+10/+5",
+        fortSave: "+6",
+        reflexSave: "+6",
+        willSave: "+12",
+        specials: ["<a href=\"#bloodline\">Bloodline power</a>"],
+        spellsPerDay: [
+          { level: 0, spells: 6, },
+          { level: 1, spells: 6, },
+          { level: 2, spells: 6, },
+          { level: 3, spells: 6, },
+          { level: 4, spells: 6, },
+          { level: 5, spells: 6, },
+          { level: 6, spells: 6, },
+          { level: 7, spells: 6, },
+          { level: 8, spells: 6, }
+        ]
+      },
+      {
+        level: "1st",
+        baseAttackBonus: "4",
+        fortSave: "2",
+        reflexSave: 0,
+        willSave: 0,
+        specials: ["—"],
+        spellsPerDay: [
+          { level: 0, spells: 0, },
+          { level: 1, spells: 0, },
+          { level: 2, spells: 0, },
+          { level: 3, spells: 0, },
+          { level: 4, spells: 0, }
+        ]
+      },
+      {
+        level: "2nd",
+        baseAttackBonus: "5",
+        fortSave: "2",
+        reflexSave: 0,
+        willSave: 0,
+        specials: [""],
+        spellsPerDay: [
+          { level: 0, spells: 0, },
+          { level: 1, spells: 0, },
+          { level: 2, spells: 0, },
+          { level: 3, spells: 0, },
+          { level: 4, spells: 0, }
+        ]
+      },
+      {
+        level: "3rd",
+        baseAttackBonus: "5",
+        fortSave: "3",
+        reflexSave: 0,
+        willSave: 0,
+        specials: [""],
+        spellsPerDay: [
+          { level: 0, spells: 0, },
+          { level: 1, spells: 0, },
+          { level: 2, spells: 0, },
+          { level: 3, spells: 0, },
+          { level: 4, spells: 0, }
+        ]
+      },
+      {
+        level: "4th",
+        baseAttackBonus: "6",
+        fortSave: "3",
+        reflexSave: "1",
+        willSave: 0,
+        specials: [""],
+        spellsPerDay: [
+          { level: 0, spells: 0, },
+          { level: 1, spells: 0, },
+          { level: 2, spells: 0, },
+          { level: 3, spells: 0, },
+          { level: 4, spells: 0, }
+        ]
+      },
+      {
+        level: "5th",
+        baseAttackBonus: "6",
+        fortSave: "4",
+        reflexSave: "2",
+        willSave: 0,
+        specials: [""],
+        spellsPerDay: [
+          { level: 0, spells: 0, },
+          { level: 1, spells: 0, },
+          { level: 2, spells: 0, },
+          { level: 3, spells: 0, },
+          { level: 4, spells: 0, }
+        ]
+      },
+      {
+        level: "6th",
+        baseAttackBonus: "7",
+        fortSave: "4",
+        reflexSave: "2",
+        willSave: "1",
+        specials: [""],
+        spellsPerDay: [
+          { level: 0, spells: 0, },
+          { level: 1, spells: 0, },
+          { level: 2, spells: 0, },
+          { level: 3, spells: 0, },
+          { level: 4, spells: 0, }
+        ]
+      },
+      {
+        level: "7th",
+        baseAttackBonus: "7",
+        fortSave: "5",
+        reflexSave: "3",
+        willSave: "2",
+        specials: [""],
+        spellsPerDay: [
+          { level: 0, spells: 0, },
+          { level: 1, spells: 0, },
+          { level: 2, spells: 0, },
+          { level: 3, spells: 0, },
+          { level: 4, spells: 0, }
+        ]
+      },
+      {
+        level: "8th",
+        baseAttackBonus: "8",
+        fortSave: "5",
+        reflexSave: "3",
+        willSave: "2",
+        specials: ["1"],
+        spellsPerDay: [
+          { level: 0, spells: 0, },
+          { level: 1, spells: 0, },
+          { level: 2, spells: 0, },
+          { level: 3, spells: 0, },
+          { level: 4, spells: 0, }
+        ]
+      },
+      {
+        level: "9th",
+        baseAttackBonus: "8",
+        fortSave: "5",
+        reflexSave: "4",
+        willSave: "3",
+        specials: ["2"],
+        spellsPerDay: [
+        { level: 0, spells: 0, },
+        { level: 1, spells: 0, },
+        { level: 2, spells: 0, },
+        { level: 3, spells: 0, },
+        { level: 4, spells: 0, }]
+      },
+      {
+        level: "10th",
+        baseAttackBonus: "9",
+        fortSave: "5",
+        reflexSave: "4",
+        willSave: "3",
+        specials: ["2"],
+        spellsPerDay: [
+        { level: 0, spells: 1, },
+        { level: 1, spells: 0, },
+        { level: 2, spells: 0, },
+        { level: 3, spells: 0, },
+        { level: 4, spells: 0, }]
+      },
+      {
+        level: "11th",
+        baseAttackBonus: "9",
+        fortSave: "5",
+        reflexSave: "5",
+        willSave: "4",
+        specials: ["3"],
+        spellsPerDay: [ { level: 0, spells: 2, },
+        { level: 1, spells: 0, },
+        { level: 2, spells: 0, },
+        { level: 3, spells: 0, },
+        { level: 4, spells: 0, }]
+      },
+      {
+        level: "12th",
+        baseAttackBonus: "9",
+        fortSave: "5",
+        reflexSave: "5",
+        willSave: "4",
+        specials: ["3"],
+        spellsPerDay: [ { level: 0, spells: 2, },
+        { level: 1, spells: 1, },
+        { level: 2, spells: 0, },
+        { level: 3, spells: 0, },
+        { level: 4, spells: 0, }]
+      },
+      {
+        level: "13th",
+        baseAttackBonus: "9",
+        fortSave: "5",
+        reflexSave: "5",
+        willSave: "4",
+        specials: ["4"],
+        spellsPerDay: [{ level: 0, spells: 3, },
+        { level: 1, spells: 2, },
+        { level: 2, spells: 0, },
+        { level: 3, spells: 0, },
+        { level: 4, spells: 0, }]
+      },
+      {
+        level: "14th",
+        baseAttackBonus: "9",
+        fortSave: "5",
+        reflexSave: "5",
+        willSave: "4",
+        specials: ["4"],
+        spellsPerDay: [{ level: 0, spells: 3, },
+        { level: 1, spells: 2, },
+        { level: 2, spells: 1, },
+        { level: 3, spells: 0, },
+        { level: 4, spells: 0, }]
+      },
+      {
+        level: "15th",
+        baseAttackBonus: "9",
+        fortSave: "5",
+        reflexSave: "5",
+        willSave: "4",
+        specials: ["4"],
+        spellsPerDay: [ { level: 0, spells: 4, },
+        { level: 1, spells: 3, },
+        { level: 2, spells: 2, },
+        { level: 3, spells: 0, },
+        { level: 4, spells: 0, }]
+      },
+      {
+        level: "16th",
+        baseAttackBonus: "9",
+        fortSave: "5",
+        reflexSave: "5",
+        willSave: "4",
+        specials: ["4"],
+        spellsPerDay: [ { level: 0, spells: 4, },
+        { level: 1, spells: 3, },
+        { level: 2, spells: 2, },
+        { level: 3, spells: 1, },
+        { level: 4, spells: 0, }]
+      },
+      {
+        level: "17th",
+        baseAttackBonus: "9",
+        fortSave: "5",
+        reflexSave: "5",
+        willSave: "4",
+        specials: ["4"],
+        spellsPerDay: [ { level: 0, spells: 4, },
+        { level: 1, spells: 3, },
+        { level: 2, spells: 3, },
+        { level: 3, spells: 2, },
+        { level: 4, spells: 0, }]
+      },
+      {
+        level: "18th",
+        baseAttackBonus: "9",
+        fortSave: "5",
+        reflexSave: "5",
+        willSave: "4",
+        specials: ["4"],
+        spellsPerDay: [ { level: 0, spells: 4, },
+        { level: 1, spells: 3, },
+        { level: 2, spells: 3, },
+        { level: 3, spells: 2, },
+        { level: 4, spells: 1, }]
+      },
+      {
+        level: "19th",
+        baseAttackBonus: "9",
+        fortSave: "5",
+        reflexSave: "5",
+        willSave: "4",
+        specials: ["4"],
+        spellsPerDay: [ { level: 0, spells: 4, },
+        { level: 1, spells: 3, },
+        { level: 2, spells: 3, },
+        { level: 3, spells: 3, },
+        { level: 4, spells: 2, }]
+      },
+      {
+        level: "20th",
+        baseAttackBonus: "9",
+        fortSave: "5",
+        reflexSave: "5",
+        willSave: "4",
+        specials: ["4"],
+        spellsPerDay: [
+          { level: 0, spells: 4, },
+          { level: 1, spells: 3, },
+          { level: 2, spells: 3, },
+          { level: 3, spells: 3, },
+          { level: 4, spells: 3, }
+        ]
+      },
+    ],
+    wizard: [
+      {
+        "0": "1",
+        level: "1st",
+        baseAttackBonus: "+0",
+        fortSave: "+0",
+        reflexSave: "+0",
+        willSave: "+2",
+        specials: ["<a href=\"#arcane-bond\">Arcane bond</a>, <a href=\"#arcane-school\">arcane school</a>,<a href=\"#cantrips-wizard\">cantrips</a>, <a href=\"#scribe-scroll\">Scribe Scroll</a>"],
+        spellsPerDay: [
+          { level: 0, spells: 3, },
+          { level: 1, spells: 0, },
+          { level: 2, spells: 0, },
+          { level: 3, spells: 0, },
+          { level: 4, spells: 0, },
+          { level: 5, spells: 0, },
+          { level: 6, spells: 0, },
+          { level: 7, spells: 0, },
+          { level: 8, spells: 0, }
+        ]
+      },
+      {
+        "0": "2",
+        level: "2nd",
+        baseAttackBonus: "+1",
+        fortSave: "+0",
+        reflexSave: "+0",
+        willSave: "+3",
+        specials: [""],
+        spellsPerDay: [
+          { level: 0, spells: 4, },
+          { level: 1, spells: 0, },
+          { level: 2, spells: 0, },
+          { level: 3, spells: 0, },
+          { level: 4, spells: 0, },
+          { level: 5, spells: 0, },
+          { level: 6, spells: 0, },
+          { level: 7, spells: 0, },
+          { level: 8, spells: 0, }
+        ]
+      },
+      {
+        "0": "2",
+        level: "3rd",
+        baseAttackBonus: "+1",
+        fortSave: "+1",
+        reflexSave: "+1",
+        willSave: "+3",
+        specials: [""],
+        spellsPerDay: [
+          { level: 0, spells: 4, },
+          { level: 1, spells: 1, },
+          { level: 2, spells: 0, },
+          { level: 3, spells: 0, },
+          { level: 4, spells: 0, },
+          { level: 5, spells: 0, },
+          { level: 6, spells: 0, },
+          { level: 7, spells: 0, },
+          { level: 8, spells: 0, }
+        ]
+      },
+      {
+        "0": "3",
+        level: "4th",
+        baseAttackBonus: "+2",
+        fortSave: "+1",
+        reflexSave: "+1",
+        willSave: "+4",
+        specials: [""],
+        spellsPerDay: [
+          { level: 0, spells: 4, },
+          { level: 1, spells: 2, },
+          { level: 2, spells: 0, },
+          { level: 3, spells: 0, },
+          { level: 4, spells: 0, },
+          { level: 5, spells: 0, },
+          { level: 6, spells: 0, },
+          { level: 7, spells: 0, },
+          { level: 8, spells: 0, }
+        ]
+      },
+      {
+        "0": "3",
+        level: "5th",
+        baseAttackBonus: "+2",
+        fortSave: "+1",
+        reflexSave: "+1",
+        willSave: "+4",
+        specials: ["<a href=\"#bonus-feats-wizard\">Bonus feat</a>"],
+        spellsPerDay: [
+          { level: 0, spells: 4, },
+          { level: 1, spells: 2, },
+          { level: 2, spells: 1, },
+          { level: 3, spells: 0, },
+          { level: 4, spells: 0, },
+          { level: 5, spells: 0, },
+          { level: 6, spells: 0, },
+          { level: 7, spells: 0, },
+          { level: 8, spells: 0, }
+        ]
+      },
+      {
+        "0": "3",
+        level: "6th",
+        baseAttackBonus: "+3",
+        fortSave: "+2",
+        reflexSave: "+2",
+        willSave: "+5",
+        specials: [""],
+        spellsPerDay: [
+          { level: 0, spells: 4, },
+          { level: 1, spells: 3, },
+          { level: 2, spells: 2, },
+          { level: 3, spells: 0, },
+          { level: 4, spells: 0, },
+          { level: 5, spells: 0, },
+          { level: 6, spells: 0, },
+          { level: 7, spells: 0, },
+          { level: 8, spells: 0, }
+        ]
+      },
+      {
+        "0": "4",
+        level: "7th",
+        baseAttackBonus: "+3",
+        fortSave: "+2",
+        reflexSave: "+2",
+        willSave: "+5",
+        specials: [""],
+        spellsPerDay: [
+          { level: 0, spells: 4, },
+          { level: 1, spells: 3, },
+          { level: 2, spells: 2, },
+          { level: 3, spells: 1, },
+          { level: 4, spells: 0, },
+          { level: 5, spells: 0, },
+          { level: 6, spells: 0, },
+          { level: 7, spells: 0, },
+          { level: 8, spells: 0, }
+        ]
+      },
+      {
+        "0": "4",
+        level: "8th",
+        baseAttackBonus: "+4",
+        fortSave: "+2",
+        reflexSave: "+2",
+        willSave: "+6",
+        specials: [""],
+        spellsPerDay: [
+          { level: 0, spells: 4, },
+          { level: 1, spells: 3, },
+          { level: 2, spells: 3, },
+          { level: 3, spells: 2, },
+          { level: 4, spells: 0, },
+          { level: 5, spells: 0, },
+          { level: 6, spells: 0, },
+          { level: 7, spells: 0, },
+          { level: 8, spells: 0, }
+        ]
+      },
+      {
+        "0": "4",
+        level: "9th",
+        baseAttackBonus: "+4",
+        fortSave: "+3",
+        reflexSave: "+3",
+        willSave: "+6",
+        specials: [""],
+        spellsPerDay: [
+          { level: 0, spells: 4, },
+          { level: 1, spells: 4, },
+          { level: 2, spells: 3, },
+          { level: 3, spells: 2, },
+          { level: 4, spells: 1, },
+          { level: 5, spells: 0, },
+          { level: 6, spells: 0, },
+          { level: 7, spells: 0, },
+          { level: 8, spells: 0, }
+        ]
+      },
+      {
+        "0": "4",
+        level: "10th",
+        baseAttackBonus: "+5",
+        fortSave: "+3",
+        reflexSave: "+3",
+        willSave: "+7",
+        specials: ["<a href=\"#bonus-feats-wizard\">Bonus feat</a>"],
+        spellsPerDay: [
+          { level: 0, spells: 4, },
+          { level: 1, spells: 4, },
+          { level: 2, spells: 3, },
+          { level: 3, spells: 3, },
+          { level: 4, spells: 2, },
+          { level: 5, spells: 0, },
+          { level: 6, spells: 0, },
+          { level: 7, spells: 0, },
+          { level: 8, spells: 0, }
+        ]
+      },
+      {
+        "0": "4",
+        level: "11th",
+        baseAttackBonus: "+5",
+        fortSave: "+3",
+        reflexSave: "+3",
+        willSave: "+7",
+        specials: [""],
+        spellsPerDay: [
+          { level: 0, spells: 4, },
+          { level: 1, spells: 4, },
+          { level: 2, spells: 4, },
+          { level: 3, spells: 3, },
+          { level: 4, spells: 2, },
+          { level: 5, spells: 1, },
+          { level: 6, spells: 0, },
+          { level: 7, spells: 0, },
+          { level: 8, spells: 0, }
+        ]
+      },
+      {
+        "0": "4",
+        level: "12th",
+        baseAttackBonus: "+6/+1",
+        fortSave: "+4",
+        reflexSave: "+4",
+        willSave: "+8",
+        specials: [""],
+        spellsPerDay: [
+          { level: 0, spells: 4, },
+          { level: 1, spells: 4, },
+          { level: 2, spells: 4, },
+          { level: 3, spells: 3, },
+          { level: 4, spells: 3, },
+          { level: 5, spells: 2, },
+          { level: 6, spells: 0, },
+          { level: 7, spells: 0, },
+          { level: 8, spells: 0, }
+        ]
+      },
+      {
+        "0": "4",
+        level: "13th",
+        baseAttackBonus: "+6/+1",
+        fortSave: "+4",
+        reflexSave: "+4",
+        willSave: "+8",
+        specials: [""],
+        spellsPerDay: [
+          { level: 0, spells: 4, },
+          { level: 1, spells: 4, },
+          { level: 2, spells: 4, },
+          { level: 3, spells: 4, },
+          { level: 4, spells: 3, },
+          { level: 5, spells: 2, },
+          { level: 6, spells: 1, },
+          { level: 7, spells: 0, },
+          { level: 8, spells: 0, }
+        ]
+      },
+      {
+        "0": "4",
+        level: "14th",
+        baseAttackBonus: "+7/+2",
+        fortSave: "+4",
+        reflexSave: "+4",
+        willSave: "+9",
+        specials: [""],
+        spellsPerDay: [
+          { level: 0, spells: 4, },
+          { level: 1, spells: 4, },
+          { level: 2, spells: 4, },
+          { level: 3, spells: 4, },
+          { level: 4, spells: 3, },
+          { level: 5, spells: 3, },
+          { level: 6, spells: 2, },
+          { level: 7, spells: 0, },
+          { level: 8, spells: 0, }
+        ]
+      },
+      {
+        "0": "4",
+        level: "15th",
+        baseAttackBonus: "+7/+2",
+        fortSave: "+5",
+        reflexSave: "+5",
+        willSave: "+9",
+        specials: ["<a href=\"#bonus-feats-wizard\">Bonus feat</a>"],
+        spellsPerDay: [
+          { level: 0, spells: 4, },
+          { level: 1, spells: 4, },
+          { level: 2, spells: 4, },
+          { level: 3, spells: 4, },
+          { level: 4, spells: 4, },
+          { level: 5, spells: 3, },
+          { level: 6, spells: 2, },
+          { level: 7, spells: 1, },
+          { level: 8, spells: 0, }
+        ]
+      },
+      {
+        "0": "4",
+        level: "16th",
+        baseAttackBonus: "+8/+3",
+        fortSave: "+5",
+        reflexSave: "+5",
+        willSave: "+10",
+        specials: [""],
+        spellsPerDay: [
+          { level: 0, spells: 4, },
+          { level: 1, spells: 4, },
+          { level: 2, spells: 4, },
+          { level: 3, spells: 4, },
+          { level: 4, spells: 4, },
+          { level: 5, spells: 3, },
+          { level: 6, spells: 3, },
+          { level: 7, spells: 2, },
+          { level: 8, spells: 0, }
+        ]
+      },
+      {
+        "0": "4",
+        level: "17th",
+        baseAttackBonus: "+8/+3",
+        fortSave: "+5",
+        reflexSave: "+5",
+        willSave: "+10",
+        specials: [""],
+        spellsPerDay: [
+          { level: 0, spells: 4, },
+          { level: 1, spells: 4, },
+          { level: 2, spells: 4, },
+          { level: 3, spells: 4, },
+          { level: 4, spells: 4, },
+          { level: 5, spells: 4, },
+          { level: 6, spells: 3, },
+          { level: 7, spells: 2, },
+          { level: 8, spells: 1, }
+        ]
+      },
+      {
+        "0": "4",
+        level: "18th",
+        baseAttackBonus: "+9/+4",
+        fortSave: "+6",
+        reflexSave: "+6",
+        willSave: "+11",
+        specials: [""],
+        spellsPerDay: [
+          { level: 0, spells: 4, },
+          { level: 1, spells: 4, },
+          { level: 2, spells: 4, },
+          { level: 3, spells: 4, },
+          { level: 4, spells: 4, },
+          { level: 5, spells: 4, },
+          { level: 6, spells: 3, },
+          { level: 7, spells: 3, },
+          { level: 8, spells: 2, }
+        ]
+      },
+      {
+        "0": "4",
+        level: "19th",
+        baseAttackBonus: "+9/+4",
+        fortSave: "+6",
+        reflexSave: "+6",
+        willSave: "+11",
+        specials: [""],
+        spellsPerDay: [
+          { level: 0, spells: 4, },
+          { level: 1, spells: 4, },
+          { level: 2, spells: 4, },
+          { level: 3, spells: 4, },
+          { level: 4, spells: 4, },
+          { level: 5, spells: 4, },
+          { level: 6, spells: 4, },
+          { level: 7, spells: 3, },
+          { level: 8, spells: 3, }
+        ]
+      },
+      {
+        "0": "4",
+        level: "20th",
+        baseAttackBonus: "+10/+5",
+        fortSave: "+6",
+        reflexSave: "+6",
+        willSave: "+12",
+        specials: ["<a href=\"#bonus-feats-wizard\">Bonus feat</a>"],
+        spellsPerDay: [
+          { level: 0, spells: 4, },
+          { level: 1, spells: 4, },
+          { level: 2, spells: 4, },
+          { level: 3, spells: 4, },
+          { level: 4, spells: 4, },
+          { level: 5, spells: 4, },
+          { level: 6, spells: 4, },
+          { level: 7, spells: 4, },
+          { level: 8, spells: 4, }
+        ]
       },
     ]
   }
