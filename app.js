@@ -842,7 +842,6 @@
     ],
     cleric: [
       {
-        "0": "1+1",
         level: "1st",
         baseAttackBonus: "+0",
         fortSave: "+2",
@@ -862,7 +861,6 @@
         ]
       },
       {
-        "0": "2+1",
         level: "2nd",
         baseAttackBonus: "+1",
         fortSave: "+3",
@@ -882,7 +880,6 @@
         ]
       },
       {
-        "0": "2+1",
         level: "3rd",
         baseAttackBonus: "+2",
         fortSave: "+3",
@@ -902,7 +899,6 @@
         ]
       },
       {
-        "0": "3+1",
         level: "4th",
         baseAttackBonus: "+3",
         fortSave: "+4",
@@ -922,7 +918,6 @@
         ]
       },
       {
-        "0": "3+1",
         level: "5th",
         baseAttackBonus: "+3",
         fortSave: "+4",
@@ -942,7 +937,6 @@
         ]
       },
       {
-        "0": "3+1",
         level: "6th",
         baseAttackBonus: "+4",
         fortSave: "+5",
@@ -962,7 +956,6 @@
         ]
       },
       {
-        "0": "4+1",
         level: "7th",
         baseAttackBonus: "+5",
         fortSave: "+5",
@@ -982,7 +975,6 @@
         ]
       },
       {
-        "0": "4+1",
         level: "8th",
         baseAttackBonus: "+6/+1",
         fortSave: "+6",
@@ -1002,7 +994,6 @@
         ]
       },
       {
-        "0": "4+1",
         level: "9th",
         baseAttackBonus: "+6/+1",
         fortSave: "+6",
@@ -1022,7 +1013,6 @@
         ]
       },
       {
-        "0": "4+1",
         level: "10th",
         baseAttackBonus: "+7/+2",
         fortSave: "+7",
@@ -1042,7 +1032,6 @@
         ]
       },
       {
-        "0": "4+1",
         level: "11th",
         baseAttackBonus: "+8/+3",
         fortSave: "+7",
@@ -1062,7 +1051,6 @@
         ]
       },
       {
-        "0": "4+1",
         level: "12th",
         baseAttackBonus: "+9/+4",
         fortSave: "+8",
@@ -1082,7 +1070,6 @@
         ]
       },
       {
-        "0": "4+1",
         level: "13th",
         baseAttackBonus: "+9/+4",
         fortSave: "+8",
@@ -1102,7 +1089,6 @@
         ]
       },
       {
-        "0": "4+1",
         level: "14th",
         baseAttackBonus: "+10/+5",
         fortSave: "+9",
@@ -1122,7 +1108,6 @@
         ]
       },
       {
-        "0": "4+1",
         level: "15th",
         baseAttackBonus: "+11/+6/+1",
         fortSave: "+9",
@@ -1142,7 +1127,6 @@
         ]
       },
       {
-        "0": "4+1",
         level: "16th",
         baseAttackBonus: "+12/+7/+2",
         fortSave: "+10",
@@ -1162,7 +1146,6 @@
         ]
       },
       {
-        "0": "4+1",
         level: "17th",
         baseAttackBonus: "+12/+7/+2",
         fortSave: "+10",
@@ -1182,7 +1165,6 @@
         ]
       },
       {
-        "0": "4+1",
         level: "18th",
         baseAttackBonus: "+13/+8/+3",
         fortSave: "+11",
@@ -1202,7 +1184,6 @@
         ]
       },
       {
-        "0": "4+1",
         level: "19th",
         baseAttackBonus: "+14/+9/+4",
         fortSave: "+11",
@@ -1222,7 +1203,6 @@
         ]
       },
       {
-        "0": "4+1",
         level: "20th",
         baseAttackBonus: "+15/+10/+5",
         fortSave: "+12",
@@ -1244,7 +1224,6 @@
     ],
     druid: [
       {
-        "0": "1",
         level: "1st",
         baseAttackBonus: "+0",
         fortSave: "+2",
@@ -1264,7 +1243,6 @@
         ]
       },
       {
-        "0": "2",
         level: "2nd",
         baseAttackBonus: "+1",
         fortSave: "+3",
@@ -1284,7 +1262,6 @@
         ]
       },
       {
-        "0": "2",
         level: "3rd",
         baseAttackBonus: "+2",
         fortSave: "+3",
@@ -1304,7 +1281,6 @@
         ]
       },
       {
-        "0": "3",
         level: "4th",
         baseAttackBonus: "+3",
         fortSave: "+4",
@@ -1324,7 +1300,6 @@
         ]
       },
       {
-        "0": "3",
         level: "5th",
         baseAttackBonus: "+3",
         fortSave: "+4",
@@ -1344,7 +1319,6 @@
         ]
       },
       {
-        "0": "3",
         level: "6th",
         baseAttackBonus: "+4",
         fortSave: "+5",
@@ -1362,7 +1336,6 @@
         { level: 8, spells: 0, }]
       },
       {
-        "0": "4",
         level: "7th",
         baseAttackBonus: "+5",
         fortSave: "+5",
@@ -1380,7 +1353,6 @@
         { level: 8, spells: 0, }]
       },
       {
-        "0": "4",
         level: "8th",
         baseAttackBonus: "+6/+1",
         fortSave: "+6",
@@ -1398,7 +1370,6 @@
         { level: 8, spells: 0, }]
       },
       {
-        "0": "4",
         level: "9th",
         baseAttackBonus: "+6/+1",
         fortSave: "+6",
@@ -1416,7 +1387,6 @@
         { level: 8, spells: 0, }]
       },
       {
-        "0": "4",
         level: "10th",
         baseAttackBonus: "+7/+2",
         fortSave: "+7",
@@ -1434,7 +1404,6 @@
         { level: 8, spells: 0, }]
       },
       {
-        "0": "4",
         level: "11th",
         baseAttackBonus: "+8/+3",
         fortSave: "+7",
@@ -1452,7 +1421,6 @@
         { level: 8, spells: 0, }]
       },
       {
-        "0": "4",
         level: "12th",
         baseAttackBonus: "+9/+4",
         fortSave: "+8",
@@ -1470,7 +1438,6 @@
         { level: 8, spells: 0, }]
       },
       {
-        "0": "4",
         level: "13th",
         baseAttackBonus: "+9/+4",
         fortSave: "+8",
@@ -1488,7 +1455,6 @@
         { level: 8, spells: 0, }]
       },
       {
-        "0": "4",
         level: "14th",
         baseAttackBonus: "+10/+5",
         fortSave: "+9",
@@ -1506,7 +1472,6 @@
         { level: 8, spells: 0, }]
       },
       {
-        "0": "4",
         level: "15th",
         baseAttackBonus: "+11/+6/+1",
         fortSave: "+9",
@@ -1524,7 +1489,6 @@
         { level: 8, spells: 0, }]
       },
       {
-        "0": "4",
         level: "16th",
         baseAttackBonus: "+12/+7/+2",
         fortSave: "+10",
@@ -1542,7 +1506,6 @@
         { level: 8, spells: 0, }]
       },
       {
-        "0": "4",
         level: "17th",
         baseAttackBonus: "+12/+7/+2",
         fortSave: "+10",
@@ -1562,7 +1525,6 @@
         ]
       },
       {
-        "0": "4",
         level: "18th",
         baseAttackBonus: "+13/+8/+3",
         fortSave: "+11",
@@ -1582,7 +1544,6 @@
         ]
       },
       {
-        "0": "4",
         level: "19th",
         baseAttackBonus: "+14/+9/+4",
         fortSave: "+11",
@@ -1602,7 +1563,6 @@
         ]
       },
       {
-        "0": "4",
         level: "20th",
         baseAttackBonus: "+15/+10/+5",
         fortSave: "+12",
@@ -3416,7 +3376,6 @@
     ],
     wizard: [
       {
-        "0": "1",
         level: "1st",
         baseAttackBonus: "+0",
         fortSave: "+0",
@@ -3436,7 +3395,6 @@
         ]
       },
       {
-        "0": "2",
         level: "2nd",
         baseAttackBonus: "+1",
         fortSave: "+0",
@@ -3456,7 +3414,6 @@
         ]
       },
       {
-        "0": "2",
         level: "3rd",
         baseAttackBonus: "+1",
         fortSave: "+1",
@@ -3476,7 +3433,6 @@
         ]
       },
       {
-        "0": "3",
         level: "4th",
         baseAttackBonus: "+2",
         fortSave: "+1",
@@ -3496,7 +3452,6 @@
         ]
       },
       {
-        "0": "3",
         level: "5th",
         baseAttackBonus: "+2",
         fortSave: "+1",
@@ -3516,7 +3471,6 @@
         ]
       },
       {
-        "0": "3",
         level: "6th",
         baseAttackBonus: "+3",
         fortSave: "+2",
@@ -3536,7 +3490,6 @@
         ]
       },
       {
-        "0": "4",
         level: "7th",
         baseAttackBonus: "+3",
         fortSave: "+2",
@@ -3556,7 +3509,6 @@
         ]
       },
       {
-        "0": "4",
         level: "8th",
         baseAttackBonus: "+4",
         fortSave: "+2",
@@ -3576,7 +3528,6 @@
         ]
       },
       {
-        "0": "4",
         level: "9th",
         baseAttackBonus: "+4",
         fortSave: "+3",
@@ -3596,7 +3547,6 @@
         ]
       },
       {
-        "0": "4",
         level: "10th",
         baseAttackBonus: "+5",
         fortSave: "+3",
@@ -3616,7 +3566,6 @@
         ]
       },
       {
-        "0": "4",
         level: "11th",
         baseAttackBonus: "+5",
         fortSave: "+3",
@@ -3636,7 +3585,6 @@
         ]
       },
       {
-        "0": "4",
         level: "12th",
         baseAttackBonus: "+6/+1",
         fortSave: "+4",
@@ -3656,7 +3604,6 @@
         ]
       },
       {
-        "0": "4",
         level: "13th",
         baseAttackBonus: "+6/+1",
         fortSave: "+4",
@@ -3676,7 +3623,6 @@
         ]
       },
       {
-        "0": "4",
         level: "14th",
         baseAttackBonus: "+7/+2",
         fortSave: "+4",
@@ -3696,7 +3642,6 @@
         ]
       },
       {
-        "0": "4",
         level: "15th",
         baseAttackBonus: "+7/+2",
         fortSave: "+5",
@@ -3716,7 +3661,6 @@
         ]
       },
       {
-        "0": "4",
         level: "16th",
         baseAttackBonus: "+8/+3",
         fortSave: "+5",
@@ -3736,7 +3680,6 @@
         ]
       },
       {
-        "0": "4",
         level: "17th",
         baseAttackBonus: "+8/+3",
         fortSave: "+5",
@@ -3756,7 +3699,6 @@
         ]
       },
       {
-        "0": "4",
         level: "18th",
         baseAttackBonus: "+9/+4",
         fortSave: "+6",
@@ -3776,7 +3718,6 @@
         ]
       },
       {
-        "0": "4",
         level: "19th",
         baseAttackBonus: "+9/+4",
         fortSave: "+6",
@@ -3796,7 +3737,6 @@
         ]
       },
       {
-        "0": "4",
         level: "20th",
         baseAttackBonus: "+10/+5",
         fortSave: "+6",
