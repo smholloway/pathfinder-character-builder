@@ -82,6 +82,10 @@
                   <th data-field="spells7" ng-show="classController.hasSpellsAtLevel(class.name, 7)">7th</th>
                   <th data-field="spells8" ng-show="classController.hasSpellsAtLevel(class.name, 8)">8th</th>
                   <th data-field="spells9" ng-show="classController.hasSpellsAtLevel(class.name, 9)">9th</th>
+                  <th data-field="flurry" ng-show="class.name == 'Monk'">Flurry Of Blows Attack Bonus</th>
+                  <th data-field="damage" ng-show="class.name == 'Monk'">Unarmed Damage</th>
+                  <th data-field="ac" ng-show="class.name == 'Monk'">AC Bonus</th>
+                  <th data-field="fast" ng-show="class.name == 'Monk'">Fast Movement</th>
                 </tr>
               </thead>
               <tbody>
@@ -92,9 +96,11 @@
                   <td>{{ row.reflexSave }}</td>
                   <td>{{ row.willSave }}</td>
                   <td><span ng-repeat="special in row.specials">{{ special }}{{$last ? '' : ', '}}</span></td>
-                  <td ng-repeat="spells in row.spellsPerDay">
-                  {{ spells.spells }}
-                  </td>
+                  <td ng-repeat="spells in row.spellsPerDay">{{ spells.spells }}</td>
+                  <td ng-show="class.name == 'Monk'">{{ row.flurryOfBlowsAttackBonus }}</td>
+                  <td ng-show="class.name == 'Monk'">{{ row.unarmedDamage }}</td>
+                  <td ng-show="class.name == 'Monk'">{{ row.armorClassBonus }}</td>
+                  <td ng-show="class.name == 'Monk'">{{ row.fastMovement }}</td>
                 </tr>
               </tbody>
             </table>
