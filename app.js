@@ -321,41 +321,41 @@
     }
   }
 
-  var feats = [
-    {
-      name: 'Power Attack',
-      type: 'Combat',
-      prerequistites: "Str 13, base attack bonus +1",
-      summary: "Trade melee attack bonus for damage",
-      system: "PFRPG"
-    }
-  ]
+var feats = [
+  {
+    name: 'Power Attack',
+    type: 'Combat',
+    prerequistites: "Str 13, base attack bonus +1",
+    summary: "Trade melee attack bonus for damage",
+    system: "PFRPG"
+  }
+]
 
-  var traits = [
-    {
-      name: 'Reactionary',
-      description: "You were bullied often as a child, but never quite developed an offensive response. Instead, you became adept at anticipating sudden attacks and reacting to danger quickly. You gain a +2 trait bonus to Initiative checks."
-    }
-  ]
+var traits = [
+  {
+    name: 'Reactionary',
+    description: "You were bullied often as a child, but never quite developed an offensive response. Instead, you became adept at anticipating sudden attacks and reacting to danger quickly. You gain a +2 trait bonus to Initiative checks."
+  }
+]
 
-  var spells = [
-    {
-      name: "Fireball",
-      school: "evocation",
-      subschool: null,
-      descriptor: "fire",
-      spell_level: "sorcerer/wizard 3, magus 3"
-    },
-    {
-      name: "Cure Light Wounds",
-      school: "conjuration",
-      subschool: "healing",
-      descriptor: null,
-      spell_level: "bard 1, cleric 1, druid 1, paladin 1, ranger 2, witch 1, inquisitor 1, alchemist 1"
-    }
-  ]
+var spells = [
+  {
+    name: "Fireball",
+    school: "evocation",
+    subschool: null,
+    descriptor: "fire",
+    spell_level: "sorcerer/wizard 3, magus 3"
+  },
+  {
+    name: "Cure Light Wounds",
+    school: "conjuration",
+    subschool: "healing",
+    descriptor: null,
+    spell_level: "bard 1, cleric 1, druid 1, paladin 1, ranger 2, witch 1, inquisitor 1, alchemist 1"
+  }
+]
 
-  var tables = {
+var tables = {
     barbarian: [
       {
         level: "1st",
