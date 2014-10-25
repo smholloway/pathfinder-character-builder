@@ -363,7 +363,7 @@ var tables = {
         fortSave: "+2",
         reflexSave: "+0",
         willSave: "+0",
-        specials: ["<a href=\"#fast-movement\">Fast movement</a>, <a href=\"#rage\">rage</a>"]
+        specials: ["Fast movement, rage"]
       },
       {
         level: "2nd",
@@ -371,7 +371,7 @@ var tables = {
         fortSave: "+3",
         reflexSave: "+0",
         willSave: "+0",
-        specials: ["<a href=\"#rage-powers\">Rage power</a>, <a href=\"#uncanny-dodge-barbarian\">uncanny dodge</a>"]
+        specials: ["Rage power, uncanny dodge"]
       },
       {
         level: "3rd",
@@ -379,7 +379,7 @@ var tables = {
         fortSave: "+3",
         reflexSave: "+1",
         willSave: "+1",
-        specials: ["<a href=\"#trap-sense-barbarian\">Trap sense</a> +1"]
+        specials: ["Trap sense +1"]
       },
       {
         level: "4th",
@@ -387,7 +387,7 @@ var tables = {
         fortSave: "+4",
         reflexSave: "+1",
         willSave: "+1",
-        specials: ["<a href=\"#rage-powers\">Rage power</a>"]
+        specials: ["Rage power"]
       },
       {
         level: "5th",
@@ -395,7 +395,7 @@ var tables = {
         fortSave: "+4",
         reflexSave: "+1",
         willSave: "+1",
-        specials: ["<a href=\"#improved-uncanny-dodge-barbarian\">Improved uncanny dodge</a>"]
+        specials: ["improved-Improved uncanny dodge"]
       },
       {
         level: "6th",
@@ -403,7 +403,7 @@ var tables = {
         fortSave: "+5",
         reflexSave: "+2",
         willSave: "+2",
-        specials: ["<a href=\"#rage-powers\">Rage power</a>, <a href=\"#trap-sense-barbarian\">Trap sense</a> +2"]
+        specials: ["Rage power, Trap sense +2"]
       },
       {
         level: "7th",
@@ -411,7 +411,7 @@ var tables = {
         fortSave: "+5",
         reflexSave: "+2",
         willSave: "+2",
-        specials: ["<a href=\"#damage-reduction-barbarian\">Damage reduction</a> 1/—"]
+        specials: ["Damage reduction 1/-"]
       },
       {
         level: "8th",
@@ -419,7 +419,7 @@ var tables = {
         fortSave: "+6",
         reflexSave: "+2",
         willSave: "+2",
-        specials: ["<a href=\"#rage-powers\">Rage power</a>"]
+        specials: ["Rage power"]
       },
       {
         level: "9th",
@@ -427,7 +427,7 @@ var tables = {
         fortSave: "+6",
         reflexSave: "+3",
         willSave: "+3",
-        specials: ["<a href=\"#trap-sense-barbarian\">Trap sense</a> +3"]
+        specials: ["Trap sense +3"]
       },
       {
         level: "10th",
@@ -435,7 +435,7 @@ var tables = {
         fortSave: "+7",
         reflexSave: "+3",
         willSave: "+3",
-        specials: ["<a href=\"#damage-reduction-barbarian\">Damage reduction</a> 2/—, <a href=\"#rage-powers\">Rage power</a>"]
+        specials: ["Damage reduction 2/-, Rage power"]
       },
       {
         level: "11th",
@@ -443,7 +443,7 @@ var tables = {
         fortSave: "+7",
         reflexSave: "+3",
         willSave: "+3",
-        specials: ["<a href=\"#greater-rage\">Greater rage</a>"]
+        specials: ["greater-Greater rage"]
       },
       {
         level: "12th",
@@ -451,7 +451,7 @@ var tables = {
         fortSave: "+8",
         reflexSave: "+4",
         willSave: "+4",
-        specials: ["<a href=\"#rage-powers\">Rage power</a>, <a href=\"#trap-sense-barbarian\">Trap sense</a> +4"]
+        specials: ["Rage power, Trap sense +4"]
       },
       {
         level: "13th",
@@ -459,7 +459,7 @@ var tables = {
         fortSave: "+8",
         reflexSave: "+4",
         willSave: "+4",
-        specials: ["<a href=\"#damage-reduction-barbarian\">Damage reduction</a> 3/—"]
+        specials: ["Damage reduction 3/-"]
       },
       {
         level: "14th",
@@ -467,7 +467,7 @@ var tables = {
         fortSave: "+9",
         reflexSave: "+4",
         willSave: "+4",
-        specials: ["<a href=\"#indomitable-will\">Indomitable will</a>, <a href=\"#rage-powers\">Rage power</a>"]
+        specials: ["Indomitable will, Rage power"]
       },
       {
         level: "15th",
@@ -475,7 +475,7 @@ var tables = {
         fortSave: "+9",
         reflexSave: "+5",
         willSave: "+5",
-        specials: ["<a href=\"#trap-sense-barbarian\">Trap sense</a> +5"]
+        specials: ["Trap sense +5"]
       },
       {
         level: "16th",
@@ -483,7 +483,7 @@ var tables = {
         fortSave: "+10",
         reflexSave: "+5",
         willSave: "+5",
-        specials: ["<a href=\"#damage-reduction-barbarian\">Damage reduction</a> 4/—, <a href=\"#rage-powers\">Rage power</a>"]
+        specials: ["Damage reduction 4/-, Rage power"]
       },
       {
         level: "17th",
@@ -491,7 +491,7 @@ var tables = {
         fortSave: "+10",
         reflexSave: "+5",
         willSave: "+5",
-        specials: ["<a href=\"#tireless-rage\">Tireless rage</a>"]
+        specials: ["Tireless rage"]
       },
       {
         level: "18th",
@@ -499,7 +499,7 @@ var tables = {
         fortSave: "+11",
         reflexSave: "+6",
         willSave: "+6",
-        specials: ["<a href=\"#rage-powers\">Rage power</a>, <a href=\"#trap-sense-barbarian\">Trap sense</a> +6"]
+        specials: ["Rage power, Trap sense +6"]
       },
       {
         level: "19th",
@@ -507,7 +507,7 @@ var tables = {
         fortSave: "+11",
         reflexSave: "+6",
         willSave: "+6",
-        specials: ["<a href=\"#damage-reduction-barbarian\">Damage reduction</a> 5/—"]
+        specials: ["Damage reduction 5/-"]
       },
       {
         level: "20th",
@@ -515,7 +515,7 @@ var tables = {
         fortSave: "+12",
         reflexSave: "+6",
         willSave: "+6",
-        specials: ["<a href=\"#mighty-rage\">Mighty rage</a>, <a href=\"#rage-powers\">Rage power</a>"]
+        specials: ["Mighty rage, Rage power"]
       }
     ],
     bard: [
@@ -525,14 +525,14 @@ var tables = {
         fortSave: "+0",
         reflexSave: "+2",
         willSave: "+2",
-        specials: ["<a href=\"#bardic-knowledge\">Bardic knowledge</a>, <a href=\"#bardic-performance\">bardic performance</a>, <a href=\"#cantrips-bard\">cantrips</a>,<a href=\"#countersong\">countersong</a>, <a href=\"#distraction\">distraction</a>, <a href=\"#fascinate\">fascinate</a>, <a href=\"#inspire-courage\">inspire courage</a> +1"],
+        specials: ["Bardic knowledge, bardic performance, cantrips, countersong, distraction, fascinate, inspire courage +1"],
         spellsPerDay: [
-          { level: 0, spells: 1, },
-          { level: 1, spells: 0, },
+          { level: 1, spells: 1, },
           { level: 2, spells: 0, },
           { level: 3, spells: 0, },
           { level: 4, spells: 0, },
-          { level: 5, spells: 0, }
+          { level: 5, spells: 0, },
+          { level: 7, spells: 0, }
         ]
       },
       {
@@ -541,14 +541,14 @@ var tables = {
         fortSave: "+0",
         reflexSave: "+3",
         willSave: "+3",
-        specials: ["<a href=\"#versatile-performance\">Versatile performance</a>, <a href=\"#well-versed\">well-versed</a>"],
+        specials: ["Versatile performance, well-versed"],
         spellsPerDay: [
-          { level: 0, spells: 2, },
-          { level: 1, spells: 0, },
+          { level: 1, spells: 2, },
           { level: 2, spells: 0, },
           { level: 3, spells: 0, },
           { level: 4, spells: 0, },
-          { level: 5, spells: 0, }
+          { level: 5, spells: 0, },
+          { level: 7, spells: 0, }
         ]
       },
       {
@@ -557,14 +557,14 @@ var tables = {
         fortSave: "+1",
         reflexSave: "+3",
         willSave: "+3",
-        specials: ["<a href=\"#inspire-competence\">Inspire competence</a> +2"],
+        specials: ["Inspire competence +2"],
         spellsPerDay: [
-          { level: 0, spells: 3, },
-          { level: 1, spells: 0, },
+          { level: 1, spells: 3, },
           { level: 2, spells: 0, },
           { level: 3, spells: 0, },
           { level: 4, spells: 0, },
-          { level: 5, spells: 0, }
+          { level: 5, spells: 0, },
+          { level: 7, spells: 0, }
         ]
       },
       {
@@ -575,12 +575,12 @@ var tables = {
         willSave: "+4",
         specials: [""],
         spellsPerDay: [
-          { level: 0, spells: 3, },
-          { level: 1, spells: 1, },
-          { level: 2, spells: 0, },
+          { level: 1, spells: 3, },
+          { level: 2, spells: 1, },
           { level: 3, spells: 0, },
           { level: 4, spells: 0, },
-          { level: 5, spells: 0, }
+          { level: 5, spells: 0, },
+          { level: 7, spells: 0, }
         ]
       },
       {
@@ -589,14 +589,14 @@ var tables = {
         fortSave: "+1",
         reflexSave: "+4",
         willSave: "+4",
-        specials: ["<a href=\"#inspire-courage\">inspire courage</a> +2, <a href=\"#lore-master\">lore master</a> 1/day"],
+        specials: ["inspire courage +2, lore master 1/day"],
         spellsPerDay: [
-          { level: 0, spells: 4, },
-          { level: 1, spells: 2, },
-          { level: 2, spells: 0, },
+          { level: 1, spells: 4, },
+          { level: 2, spells: 2, },
           { level: 3, spells: 0, },
           { level: 4, spells: 0, },
-          { level: 5, spells: 0, }
+          { level: 5, spells: 0, },
+          { level: 7, spells: 0, }
         ]
       },
       {
@@ -605,14 +605,14 @@ var tables = {
         fortSave: "+2",
         reflexSave: "+5",
         willSave: "+5",
-        specials: ["<a href=\"#suggestion\">Suggestion</a>, <a href=\"#versatile-performance\">Versatile performance</a>"],
+        specials: ["Suggestion, Versatile performance"],
         spellsPerDay: [
-          { level: 0, spells: 4, },
-          { level: 1, spells: 3, },
-          { level: 2, spells: 0, },
+          { level: 1, spells: 4, },
+          { level: 2, spells: 3, },
           { level: 3, spells: 0, },
           { level: 4, spells: 0, },
-          { level: 5, spells: 0, }
+          { level: 5, spells: 0, },
+          { level: 7, spells: 0, }
         ]
       },
       {
@@ -621,14 +621,14 @@ var tables = {
         fortSave: "+2",
         reflexSave: "+5",
         willSave: "+5",
-        specials: ["<a href=\"#inspire-competence\">Inspire competence</a> +3"],
+        specials: ["Inspire competence +3"],
         spellsPerDay: [
-          { level: 0, spells: 4, },
-          { level: 1, spells: 3, },
-          { level: 2, spells: 1, },
-          { level: 3, spells: 0, },
+          { level: 1, spells: 4, },
+          { level: 2, spells: 3, },
+          { level: 3, spells: 1, },
           { level: 4, spells: 0, },
-          { level: 5, spells: 0, }
+          { level: 5, spells: 0, },
+          { level: 7, spells: 0, }
         ]
       },
       {
@@ -637,14 +637,14 @@ var tables = {
         fortSave: "+2",
         reflexSave: "+6",
         willSave: "+6",
-        specials: ["<a href=\"#dirge-of-doom\">Dirge of doom</a>"],
+        specials: ["Dirge of doom"],
         spellsPerDay: [
-          { level: 0, spells: 4, },
           { level: 1, spells: 4, },
-          { level: 2, spells: 2, },
-          { level: 3, spells: 0, },
+          { level: 2, spells: 4, },
+          { level: 3, spells: 2, },
           { level: 4, spells: 0, },
-          { level: 5, spells: 0, }
+          { level: 5, spells: 0, },
+          { level: 7, spells: 0, }
         ]
       },
       {
@@ -653,14 +653,14 @@ var tables = {
         fortSave: "+3",
         reflexSave: "+6",
         willSave: "+6",
-        specials: ["<a href=\"#inspire-greatness\">Inspire greatness</a>"],
+        specials: ["Inspire greatness"],
         spellsPerDay: [
-          { level: 0, spells: 5, },
-          { level: 1, spells: 4, },
-          { level: 2, spells: 3, },
-          { level: 3, spells: 0, },
+          { level: 1, spells: 5, },
+          { level: 2, spells: 4, },
+          { level: 3, spells: 3, },
           { level: 4, spells: 0, },
-          { level: 5, spells: 0, }
+          { level: 5, spells: 0, },
+          { level: 7, spells: 0, }
         ]
       },
       {
@@ -669,14 +669,14 @@ var tables = {
         fortSave: "+3",
         reflexSave: "+7",
         willSave: "+7",
-        specials: ["<a href=\"#jack-of-all-trades\">Jack-of-all-trades</a>, <a href=\"#versatile-performance\">Versatile performance</a>"],
+        specials: ["Jack-of-all-trades, Versatile performance"],
         spellsPerDay: [
-          { level: 0, spells: 5, },
-          { level: 1, spells: 4, },
-          { level: 2, spells: 3, },
-          { level: 3, spells: 1, },
-          { level: 4, spells: 0, },
-          { level: 5, spells: 0, }
+          { level: 1, spells: 5, },
+          { level: 2, spells: 4, },
+          { level: 3, spells: 3, },
+          { level: 4, spells: 1, },
+          { level: 5, spells: 0, },
+          { level: 7, spells: 0, }
         ]
       },
       {
@@ -685,14 +685,14 @@ var tables = {
         fortSave: "+3",
         reflexSave: "+7",
         willSave: "+7",
-        specials: ["<a href=\"#inspire-competence\">Inspire competence</a> +4, <a href=\"#inspire-courage\">inspire courage</a> +3, <a href=\"#lore-master\">lore master</a> 2/day"],
+        specials: ["Inspire competence +4, inspire courage +3, lore master 2/day"],
         spellsPerDay: [
-          { level: 0, spells: 5, },
-          { level: 1, spells: 4, },
+          { level: 1, spells: 5, },
           { level: 2, spells: 4, },
-          { level: 3, spells: 2, },
-          { level: 4, spells: 0, },
-          { level: 5, spells: 0, }
+          { level: 3, spells: 4, },
+          { level: 4, spells: 2, },
+          { level: 5, spells: 0, },
+          { level: 7, spells: 0, }
         ]
       },
       {
@@ -701,14 +701,14 @@ var tables = {
         fortSave: "+4",
         reflexSave: "+8",
         willSave: "+8",
-        specials: ["<a href=\"#soothing-performance\">Soothing performance</a>"],
+        specials: ["Soothing performance"],
         spellsPerDay: [
-          { level: 0, spells: 5, },
           { level: 1, spells: 5, },
-          { level: 2, spells: 4, },
-          { level: 3, spells: 3, },
-          { level: 4, spells: 0, },
-          { level: 5, spells: 0, }
+          { level: 2, spells: 5, },
+          { level: 3, spells: 4, },
+          { level: 4, spells: 3, },
+          { level: 5, spells: 0, },
+          { level: 7, spells: 0, }
         ]
       },
       {
@@ -719,12 +719,12 @@ var tables = {
         willSave: "+8",
         specials: [""],
         spellsPerDay: [
-          { level: 0, spells: 5, },
           { level: 1, spells: 5, },
-          { level: 2, spells: 4, },
-          { level: 3, spells: 3, },
-          { level: 4, spells: 1, },
-          { level: 5, spells: 0, }
+          { level: 2, spells: 5, },
+          { level: 3, spells: 4, },
+          { level: 4, spells: 3, },
+          { level: 5, spells: 1, },
+          { level: 7, spells: 0, }
         ]
       },
       {
@@ -733,14 +733,14 @@ var tables = {
         fortSave: "+4",
         reflexSave: "+9",
         willSave: "+9",
-        specials: ["<a href=\"#frightening-tune\">Frightening tune</a>, <a href=\"#versatile-performance\">Versatile performance</a>"],
+        specials: ["Frightening tune, Versatile performance"],
         spellsPerDay: [
-          { level: 0, spells: 5, },
           { level: 1, spells: 5, },
-          { level: 2, spells: 4, },
+          { level: 2, spells: 5, },
           { level: 3, spells: 4, },
-          { level: 4, spells: 2, },
-          { level: 5, spells: 0, }
+          { level: 4, spells: 4, },
+          { level: 5, spells: 2, },
+          { level: 7, spells: 0, }
         ]
       },
       {
@@ -749,14 +749,14 @@ var tables = {
         fortSave: "+5",
         reflexSave: "+9",
         willSave: "+9",
-        specials: ["<a href=\"#inspire-competence\">Inspire competence</a> +5, <a href=\"#inspire-heroics\">inspire heroics</a>"],
+        specials: ["Inspire competence +5, inspire heroics"],
         spellsPerDay: [
-          { level: 0, spells: 5, },
           { level: 1, spells: 5, },
           { level: 2, spells: 5, },
-          { level: 3, spells: 4, },
-          { level: 4, spells: 3, },
-          { level: 5, spells: 0, }
+          { level: 3, spells: 5, },
+          { level: 4, spells: 4, },
+          { level: 5, spells: 3, },
+          { level: 7, spells: 0, }
         ]
       },
       {
@@ -767,12 +767,12 @@ var tables = {
         willSave: "+10",
         specials: [""],
         spellsPerDay: [
-          { level: 0, spells: 5, },
           { level: 1, spells: 5, },
           { level: 2, spells: 5, },
-          { level: 3, spells: 4, },
-          { level: 4, spells: 3, },
-          { level: 5, spells: 1, }
+          { level: 3, spells: 5, },
+          { level: 4, spells: 4, },
+          { level: 5, spells: 3, },
+          { level: 7, spells: 1, }
         ]
       },
       {
@@ -781,14 +781,14 @@ var tables = {
         fortSave: "+5",
         reflexSave: "+10",
         willSave: "+10",
-        specials: ["<a href=\"#inspire-courage\">inspire courage</a> +4, <a href=\"#lore-master\">lore master</a> 3/day"],
+        specials: ["inspire courage +4, lore master 3/day"],
         spellsPerDay: [
-          { level: 0, spells: 5, },
           { level: 1, spells: 5, },
           { level: 2, spells: 5, },
-          { level: 3, spells: 4, },
+          { level: 3, spells: 5, },
           { level: 4, spells: 4, },
-          { level: 5, spells: 2, }
+          { level: 5, spells: 4, },
+          { level: 7, spells: 2, }
         ]
       },
       {
@@ -797,14 +797,14 @@ var tables = {
         fortSave: "+6",
         reflexSave: "+11",
         willSave: "+11",
-        specials: ["<a href=\"#mass-suggestion-bardic-music\">Mass suggestion</a>, <a href=\"#versatile-performance\">Versatile performance</a>"],
+        specials: ["Mass suggestion, Versatile performance"],
         spellsPerDay: [
-          { level: 0, spells: 5, },
           { level: 1, spells: 5, },
           { level: 2, spells: 5, },
           { level: 3, spells: 5, },
-          { level: 4, spells: 4, },
-          { level: 5, spells: 3, }
+          { level: 4, spells: 5, },
+          { level: 5, spells: 4, },
+          { level: 7, spells: 3, }
         ]
       },
       {
@@ -813,14 +813,14 @@ var tables = {
         fortSave: "+6",
         reflexSave: "+11",
         willSave: "+11",
-        specials: ["<a href=\"#inspire-competence\">Inspire competence</a> +6"],
+        specials: ["Inspire competence +6"],
         spellsPerDay: [
-          { level: 0, spells: 5, },
           { level: 1, spells: 5, },
           { level: 2, spells: 5, },
           { level: 3, spells: 5, },
           { level: 4, spells: 5, },
-          { level: 5, spells: 4, }
+          { level: 5, spells: 5, },
+          { level: 7, spells: 4, }
         ]
       },
       {
@@ -829,14 +829,14 @@ var tables = {
         fortSave: "+6",
         reflexSave: "+12",
         willSave: "+12",
-        specials: ["<a href=\"#deadly-performance\">Deadly performance</a>"],
+        specials: ["Deadly performance"],
         spellsPerDay: [
-          { level: 0, spells: 5, },
           { level: 1, spells: 5, },
           { level: 2, spells: 5, },
           { level: 3, spells: 5, },
           { level: 4, spells: 5, },
-          { level: 5, spells: 5, }
+          { level: 5, spells: 5, },
+          { level: 7, spells: 5, }
         ]
       },
     ],
@@ -847,17 +847,17 @@ var tables = {
         fortSave: "+2",
         reflexSave: "+0",
         willSave: "+2",
-        specials: ["<a href=\"#aura-cleric\">Aura</a>, <a href=\"#channel-energy-cleric\">channel energy</a> 1d6,<a href=\"#domains\">domains</a>, <a href=\"#orisons-cleric\">orisons</a>"],
+        specials: ["Aura, channel energy 1d6, domains, orisons"],
         spellsPerDay: [
-          { level: 0, spells: 3, },
-          { level: 1, spells: 0, },
+          { level: 1, spells: 3, },
           { level: 2, spells: 0, },
           { level: 3, spells: 0, },
           { level: 4, spells: 0, },
           { level: 5, spells: 0, },
           { level: 6, spells: 0, },
           { level: 7, spells: 0, },
-          { level: 8, spells: 0, }
+          { level: 8, spells: 0, },
+          { level: 9, spells: 0, }
         ]
       },
       {
@@ -868,15 +868,15 @@ var tables = {
         willSave: "+3",
         specials: [""],
         spellsPerDay: [
-          { level: 0, spells: 4, },
-          { level: 1, spells: 0, },
+          { level: 1, spells: 4, },
           { level: 2, spells: 0, },
           { level: 3, spells: 0, },
           { level: 4, spells: 0, },
           { level: 5, spells: 0, },
           { level: 6, spells: 0, },
           { level: 7, spells: 0, },
-          { level: 8, spells: 0, }
+          { level: 8, spells: 0, },
+          { level: 9, spells: 0, }
         ]
       },
       {
@@ -885,17 +885,17 @@ var tables = {
         fortSave: "+3",
         reflexSave: "+1",
         willSave: "+3",
-        specials: ["<a href=\"#channel-energy-cleric\">Channel energy</a> 2d6"],
+        specials: ["Channel energy 2d6"],
         spellsPerDay: [
-          { level: 0, spells: 4, },
-          { level: 1, spells: "1+1", },
-          { level: 2, spells: 0, },
+          { level: 1, spells: 4, },
+          { level: 2, spells: "1+1", },
           { level: 3, spells: 0, },
           { level: 4, spells: 0, },
           { level: 5, spells: 0, },
           { level: 6, spells: 0, },
           { level: 7, spells: 0, },
-          { level: 8, spells: 0, }
+          { level: 8, spells: 0, },
+          { level: 9, spells: 0, }
         ]
       },
       {
@@ -906,15 +906,15 @@ var tables = {
         willSave: "+4",
         specials: [""],
         spellsPerDay: [
-          { level: 0, spells: 4, },
-          { level: 1, spells: "2+1", },
-          { level: 2, spells: 0, },
+          { level: 1, spells: 4, },
+          { level: 2, spells: "2+1", },
           { level: 3, spells: 0, },
           { level: 4, spells: 0, },
           { level: 5, spells: 0, },
           { level: 6, spells: 0, },
           { level: 7, spells: 0, },
-          { level: 8, spells: 0, }
+          { level: 8, spells: 0, },
+          { level: 9, spells: 0, }
         ]
       },
       {
@@ -923,17 +923,17 @@ var tables = {
         fortSave: "+4",
         reflexSave: "+1",
         willSave: "+4",
-        specials: ["<a href=\"#channel-energy-cleric\">Channel energy</a> 3d6"],
+        specials: ["Channel energy 3d6"],
         spellsPerDay: [
-          { level: 0, spells: 4, },
-          { level: 1, spells: "2+1", },
-          { level: 2, spells: "1+1", },
-          { level: 3, spells: 0, },
+          { level: 1, spells: 4, },
+          { level: 2, spells: "2+1", },
+          { level: 3, spells: "1+1", },
           { level: 4, spells: 0, },
           { level: 5, spells: 0, },
           { level: 6, spells: 0, },
           { level: 7, spells: 0, },
-          { level: 8, spells: 0, }
+          { level: 8, spells: 0, },
+          { level: 9, spells: 0, }
         ]
       },
       {
@@ -944,15 +944,15 @@ var tables = {
         willSave: "+5",
         specials: [""],
         spellsPerDay: [
-          { level: 0, spells: 4, },
-          { level: 1, spells: "3+1", },
-          { level: 2, spells: "2+1", },
-          { level: 3, spells: 0, },
+          { level: 1, spells: 4, },
+          { level: 2, spells: "3+1", },
+          { level: 3, spells: "2+1", },
           { level: 4, spells: 0, },
           { level: 5, spells: 0, },
           { level: 6, spells: 0, },
           { level: 7, spells: 0, },
-          { level: 8, spells: 0, }
+          { level: 8, spells: 0, },
+          { level: 9, spells: 0, }
         ]
       },
       {
@@ -961,17 +961,17 @@ var tables = {
         fortSave: "+5",
         reflexSave: "+2",
         willSave: "+5",
-        specials: ["<a href=\"#channel-energy-cleric\">Channel energy</a> 4d6"],
+        specials: ["Channel energy 4d6"],
         spellsPerDay: [
-          { level: 0, spells: 4, },
-          { level: 1, spells: "3+1", },
-          { level: 2, spells: "2+1", },
-          { level: 3, spells: "1+1", },
-          { level: 4, spells: 0, },
+          { level: 1, spells: 4, },
+          { level: 2, spells: "3+1", },
+          { level: 3, spells: "2+1", },
+          { level: 4, spells: "1+1", },
           { level: 5, spells: 0, },
           { level: 6, spells: 0, },
           { level: 7, spells: 0, },
-          { level: 8, spells: 0, }
+          { level: 8, spells: 0, },
+          { level: 9, spells: 0, }
         ]
       },
       {
@@ -982,15 +982,15 @@ var tables = {
         willSave: "+6",
         specials: [""],
         spellsPerDay: [
-          { level: 0, spells: 4, },
-          { level: 1, spells: "3+1", },
+          { level: 1, spells: 4, },
           { level: 2, spells: "3+1", },
-          { level: 3, spells: "2+1", },
-          { level: 4, spells: 0, },
+          { level: 3, spells: "3+1", },
+          { level: 4, spells: "2+1", },
           { level: 5, spells: 0, },
           { level: 6, spells: 0, },
           { level: 7, spells: 0, },
-          { level: 8, spells: 0, }
+          { level: 8, spells: 0, },
+          { level: 9, spells: 0, }
         ]
       },
       {
@@ -999,17 +999,17 @@ var tables = {
         fortSave: "+6",
         reflexSave: "+3",
         willSave: "+6",
-        specials: ["<a href=\"#channel-energy-cleric\">Channel energy</a> 5d6"],
+        specials: ["Channel energy 5d6"],
         spellsPerDay: [
-          { level: 0, spells: 4, },
-          { level: 1, spells: "4+1", },
-          { level: 2, spells: "3+1", },
-          { level: 3, spells: "2+1", },
-          { level: 4, spells: "1+1", },
-          { level: 5, spells: 0, },
+          { level: 1, spells: 4, },
+          { level: 2, spells: "4+1", },
+          { level: 3, spells: "3+1", },
+          { level: 4, spells: "2+1", },
+          { level: 5, spells: "1+1", },
           { level: 6, spells: 0, },
           { level: 7, spells: 0, },
-          { level: 8, spells: 0, }
+          { level: 8, spells: 0, },
+          { level: 9, spells: 0, }
         ]
       },
       {
@@ -1020,15 +1020,15 @@ var tables = {
         willSave: "+7",
         specials: [""],
         spellsPerDay: [
-          { level: 0, spells: 4, },
-          { level: 1, spells: "4+1", },
-          { level: 2, spells: "3+1", },
+          { level: 1, spells: 4, },
+          { level: 2, spells: "4+1", },
           { level: 3, spells: "3+1", },
-          { level: 4, spells: "2+1", },
-          { level: 5, spells: 0, },
+          { level: 4, spells: "3+1", },
+          { level: 5, spells: "2+1", },
           { level: 6, spells: 0, },
           { level: 7, spells: 0, },
-          { level: 8, spells: 0, }
+          { level: 8, spells: 0, },
+          { level: 9, spells: 0, }
         ]
       },
       {
@@ -1037,17 +1037,17 @@ var tables = {
         fortSave: "+7",
         reflexSave: "+3",
         willSave: "+7",
-        specials: ["<a href=\"#channel-energy-cleric\">Channel energy</a> 6d6"],
+        specials: ["Channel energy 6d6"],
         spellsPerDay: [
-          { level: 0, spells: 4, },
-          { level: 1, spells: "4+1", },
+          { level: 1, spells: 4, },
           { level: 2, spells: "4+1", },
-          { level: 3, spells: "3+1", },
-          { level: 4, spells: "2+1", },
-          { level: 5, spells: "1+1", },
-          { level: 6, spells: 0, },
+          { level: 3, spells: "4+1", },
+          { level: 4, spells: "3+1", },
+          { level: 5, spells: "2+1", },
+          { level: 6, spells: "1+1", },
           { level: 7, spells: 0, },
-          { level: 8, spells: 0, }
+          { level: 8, spells: 0, },
+          { level: 9, spells: 0, }
         ]
       },
       {
@@ -1058,15 +1058,15 @@ var tables = {
         willSave: "+8",
         specials: [""],
         spellsPerDay: [
-          { level: 0, spells: 4, },
-          { level: 1, spells: "4+1", },
+          { level: 1, spells: 4, },
           { level: 2, spells: "4+1", },
-          { level: 3, spells: "3+1", },
+          { level: 3, spells: "4+1", },
           { level: 4, spells: "3+1", },
-          { level: 5, spells: "2+1", },
-          { level: 6, spells: 0, },
+          { level: 5, spells: "3+1", },
+          { level: 6, spells: "2+1", },
           { level: 7, spells: 0, },
-          { level: 8, spells: 0, }
+          { level: 8, spells: 0, },
+          { level: 9, spells: 0, }
         ]
       },
       {
@@ -1075,17 +1075,17 @@ var tables = {
         fortSave: "+8",
         reflexSave: "+4",
         willSave: "+8",
-        specials: ["<a href=\"#channel-energy-cleric\">Channel energy</a> 7d6"],
+        specials: ["Channel energy 7d6"],
         spellsPerDay: [
-          { level: 0, spells: 4, },
-          { level: 1, spells: "4+1", },
+          { level: 1, spells: 4, },
           { level: 2, spells: "4+1", },
           { level: 3, spells: "4+1", },
-          { level: 4, spells: "3+1", },
-          { level: 5, spells: "2+1", },
-          { level: 6, spells: "1+1", },
-          { level: 7, spells: 0, },
-          { level: 8, spells: 0, }
+          { level: 4, spells: "4+1", },
+          { level: 5, spells: "3+1", },
+          { level: 6, spells: "2+1", },
+          { level: 7, spells: "1+1", },
+          { level: 8, spells: 0, },
+          { level: 9, spells: 0, }
         ]
       },
       {
@@ -1096,15 +1096,15 @@ var tables = {
         willSave: "+9",
         specials: [""],
         spellsPerDay: [
-          { level: 0, spells: 4, },
-          { level: 1, spells: "4+1", },
+          { level: 1, spells: 4, },
           { level: 2, spells: "4+1", },
           { level: 3, spells: "4+1", },
-          { level: 4, spells: "3+1", },
+          { level: 4, spells: "4+1", },
           { level: 5, spells: "3+1", },
-          { level: 6, spells: "2+1", },
-          { level: 7, spells: 0, },
-          { level: 8, spells: 0, }
+          { level: 6, spells: "3+1", },
+          { level: 7, spells: "2+1", },
+          { level: 8, spells: 0, },
+          { level: 9, spells: 0, }
         ]
       },
       {
@@ -1113,17 +1113,17 @@ var tables = {
         fortSave: "+9",
         reflexSave: "+5",
         willSave: "+9",
-        specials: ["<a href=\"#channel-energy-cleric\">Channel energy</a> 8d6"],
+        specials: ["Channel energy 8d6"],
         spellsPerDay: [
-          { level: 0, spells: 4, },
-          { level: 1, spells: "4+1", },
+          { level: 1, spells: 4, },
           { level: 2, spells: "4+1", },
           { level: 3, spells: "4+1", },
           { level: 4, spells: "4+1", },
-          { level: 5, spells: "3+1", },
-          { level: 6, spells: "2+1", },
-          { level: 7, spells: "1+1", },
-          { level: 8, spells: 0, }
+          { level: 5, spells: "4+1", },
+          { level: 6, spells: "3+1", },
+          { level: 7, spells: "2+1", },
+          { level: 8, spells: "1+1", },
+          { level: 9, spells: 0, }
         ]
       },
       {
@@ -1134,15 +1134,15 @@ var tables = {
         willSave: "+10",
         specials: [""],
         spellsPerDay: [
-          { level: 0, spells: 4, },
-          { level: 1, spells: "4+1", },
+          { level: 1, spells: 4, },
           { level: 2, spells: "4+1", },
           { level: 3, spells: "4+1", },
           { level: 4, spells: "4+1", },
-          { level: 5, spells: "3+1", },
+          { level: 5, spells: "4+1", },
           { level: 6, spells: "3+1", },
-          { level: 7, spells: "2+1", },
-          { level: 8, spells: 0, }
+          { level: 7, spells: "3+1", },
+          { level: 8, spells: "2+1", },
+          { level: 9, spells: 0, }
         ]
       },
       {
@@ -1151,17 +1151,17 @@ var tables = {
         fortSave: "+10",
         reflexSave: "+5",
         willSave: "+10",
-        specials: ["<a href=\"#channel-energy-cleric\">Channel energy</a> 9d6"],
+        specials: ["Channel energy 9d6"],
         spellsPerDay: [
-          { level: 0, spells: 4, },
-          { level: 1, spells: "4+1", },
+          { level: 1, spells: 4, },
           { level: 2, spells: "4+1", },
           { level: 3, spells: "4+1", },
           { level: 4, spells: "4+1", },
           { level: 5, spells: "4+1", },
-          { level: 6, spells: "3+1", },
-          { level: 7, spells: "2+1", },
-          { level: 8, spells: "1+1", }
+          { level: 6, spells: "4+1", },
+          { level: 7, spells: "3+1", },
+          { level: 8, spells: "2+1", },
+          { level: 9, spells: "1+1", }
         ]
       },
       {
@@ -1172,15 +1172,15 @@ var tables = {
         willSave: "+11",
         specials: [""],
         spellsPerDay: [
-          { level: 0, spells: 4, },
-          { level: 1, spells: "4+1", },
+          { level: 1, spells: 4, },
           { level: 2, spells: "4+1", },
           { level: 3, spells: "4+1", },
           { level: 4, spells: "4+1", },
           { level: 5, spells: "4+1", },
-          { level: 6, spells: "3+1", },
+          { level: 6, spells: "4+1", },
           { level: 7, spells: "3+1", },
-          { level: 8, spells: "2+1", }
+          { level: 8, spells: "3+1", },
+          { level: 9, spells: "2+1", }
         ]
       },
       {
@@ -1189,17 +1189,17 @@ var tables = {
         fortSave: "+11",
         reflexSave: "+6",
         willSave: "+11",
-        specials: ["<a href=\"#channel-energy-cleric\">Channel energy</a> 10d6"],
+        specials: ["Channel energy 10d6"],
         spellsPerDay: [
-          { level: 0, spells: 4, },
-          { level: 1, spells: "4+1", },
+          { level: 1, spells: 4, },
           { level: 2, spells: "4+1", },
           { level: 3, spells: "4+1", },
           { level: 4, spells: "4+1", },
           { level: 5, spells: "4+1", },
           { level: 6, spells: "4+1", },
-          { level: 7, spells: "3+1", },
-          { level: 8, spells: "3+1", }
+          { level: 7, spells: "4+1", },
+          { level: 8, spells: "3+1", },
+          { level: 9, spells: "3+1", }
         ]
       },
       {
@@ -1210,15 +1210,15 @@ var tables = {
         willSave: "+12",
         specials: [""],
         spellsPerDay: [
-          { level: 0, spells: 4, },
-          { level: 1, spells: "4+1", },
+          { level: 1, spells: 4, },
           { level: 2, spells: "4+1", },
           { level: 3, spells: "4+1", },
           { level: 4, spells: "4+1", },
           { level: 5, spells: "4+1", },
           { level: 6, spells: "4+1", },
           { level: 7, spells: "4+1", },
-          { level: 8, spells: "4+1", }
+          { level: 8, spells: "4+1", },
+          { level: 9, spells: "4+1", }
         ]
       }
     ],
@@ -1229,17 +1229,17 @@ var tables = {
         fortSave: "+2",
         reflexSave: "+0",
         willSave: "+2",
-        specials: ["<a href=\"#nature-bond\">Nature bond</a>, <a href=\"#nature-sense\">nature sense</a>, <a href=\"#orisons-druid\">orisons</a>, <a href=\"#wild-empathy-druid\">wild empathy</a>"],
+        specials: ["Nature bond, nature sense, orisons, wild empathy"],
         spellsPerDay: [
-          { level: 0, spells: 3, },
-          { level: 1, spells: 0, },
+          { level: 1, spells: 3, },
           { level: 2, spells: 0, },
           { level: 3, spells: 0, },
           { level: 4, spells: 0, },
           { level: 5, spells: 0, },
           { level: 6, spells: 0, },
           { level: 7, spells: 0, },
-          { level: 8, spells: 0, }
+          { level: 8, spells: 0, },
+          { level: 9, spells: 0, }
         ]
       },
       {
@@ -1248,17 +1248,17 @@ var tables = {
         fortSave: "+3",
         reflexSave: "+0",
         willSave: "+3",
-        specials: ["<a href=\"#woodland-stride-druid\">Woodland stride</a>"],
+        specials: ["Woodland stride"],
         spellsPerDay: [
-          { level: 0, spells: 4, },
-          { level: 1, spells: 0, },
+          { level: 1, spells: 4, },
           { level: 2, spells: 0, },
           { level: 3, spells: 0, },
           { level: 4, spells: 0, },
           { level: 5, spells: 0, },
           { level: 6, spells: 0, },
           { level: 7, spells: 0, },
-          { level: 8, spells: 0, }
+          { level: 8, spells: 0, },
+          { level: 9, spells: 0, }
         ]
       },
       {
@@ -1267,17 +1267,17 @@ var tables = {
         fortSave: "+3",
         reflexSave: "+1",
         willSave: "+3",
-        specials: ["<a href=\"#trackless-step\">Trackless step</a>"],
+        specials: ["Trackless step"],
         spellsPerDay: [
-          { level: 0, spells: 4, },
-          { level: 1, spells: 1, },
-          { level: 2, spells: 0, },
+          { level: 1, spells: 4, },
+          { level: 2, spells: 1, },
           { level: 3, spells: 0, },
           { level: 4, spells: 0, },
           { level: 5, spells: 0, },
           { level: 6, spells: 0, },
           { level: 7, spells: 0, },
-          { level: 8, spells: 0, }
+          { level: 8, spells: 0, },
+          { level: 9, spells: 0, }
         ]
       },
       {
@@ -1286,17 +1286,17 @@ var tables = {
         fortSave: "+4",
         reflexSave: "+1",
         willSave: "+4",
-        specials: ["<a href=\"#resist-nature-s-lure\">Resist nature's lure</a>,<a href=\"#wild-shape\">Wild shape</a> (1/day)"],
+        specials: ["Resist nature's lure, Wild shape (1/day)"],
         spellsPerDay: [
-          { level: 0, spells: 4, },
-          { level: 1, spells: 2, },
-          { level: 2, spells: 0, },
+          { level: 1, spells: 4, },
+          { level: 2, spells: 2, },
           { level: 3, spells: 0, },
           { level: 4, spells: 0, },
           { level: 5, spells: 0, },
           { level: 6, spells: 0, },
           { level: 7, spells: 0, },
-          { level: 8, spells: 0, }
+          { level: 8, spells: 0, },
+          { level: 9, spells: 0, }
         ]
       },
       {
@@ -1307,15 +1307,15 @@ var tables = {
         willSave: "+4",
         specials: [""],
         spellsPerDay: [
-          { level: 0, spells: 4, },
-          { level: 1, spells: 2, },
-          { level: 2, spells: 1, },
-          { level: 3, spells: 0, },
+          { level: 1, spells: 4, },
+          { level: 2, spells: 2, },
+          { level: 3, spells: 1, },
           { level: 4, spells: 0, },
           { level: 5, spells: 0, },
           { level: 6, spells: 0, },
           { level: 7, spells: 0, },
-          { level: 8, spells: 0, }
+          { level: 8, spells: 0, },
+          { level: 9, spells: 0, }
         ]
       },
       {
@@ -1324,16 +1324,16 @@ var tables = {
         fortSave: "+5",
         reflexSave: "+2",
         willSave: "+5",
-        specials: ["<a href=\"#wild-shape\">Wild shape</a> (2/day)"],
-        spellsPerDay: [ { level: 0, spells: 4, },
-        { level: 1, spells: 3, },
-        { level: 2, spells: 2, },
-        { level: 3, spells: 0, },
+        specials: ["Wild shape (2/day)"],
+        spellsPerDay: [ { level: 1, spells: 4, },
+        { level: 2, spells: 3, },
+        { level: 3, spells: 2, },
         { level: 4, spells: 0, },
         { level: 5, spells: 0, },
         { level: 6, spells: 0, },
         { level: 7, spells: 0, },
-        { level: 8, spells: 0, }]
+        { level: 8, spells: 0, },
+        { level: 9, spells: 0, }]
       },
       {
         level: "7th",
@@ -1342,15 +1342,15 @@ var tables = {
         reflexSave: "+2",
         willSave: "+5",
         specials: [""],
-        spellsPerDay: [ { level: 0, spells: 4, },
-        { level: 1, spells: 3, },
-        { level: 2, spells: 2, },
-        { level: 3, spells: 1, },
-        { level: 4, spells: 0, },
+        spellsPerDay: [ { level: 1, spells: 4, },
+        { level: 2, spells: 3, },
+        { level: 3, spells: 2, },
+        { level: 4, spells: 1, },
         { level: 5, spells: 0, },
         { level: 6, spells: 0, },
         { level: 7, spells: 0, },
-        { level: 8, spells: 0, }]
+        { level: 8, spells: 0, },
+        { level: 9, spells: 0, }]
       },
       {
         level: "8th",
@@ -1358,16 +1358,16 @@ var tables = {
         fortSave: "+6",
         reflexSave: "+2",
         willSave: "+6",
-        specials: ["<a href=\"#wild-shape\">Wild shape</a> (3/day)"],
-        spellsPerDay: [ { level: 0, spells: 4, },
-        { level: 1, spells: 3, },
+        specials: ["Wild shape (3/day)"],
+        spellsPerDay: [ { level: 1, spells: 4, },
         { level: 2, spells: 3, },
-        { level: 3, spells: 2, },
-        { level: 4, spells: 0, },
+        { level: 3, spells: 3, },
+        { level: 4, spells: 2, },
         { level: 5, spells: 0, },
         { level: 6, spells: 0, },
         { level: 7, spells: 0, },
-        { level: 8, spells: 0, }]
+        { level: 8, spells: 0, },
+        { level: 9, spells: 0, }]
       },
       {
         level: "9th",
@@ -1375,16 +1375,16 @@ var tables = {
         fortSave: "+6",
         reflexSave: "+3",
         willSave: "+6",
-        specials: ["<a href=\"#venom-immunity\">Venom immunity</a>"],
-        spellsPerDay: [ { level: 0, spells: 4, },
-        { level: 1, spells: 4, },
-        { level: 2, spells: 3, },
-        { level: 3, spells: 2, },
-        { level: 4, spells: 1, },
-        { level: 5, spells: 0, },
+        specials: ["Venom immunity"],
+        spellsPerDay: [ { level: 1, spells: 4, },
+        { level: 2, spells: 4, },
+        { level: 3, spells: 3, },
+        { level: 4, spells: 2, },
+        { level: 5, spells: 1, },
         { level: 6, spells: 0, },
         { level: 7, spells: 0, },
-        { level: 8, spells: 0, }]
+        { level: 8, spells: 0, },
+        { level: 9, spells: 0, }]
       },
       {
         level: "10th",
@@ -1392,16 +1392,16 @@ var tables = {
         fortSave: "+7",
         reflexSave: "+3",
         willSave: "+7",
-        specials: ["<a href=\"#wild-shape\">Wild shape</a> (4/day)"],
-        spellsPerDay: [ { level: 0, spells: 4, },
-        { level: 1, spells: 4, },
-        { level: 2, spells: 3, },
+        specials: ["Wild shape (4/day)"],
+        spellsPerDay: [ { level: 1, spells: 4, },
+        { level: 2, spells: 4, },
         { level: 3, spells: 3, },
-        { level: 4, spells: 2, },
-        { level: 5, spells: 0, },
+        { level: 4, spells: 3, },
+        { level: 5, spells: 2, },
         { level: 6, spells: 0, },
         { level: 7, spells: 0, },
-        { level: 8, spells: 0, }]
+        { level: 8, spells: 0, },
+        { level: 9, spells: 0, }]
       },
       {
         level: "11th",
@@ -1410,15 +1410,15 @@ var tables = {
         reflexSave: "+3",
         willSave: "+7",
         specials: [""],
-        spellsPerDay: [ { level: 0, spells: 4, },
-        { level: 1, spells: 4, },
+        spellsPerDay: [ { level: 1, spells: 4, },
         { level: 2, spells: 4, },
-        { level: 3, spells: 3, },
-        { level: 4, spells: 2, },
-        { level: 5, spells: 1, },
-        { level: 6, spells: 0, },
+        { level: 3, spells: 4, },
+        { level: 4, spells: 3, },
+        { level: 5, spells: 2, },
+        { level: 6, spells: 1, },
         { level: 7, spells: 0, },
-        { level: 8, spells: 0, }]
+        { level: 8, spells: 0, },
+        { level: 9, spells: 0, }]
       },
       {
         level: "12th",
@@ -1426,16 +1426,16 @@ var tables = {
         fortSave: "+8",
         reflexSave: "+4",
         willSave: "+8",
-        specials: ["<a href=\"#wild-shape\">Wild shape</a> (5/day)"],
-        spellsPerDay: [ { level: 0, spells: 4, },
-        { level: 1, spells: 4, },
+        specials: ["Wild shape (5/day)"],
+        spellsPerDay: [ { level: 1, spells: 4, },
         { level: 2, spells: 4, },
-        { level: 3, spells: 3, },
+        { level: 3, spells: 4, },
         { level: 4, spells: 3, },
-        { level: 5, spells: 2, },
-        { level: 6, spells: 0, },
+        { level: 5, spells: 3, },
+        { level: 6, spells: 2, },
         { level: 7, spells: 0, },
-        { level: 8, spells: 0, }]
+        { level: 8, spells: 0, },
+        { level: 9, spells: 0, }]
       },
       {
         level: "13th",
@@ -1443,16 +1443,16 @@ var tables = {
         fortSave: "+8",
         reflexSave: "+4",
         willSave: "+8",
-        specials: ["<a href=\"#a-thousand-faces\">A thousand faces</a>"],
-        spellsPerDay: [ { level: 0, spells: 4, },
-        { level: 1, spells: 4, },
+        specials: ["A thousand faces"],
+        spellsPerDay: [ { level: 1, spells: 4, },
         { level: 2, spells: 4, },
         { level: 3, spells: 4, },
-        { level: 4, spells: 3, },
-        { level: 5, spells: 2, },
-        { level: 6, spells: 1, },
-        { level: 7, spells: 0, },
-        { level: 8, spells: 0, }]
+        { level: 4, spells: 4, },
+        { level: 5, spells: 3, },
+        { level: 6, spells: 2, },
+        { level: 7, spells: 1, },
+        { level: 8, spells: 0, },
+        { level: 9, spells: 0, }]
       },
       {
         level: "14th",
@@ -1460,16 +1460,16 @@ var tables = {
         fortSave: "+9",
         reflexSave: "+4",
         willSave: "+9",
-        specials: ["<a href=\"#wild-shape\">Wild shape</a> (6/day)"],
-        spellsPerDay: [ { level: 0, spells: 4, },
-        { level: 1, spells: 4, },
+        specials: ["Wild shape (6/day)"],
+        spellsPerDay: [ { level: 1, spells: 4, },
         { level: 2, spells: 4, },
         { level: 3, spells: 4, },
-        { level: 4, spells: 3, },
+        { level: 4, spells: 4, },
         { level: 5, spells: 3, },
-        { level: 6, spells: 2, },
-        { level: 7, spells: 0, },
-        { level: 8, spells: 0, }]
+        { level: 6, spells: 3, },
+        { level: 7, spells: 2, },
+        { level: 8, spells: 0, },
+        { level: 9, spells: 0, }]
       },
       {
         level: "15th",
@@ -1477,16 +1477,16 @@ var tables = {
         fortSave: "+9",
         reflexSave: "+5",
         willSave: "+9",
-        specials: ["<a href=\"#timeless-body\">Timeless body</a>"],
-        spellsPerDay: [ { level: 0, spells: 4, },
-        { level: 1, spells: 4, },
+        specials: ["Timeless body"],
+        spellsPerDay: [ { level: 1, spells: 4, },
         { level: 2, spells: 4, },
         { level: 3, spells: 4, },
         { level: 4, spells: 4, },
-        { level: 5, spells: 3, },
-        { level: 6, spells: 2, },
-        { level: 7, spells: 1, },
-        { level: 8, spells: 0, }]
+        { level: 5, spells: 4, },
+        { level: 6, spells: 3, },
+        { level: 7, spells: 2, },
+        { level: 8, spells: 1, },
+        { level: 9, spells: 0, }]
       },
       {
         level: "16th",
@@ -1494,16 +1494,16 @@ var tables = {
         fortSave: "+10",
         reflexSave: "+5",
         willSave: "+10",
-        specials: ["<a href=\"#wild-shape\">Wild shape</a> (7/day)"],
-        spellsPerDay: [ { level: 0, spells: 4, },
-        { level: 1, spells: 4, },
+        specials: ["Wild shape (7/day)"],
+        spellsPerDay: [ { level: 1, spells: 4, },
         { level: 2, spells: 4, },
         { level: 3, spells: 4, },
         { level: 4, spells: 4, },
-        { level: 5, spells: 3, },
+        { level: 5, spells: 4, },
         { level: 6, spells: 3, },
-        { level: 7, spells: 2, },
-        { level: 8, spells: 0, }]
+        { level: 7, spells: 3, },
+        { level: 8, spells: 2, },
+        { level: 9, spells: 0, }]
       },
       {
         level: "17th",
@@ -1513,15 +1513,15 @@ var tables = {
         willSave: "+10",
         specials: [""],
         spellsPerDay: [
-          { level: 0, spells: 4, },
           { level: 1, spells: 4, },
           { level: 2, spells: 4, },
           { level: 3, spells: 4, },
           { level: 4, spells: 4, },
           { level: 5, spells: 4, },
-          { level: 6, spells: 3, },
-          { level: 7, spells: 2, },
-          { level: 8, spells: 1, }
+          { level: 6, spells: 4, },
+          { level: 7, spells: 3, },
+          { level: 8, spells: 2, },
+          { level: 9, spells: 1, }
         ]
       },
       {
@@ -1530,17 +1530,17 @@ var tables = {
         fortSave: "+11",
         reflexSave: "+6",
         willSave: "+11",
-        specials: ["<a href=\"#wild-shape\">Wild shape</a> (8/day)"],
+        specials: ["Wild shape (8/day)"],
         spellsPerDay: [
-          { level: 0, spells: 4, },
           { level: 1, spells: 4, },
           { level: 2, spells: 4, },
           { level: 3, spells: 4, },
           { level: 4, spells: 4, },
           { level: 5, spells: 4, },
-          { level: 6, spells: 3, },
+          { level: 6, spells: 4, },
           { level: 7, spells: 3, },
-          { level: 8, spells: 2, }
+          { level: 8, spells: 3, },
+          { level: 9, spells: 2, }
         ]
       },
       {
@@ -1551,15 +1551,15 @@ var tables = {
         willSave: "+11",
         specials: [""],
         spellsPerDay: [
-          { level: 0, spells: 4, },
           { level: 1, spells: 4, },
           { level: 2, spells: 4, },
           { level: 3, spells: 4, },
           { level: 4, spells: 4, },
           { level: 5, spells: 4, },
           { level: 6, spells: 4, },
-          { level: 7, spells: 3, },
-          { level: 8, spells: 3, }
+          { level: 7, spells: 4, },
+          { level: 8, spells: 3, },
+          { level: 9, spells: 3, }
         ]
       },
       {
@@ -1568,9 +1568,8 @@ var tables = {
         fortSave: "+12",
         reflexSave: "+6",
         willSave: "+12",
-        specials: ["<a href=\"#wild-shape\">Wild shape</a> (at will)"],
+        specials: ["Wild shape (at will)"],
         spellsPerDay: [
-          { level: 0, spells: 4, },
           { level: 1, spells: 4, },
           { level: 2, spells: 4, },
           { level: 3, spells: 4, },
@@ -1578,7 +1577,8 @@ var tables = {
           { level: 5, spells: 4, },
           { level: 6, spells: 4, },
           { level: 7, spells: 4, },
-          { level: 8, spells: 4, }
+          { level: 8, spells: 4, },
+          { level: 9, spells: 4, }
         ]
       },
     ],
@@ -1589,7 +1589,7 @@ var tables = {
         fortSave: "+2",
         reflexSave: "+0",
         willSave: "+0",
-        specials: ["<a href=\"#bonus-feats-fighter\">Bonus feat</a>"]
+        specials: ["Bonus feat"]
       },
       {
         level: "2nd",
@@ -1597,7 +1597,7 @@ var tables = {
         fortSave: "+3",
         reflexSave: "+0",
         willSave: "+0",
-        specials: ["<a href=\"#bonus-feats-fighter\">Bonus feat</a>, <a href=\"#bravery\">bravery</a> +1"]
+        specials: ["Bonus feat, bravery +1"]
       },
       {
         level: "3rd",
@@ -1605,7 +1605,7 @@ var tables = {
         fortSave: "+3",
         reflexSave: "+1",
         willSave: "+1",
-        specials: ["<a href=\"#armor-training\">Armor training</a> 1"]
+        specials: ["Armor training 1"]
       },
       {
         level: "4th",
@@ -1613,7 +1613,7 @@ var tables = {
         fortSave: "+4",
         reflexSave: "+1",
         willSave: "+1",
-        specials: ["<a href=\"#bonus-feats-fighter\">Bonus feat</a>"]
+        specials: ["Bonus feat"]
       },
       {
         level: "5th",
@@ -1621,7 +1621,7 @@ var tables = {
         fortSave: "+4",
         reflexSave: "+1",
         willSave: "+1",
-        specials: ["<a href=\"#weapon-training\">Weapon training</a> 1"]
+        specials: ["Weapon training 1"]
       },
       {
         level: "6th",
@@ -1629,7 +1629,7 @@ var tables = {
         fortSave: "+5",
         reflexSave: "+2",
         willSave: "+2",
-        specials: ["<a href=\"#bonus-feats-fighter\">Bonus feat</a>, <a href=\"#bravery\">bravery</a> +2"]
+        specials: ["Bonus feat, bravery +2"]
       },
       {
         level: "7th",
@@ -1637,7 +1637,7 @@ var tables = {
         fortSave: "+5",
         reflexSave: "+2",
         willSave: "+2",
-        specials: ["<a href=\"#armor-training\">Armor training</a> 2"]
+        specials: ["Armor training 2"]
       },
       {
         level: "8th",
@@ -1645,7 +1645,7 @@ var tables = {
         fortSave: "+6",
         reflexSave: "+2",
         willSave: "+2",
-        specials: ["<a href=\"#bonus-feats-fighter\">Bonus feat</a>"]
+        specials: ["Bonus feat"]
       },
       {
         level: "9th",
@@ -1653,7 +1653,7 @@ var tables = {
         fortSave: "+6",
         reflexSave: "+3",
         willSave: "+3",
-        specials: ["<a href=\"#weapon-training\">Weapon training</a> 2"]
+        specials: ["Weapon training 2"]
       },
       {
         level: "10th",
@@ -1661,7 +1661,7 @@ var tables = {
         fortSave: "+7",
         reflexSave: "+3",
         willSave: "+3",
-        specials: ["<a href=\"#bonus-feats-fighter\">Bonus feat</a>, <a href=\"#bravery\">bravery</a> +3"]
+        specials: ["Bonus feat, bravery +3"]
       },
       {
         level: "11th",
@@ -1669,7 +1669,7 @@ var tables = {
         fortSave: "+7",
         reflexSave: "+3",
         willSave: "+3",
-        specials: ["<a href=\"#armor-training\">Armor training</a> 3"]
+        specials: ["Armor training 3"]
       },
       {
         level: "12th",
@@ -1677,7 +1677,7 @@ var tables = {
         fortSave: "+8",
         reflexSave: "+4",
         willSave: "+4",
-        specials: ["<a href=\"#bonus-feats-fighter\">Bonus feat</a>"]
+        specials: ["Bonus feat"]
       },
       {
         level: "13th",
@@ -1685,7 +1685,7 @@ var tables = {
         fortSave: "+8",
         reflexSave: "+4",
         willSave: "+4",
-        specials: ["<a href=\"#weapon-training\">Weapon training</a> 3"]
+        specials: ["Weapon training 3"]
       },
       {
         level: "14th",
@@ -1693,7 +1693,7 @@ var tables = {
         fortSave: "+9",
         reflexSave: "+4",
         willSave: "+4",
-        specials: ["<a href=\"#bonus-feats-fighter\">Bonus feat</a>, <a href=\"#bravery\">bravery</a> +4"]
+        specials: ["Bonus feat, bravery +4"]
       },
       {
         level: "15th",
@@ -1701,7 +1701,7 @@ var tables = {
         fortSave: "+9",
         reflexSave: "+5",
         willSave: "+5",
-        specials: ["<a href=\"#armor-training\">Armor training</a> 4"]
+        specials: ["Armor training 4"]
       },
       {
         level: "16th",
@@ -1709,7 +1709,7 @@ var tables = {
         fortSave: "+10",
         reflexSave: "+5",
         willSave: "+5",
-        specials: ["<a href=\"#bonus-feats-fighter\">Bonus feat</a>"]
+        specials: ["Bonus feat"]
       },
       {
         level: "17th",
@@ -1717,7 +1717,7 @@ var tables = {
         fortSave: "+10",
         reflexSave: "+5",
         willSave: "+5",
-        specials: ["<a href=\"#weapon-training\">Weapon training</a> 4"]
+        specials: ["Weapon training 4"]
       },
       {
         level: "18th",
@@ -1725,7 +1725,7 @@ var tables = {
         fortSave: "+11",
         reflexSave: "+6",
         willSave: "+6",
-        specials: ["<a href=\"#bonus-feats-fighter\">Bonus feat</a>, <a href=\"#bravery\">bravery</a> +5"]
+        specials: ["Bonus feat, bravery +5"]
       },
       {
         level: "19th",
@@ -1733,7 +1733,7 @@ var tables = {
         fortSave: "+11",
         reflexSave: "+6",
         willSave: "+6",
-        specials: ["<a href=\"#armor-mastery\">Armor mastery</a>"]
+        specials: ["Armor mastery"]
       },
       {
         level: "20th",
@@ -1741,7 +1741,7 @@ var tables = {
         fortSave: "+12",
         reflexSave: "+6",
         willSave: "+6",
-        specials: ["<a href=\"#bonus-feats-fighter\">Bonus feat</a>, <a href=\"#weapon-mastery\">weapon mastery</a>"]
+        specials: ["Bonus feat, weapon mastery"]
       }
     ],
     monk: [
@@ -1751,11 +1751,11 @@ var tables = {
         fortSave: "+2",
         reflexSave: "+2",
         willSave: "+2",
-        special: ["<a href=\"#bonus-feat-monk\">Bonus feat</a>, <a href=\"#flurry-of-blows\">flurry of blows</a>, <a href=\"#stunning-fist\">stunning fist</a>, <a href=\"#unarmed-strike\">unarmed strike</a>"],
-        "Flurry of Blows Attack Bonus": "–1/<wbr>–1",
-        "Unarmed Damage": "1d6",
-        "AC Bonus": "+0",
-        "Fast Movement": "+0 ft."
+        specials: ["Bonus feat, flurry of blows, stunning fist, unarmed strike"],
+        flurryOfBlowsAttackBonus: "-1/-1",
+        unarmedDamage: "1d6",
+        armorClassBonus: "+0",
+        fastMovement: "+0 ft."
       },
       {
         level: "2nd",
@@ -1763,11 +1763,11 @@ var tables = {
         fortSave: "+3",
         reflexSave: "+3",
         willSave: "+3",
-        special: ["<a href=\"#bonus-feat-monk\">Bonus feat</a>, <a href=\"#evasion-monk\">evasion</a>"],
-        "Flurry of Blows Attack Bonus": "+0/<wbr>+0",
-        "Unarmed Damage": "1d6",
-        "AC Bonus": "+0",
-        "Fast Movement": "+0 ft."
+        specials: ["Bonus feat, evasion"],
+        flurryOfBlowsAttackBonus: "+0/+0",
+        unarmedDamage: "1d6",
+        armorClassBonus: "+0",
+        fastMovement: "+0 ft."
       },
       {
         level: "3rd",
@@ -1775,11 +1775,11 @@ var tables = {
         fortSave: "+3",
         reflexSave: "+3",
         willSave: "+3",
-        special: ["<a href=\"#fast-movement-monk\">Fast movement</a>, <a href=\"#maneuver-training\">maneuver training</a>, <a href=\"#still-mind\">still mind</a>"],
-        "Flurry of Blows Attack Bonus": "+1/<wbr>+1",
-        "Unarmed Damage": "1d6",
-        "AC Bonus": "+0",
-        "Fast Movement": "+10 ft."
+        specials: ["Fast movement, maneuver training, still mind"],
+        flurryOfBlowsAttackBonus: "+1/+1",
+        unarmedDamage: "1d6",
+        armorClassBonus: "+0",
+        fastMovement: "+10 ft."
       },
       {
         level: "4th",
@@ -1787,11 +1787,11 @@ var tables = {
         fortSave: "+4",
         reflexSave: "+4",
         willSave: "+4",
-        special: ["<i><a href=\"#ki-pool\">Ki</a></i><a href=\"#ki-pool\"> pool</a> (magic), <a href=\"#slow-fall\">slow fall</a> 20 ft."],
-        "Flurry of Blows Attack Bonus": "+2/<wbr>+2",
-        "Unarmed Damage": "1d8",
-        "AC Bonus": "+1",
-        "Fast Movement": "+10 ft."
+        specials: ["Ki pool (magic), slow fall 20 ft."],
+        flurryOfBlowsAttackBonus: "+2/+2",
+        unarmedDamage: "1d8",
+        armorClassBonus: "+1",
+        fastMovement: "+10 ft."
       },
       {
         level: "5th",
@@ -1799,11 +1799,11 @@ var tables = {
         fortSave: "+4",
         reflexSave: "+4",
         willSave: "+4",
-        special: ["<a href=\"#high-jump\">High jump</a>, <a href=\"#purity-of-body\">purity of body</a>"],
-        "Flurry of Blows Attack Bonus": "+3/<wbr>+3",
-        "Unarmed Damage": "1d8",
-        "AC Bonus": "+1",
-        "Fast Movement": "+10 ft."
+        specials: ["High jump, purity of body"],
+        flurryOfBlowsAttackBonus: "+3/+3",
+        unarmedDamage: "1d8",
+        armorClassBonus: "+1",
+        fastMovement: "+10 ft."
       },
       {
         level: "6th",
@@ -1811,11 +1811,11 @@ var tables = {
         fortSave: "+5",
         reflexSave: "+5",
         willSave: "+5",
-        special: ["<a href=\"#bonus-feat-monk\">Bonus feat</a>, <a href=\"#slow-fall\">slow fall</a> 30 ft."],
-        "Flurry of Blows Attack Bonus": "+4/<wbr>+4/<wbr>–1",
-        "Unarmed Damage": "1d8",
-        "AC Bonus": "+1",
-        "Fast Movement": "+20 ft."
+        specials: ["Bonus feat, slow fall 30 ft."],
+        flurryOfBlowsAttackBonus: "+4/+4/-1",
+        unarmedDamage: "1d8",
+        armorClassBonus: "+1",
+        fastMovement: "+20 ft."
       },
       {
         level: "7th",
@@ -1823,11 +1823,11 @@ var tables = {
         fortSave: "+5",
         reflexSave: "+5",
         willSave: "+5",
-        special: ["Ki pool (cold iron/silver), <a href=\"#wholeness-of-body\">wholeness of body</a>"],
-        "Flurry of Blows Attack Bonus": "+5/+5/+0",
-        "Unarmed Damage": "1d8",
-        "AC Bonus": "+1",
-        "Fast Movement": "+20 ft."
+        specials: ["Ki pool (cold iron/silver), wholeness of body"],
+        flurryOfBlowsAttackBonus: "+5/+5/+0",
+        unarmedDamage: "1d8",
+        armorClassBonus: "+1",
+        fastMovement: "+20 ft."
       },
       {
         level: "8th",
@@ -1835,11 +1835,11 @@ var tables = {
         fortSave: "+6",
         reflexSave: "+6",
         willSave: "+6",
-        special: ["<a href=\"#slow-fall\">Slow fall</a> 40 ft."],
-        "Flurry of Blows Attack Bonus": "+6/<wbr>+6/<wbr>+1/<wbr>+1",
-        "Unarmed Damage": "1d10",
-        "AC Bonus": "+2",
-        "Fast Movement": "+20 ft."
+        specials: ["Slow fall 40 ft."],
+        flurryOfBlowsAttackBonus: "+6/+6/+1/+1",
+        unarmedDamage: "1d10",
+        armorClassBonus: "+2",
+        fastMovement: "+20 ft."
       },
       {
         level: "9th",
@@ -1847,11 +1847,11 @@ var tables = {
         fortSave: "+6",
         reflexSave: "+6",
         willSave: "+6",
-        special: ["<a href=\"#improved-evasion-monk\">Improved evasion</a>"],
-        "Flurry of Blows Attack Bonus": "+7/<wbr>+7/<wbr>+2/<wbr>+2",
-        "Unarmed Damage": "1d10",
-        "AC Bonus": "+2",
-        "Fast Movement": "+30 ft."
+        specials: ["Improved evasion"],
+        flurryOfBlowsAttackBonus: "+7/+7/+2/+2",
+        unarmedDamage: "1d10",
+        armorClassBonus: "+2",
+        fastMovement: "+30 ft."
       },
       {
         level: "10th",
@@ -1859,11 +1859,11 @@ var tables = {
         fortSave: "+7",
         reflexSave: "+7",
         willSave: "+7",
-        special: ["<a href=\"#bonus-feat-monk\">Bonus feat</a>, <i><a href=\"#ki-pool\">ki</a></i><a href=\"#ki-pool\"> pool</a> (lawful), <a href=\"#slow-fall\">slow fall</a> 50 ft."],
-        "Flurry of Blows Attack Bonus": "+8/<wbr>+8/<wbr>+3/<wbr>+3",
-        "Unarmed Damage": "1d10",
-        "AC Bonus": "+2",
-        "Fast Movement": "+30 ft."
+        specials: ["Bonus feat, Ki pool (lawful), slow fall 50 ft."],
+        flurryOfBlowsAttackBonus: "+8/+8/+3/+3",
+        unarmedDamage: "1d10",
+        armorClassBonus: "+2",
+        fastMovement: "+30 ft."
       },
       {
         level: "11th",
@@ -1871,11 +1871,11 @@ var tables = {
         fortSave: "+7",
         reflexSave: "+7",
         willSave: "+7",
-        special: ["<a href=\"#diamond-body\">Diamond body</a>"],
-        "Flurry of Blows Attack Bonus": "+9/+9/+4/+4/–1",
-        "Unarmed Damage": "1d10",
-        "AC Bonus": "+2",
-        "Fast Movement": "+30 ft."
+        specials: ["Diamond body"],
+        flurryOfBlowsAttackBonus: "+9/+9/+4/+4/-1",
+        unarmedDamage: "1d10",
+        armorClassBonus: "+2",
+        fastMovement: "+30 ft."
       },
       {
         level: "12th",
@@ -1883,11 +1883,11 @@ var tables = {
         fortSave: "+8",
         reflexSave: "+8",
         willSave: "+8",
-        special: ["<a href=\"#abundant-step\">Abundant step</a>, <a href=\"#slow-fall\">slow fall</a> 60 ft."],
-        "Flurry of Blows Attack Bonus": "+10/<wbr>+10/<wbr>+5/<wbr>+5/<wbr>+0",
-        "Unarmed Damage": "2d6",
-        "AC Bonus": "+3",
-        "Fast Movement": "+40 ft."
+        specials: ["Abundant step, slow fall 60 ft."],
+        flurryOfBlowsAttackBonus: "+10/+10/+5/+5/+0",
+        unarmedDamage: "2d6",
+        armorClassBonus: "+3",
+        fastMovement: "+40 ft."
       },
       {
         level: "13th",
@@ -1895,11 +1895,11 @@ var tables = {
         fortSave: "+8",
         reflexSave: "+8",
         willSave: "+8",
-        special: ["<a href=\"#diamond-soul\">Diamond soul</a>"],
-        "Flurry of Blows Attack Bonus": "+11/<wbr>+11/<wbr>+6/<wbr>+6/<wbr>+1",
-        "Unarmed Damage": "2d6",
-        "AC Bonus": "+3",
-        "Fast Movement": "+40 ft."
+        specials: ["Diamond soul"],
+        flurryOfBlowsAttackBonus: "+11/+11/+6/+6/+1",
+        unarmedDamage: "2d6",
+        armorClassBonus: "+3",
+        fastMovement: "+40 ft."
       },
       {
         level: "14th",
@@ -1907,11 +1907,11 @@ var tables = {
         fortSave: "+9",
         reflexSave: "+9",
         willSave: "+9",
-        special: ["<a href=\"#bonus-feat-monk\">Bonus feat</a>, <a href=\"#slow-fall\">slow fall</a> 70 ft."],
-        "Flurry of Blows Attack Bonus": "+12/<wbr>+12/<wbr>+7/<wbr>+7/<wbr>+2",
-        "Unarmed Damage": "2d6",
-        "AC Bonus": "+3",
-        "Fast Movement": "+40 ft."
+        specials: ["Bonus feat, slow fall 70 ft."],
+        flurryOfBlowsAttackBonus: "+12/+12/+7/+7/+2",
+        unarmedDamage: "2d6",
+        armorClassBonus: "+3",
+        fastMovement: "+40 ft."
       },
       {
         level: "15th",
@@ -1919,11 +1919,11 @@ var tables = {
         fortSave: "+9",
         reflexSave: "+9",
         willSave: "+9",
-        special: ["<a href=\"#quivering-palm\">Quivering palm</a>"],
-        "Flurry of Blows Attack Bonus": "+13/<wbr>+13/<wbr>+8/<wbr>+8/<wbr>+3/<wbr>+3",
-        "Unarmed Damage": "2d6",
-        "AC Bonus": "+3",
-        "Fast Movement": "+50 ft."
+        specials: ["Quivering palm"],
+        flurryOfBlowsAttackBonus: "+13/+13/+8/+8/+3/+3",
+        unarmedDamage: "2d6",
+        armorClassBonus: "+3",
+        fastMovement: "+50 ft."
       },
       {
         level: "16th",
@@ -1931,11 +1931,11 @@ var tables = {
         fortSave: "+10",
         reflexSave: "+10",
         willSave: "+10",
-        special: ["<i><a href=\"#ki-pool\">Ki</a></i><a href=\"#ki-pool\"> pool</a> (adamantine), <a href=\"#slow-fall\">slow fall</a> 80 ft."],
-        "Flurry of Blows Attack Bonus": "+14/<wbr>+14/<wbr>+9/<wbr>+9/<wbr>+4/<wbr>+4/<wbr>–1",
-        "Unarmed Damage": "2d8",
-        "AC Bonus": "+4",
-        "Fast Movement": "+50 ft."
+        specials: ["Ki pool (adamantine), slow fall 80 ft."],
+        flurryOfBlowsAttackBonus: "+14/+14/+9/+9/+4/+4/-1",
+        unarmedDamage: "2d8",
+        armorClassBonus: "+4",
+        fastMovement: "+50 ft."
       },
       {
         level: "17th",
@@ -1943,11 +1943,11 @@ var tables = {
         fortSave: "+10",
         reflexSave: "+10",
         willSave: "+10",
-        special: ["<a href=\"#timeless-body-monk\">Timeless body</a>, <a href=\"#tongue-of-the-sun-and-moon\">tongue of the sun and moon</a>"],
-        "Flurry of Blows Attack Bonus": "+15/<wbr>+15/<wbr>+10/<wbr>+10/<wbr>+5/<wbr>+5/<wbr>+0",
-        "Unarmed Damage": "2d8",
-        "AC Bonus": "+4",
-        "Fast Movement": "+50 ft."
+        specials: ["Timeless body, tongue of the sun and moon"],
+        flurryOfBlowsAttackBonus: "+15/+15/+10/+10/+5/+5/+0",
+        unarmedDamage: "2d8",
+        armorClassBonus: "+4",
+        fastMovement: "+50 ft."
       },
       {
         level: "18th",
@@ -1955,11 +1955,11 @@ var tables = {
         fortSave: "+11",
         reflexSave: "+11",
         willSave: "+11",
-        special: ["<a href=\"#bonus-feat-monk\">Bonus feat</a>, <a href=\"#slow-fall\">slow fall</a> 90 ft."],
-        "Flurry of Blows Attack Bonus": "+16/<wbr>+16/<wbr>+11/<wbr>+11/<wbr>+6/<wbr>+6/<wbr>+1",
-        "Unarmed Damage": "2d8",
-        "AC Bonus": "+4",
-        "Fast Movement": "+60 ft."
+        specials: ["Bonus feat, slow fall 90 ft."],
+        flurryOfBlowsAttackBonus: "+16/+16/+11/+11/+6/+6/+1",
+        unarmedDamage: "2d8",
+        armorClassBonus: "+4",
+        fastMovement: "+60 ft."
       },
       {
         level: "19th",
@@ -1967,11 +1967,11 @@ var tables = {
         fortSave: "+11",
         reflexSave: "+11",
         willSave: "+11",
-        special: ["<a href=\"#empty-body\">Empty body</a>"],
-        "Flurry of Blows Attack Bonus": "+17/<wbr>+17/<wbr>+12/<wbr>+12/<wbr>+7/<wbr>+7/<wbr>+2",
-        "Unarmed Damage": "2d8",
-        "AC Bonus": "+4",
-        "Fast Movement": "+60 ft."
+        specials: ["Empty body"],
+        flurryOfBlowsAttackBonus: "+17/+17/+12/+12/+7/+7/+2",
+        unarmedDamage: "2d8",
+        armorClassBonus: "+4",
+        fastMovement: "+60 ft."
       },
       {
         level: "20th",
@@ -1979,11 +1979,11 @@ var tables = {
         fortSave: "+12",
         reflexSave: "+12",
         willSave: "+12",
-        special: ["<a href=\"#perfect-self\">Perfect self</a>, <a href=\"#slow-fall\">slow fall any distance</a>"],
-        "Flurry of Blows Attack Bonus": "+18/<wbr>+18/<wbr>+13/<wbr>+13/<wbr>+8/<wbr>+8/<wbr>+3",
-        "Unarmed Damage": "2d10",
-        "AC Bonus": "+5",
-        "Fast Movement": "+60 ft."
+        specials: ["Perfect self, slow fall any distance"],
+        flurryOfBlowsAttackBonus: "+18/+18/+13/+13/+8/+8/+3",
+        unarmedDamage: "2d10",
+        armorClassBonus: "+5",
+        fastMovement: "+60 ft."
       }
     ],
     paladin: [
@@ -1993,12 +1993,12 @@ var tables = {
         fortSave: "+2",
         reflexSave: "+0",
         willSave: "+2",
-        specials: ["<a href=\"#aura-of-good\">Aura of good</a><i>, </i><a href=\"#detect-evil\">detect evil</a>, <a href=\"#smite-evil\">smite evil</a> 1/day"],
+        specials: ["Aura of good, detect evil, smite evil 1/day"],
         spellsPerDay: [
-          { level: 0, spells: 0, },
           { level: 1, spells: 0, },
           { level: 2, spells: 0, },
-          { level: 3, spells: 0, }
+          { level: 3, spells: 0, },
+          { level: 4, spells: 0, }
         ]
       },
       {
@@ -2007,12 +2007,12 @@ var tables = {
         fortSave: "+3",
         reflexSave: "+0",
         willSave: "+3",
-        specials: ["<a href=\"#divine-grace\">Divine grace</a>, <a href=\"#lay-on-hands\">lay on hands</a>"],
+        specials: ["Divine grace, lay on hands"],
         spellsPerDay: [
-          { level: 0, spells: 0, },
           { level: 1, spells: 0, },
           { level: 2, spells: 0, },
-          { level: 3, spells: 0, }
+          { level: 3, spells: 0, },
+          { level: 4, spells: 0, }
         ]
       },
       {
@@ -2021,12 +2021,12 @@ var tables = {
         fortSave: "+3",
         reflexSave: "+1",
         willSave: "+3",
-        specials: ["<a href=\"#aura-of-courage\">Aura of courage</a>, <a href=\"#divine-health\">divine health</a>, <a href=\"#mercy\">mercy</a>"],
+        specials: ["aura-of-couAura of courage, divine health, mercy"],
         spellsPerDay: [
-          { level: 0, spells: 0, },
           { level: 1, spells: 0, },
           { level: 2, spells: 0, },
-          { level: 3, spells: 0, }
+          { level: 3, spells: 0, },
+          { level: 4, spells: 0, }
         ]
       },
       {
@@ -2035,12 +2035,12 @@ var tables = {
         fortSave: "+4",
         reflexSave: "+1",
         willSave: "+4",
-        specials: ["<a href=\"#channel-positive-energy-paladin\">Channel positive energy</a>, <a href=\"#smite-evil\">smite evil</a> 2/day"],
+        specials: ["Channel positive energy, smite evil 2/day"],
         spellsPerDay: [
-          { level: 0, spells: 0, },
           { level: 1, spells: 0, },
           { level: 2, spells: 0, },
-          { level: 3, spells: 0, }
+          { level: 3, spells: 0, },
+          { level: 4, spells: 0, }
         ]
       },
       {
@@ -2049,12 +2049,12 @@ var tables = {
         fortSave: "+4",
         reflexSave: "+1",
         willSave: "+4",
-        specials: ["<a href=\"#divine-bond\">Divine bond</a>"],
+        specials: ["Divine bond"],
         spellsPerDay: [
-          { level: 0, spells: 1, },
-          { level: 1, spells: 0, },
+          { level: 1, spells: 1, },
           { level: 2, spells: 0, },
-          { level: 3, spells: 0, }
+          { level: 3, spells: 0, },
+          { level: 4, spells: 0, }
         ]
       },
       {
@@ -2063,12 +2063,12 @@ var tables = {
         fortSave: "+5",
         reflexSave: "+2",
         willSave: "+5",
-        specials: ["<a href=\"#mercy\">Mercy</a>"],
+        specials: ["Mercy"],
         spellsPerDay: [
-          { level: 0, spells: 1, },
-          { level: 1, spells: 0, },
+          { level: 1, spells: 1, },
           { level: 2, spells: 0, },
-          { level: 3, spells: 0, }
+          { level: 3, spells: 0, },
+          { level: 4, spells: 0, }
         ]
       },
       {
@@ -2077,12 +2077,12 @@ var tables = {
         fortSave: "+5",
         reflexSave: "+2",
         willSave: "+5",
-        specials: ["<a href=\"#smite-evil\">Smite evil</a> 3/day"],
+        specials: ["Smite evil 3/day"],
         spellsPerDay: [
-          { level: 0, spells: 1, },
-          { level: 1, spells: 0, },
+          { level: 1, spells: 1, },
           { level: 2, spells: 0, },
-          { level: 3, spells: 0, }
+          { level: 3, spells: 0, },
+          { level: 4, spells: 0, }
         ]
       },
       {
@@ -2091,12 +2091,12 @@ var tables = {
         fortSave: "+6",
         reflexSave: "+2",
         willSave: "+6",
-        specials: ["<a href=\"#aura-of-resolve\">Aura of resolve</a>"],
+        specials: ["Aura of resolve"],
         spellsPerDay: [
-          { level: 0, spells: 1, },
           { level: 1, spells: 1, },
-          { level: 2, spells: 0, },
-          { level: 3, spells: 0, }
+          { level: 2, spells: 1, },
+          { level: 3, spells: 0, },
+          { level: 4, spells: 0, }
         ]
       },
       {
@@ -2105,12 +2105,12 @@ var tables = {
         fortSave: "+6",
         reflexSave: "+3",
         willSave: "+6",
-        specials: ["<a href=\"#mercy\">Mercy</a>"],
+        specials: ["Mercy"],
         spellsPerDay: [
-          { level: 0, spells: 2, },
-          { level: 1, spells: 1, },
-          { level: 2, spells: 0, },
-          { level: 3, spells: 0, }
+          { level: 1, spells: 2, },
+          { level: 2, spells: 1, },
+          { level: 3, spells: 0, },
+          { level: 4, spells: 0, }
         ]
       },
       {
@@ -2119,12 +2119,12 @@ var tables = {
         fortSave: "+7",
         reflexSave: "+3",
         willSave: "+7",
-        specials: ["<a href=\"#smite-evil\">Smite evil</a> 4/day"],
+        specials: ["Smite evil 4/day"],
         spellsPerDay: [
-          { level: 0, spells: 2, },
-          { level: 1, spells: 1, },
-          { level: 2, spells: 0, },
-          { level: 3, spells: 0, }
+          { level: 1, spells: 2, },
+          { level: 2, spells: 1, },
+          { level: 3, spells: 0, },
+          { level: 4, spells: 0, }
         ]
       },
       {
@@ -2133,12 +2133,12 @@ var tables = {
         fortSave: "+7",
         reflexSave: "+3",
         willSave: "+7",
-        specials: ["<a href=\"#aura-of-justice\">Aura of justice</a>"],
+        specials: ["Aura of justice"],
         spellsPerDay: [
-          { level: 0, spells: 2, },
-          { level: 1, spells: 1, },
+          { level: 1, spells: 2, },
           { level: 2, spells: 1, },
-          { level: 3, spells: 0, }
+          { level: 3, spells: 1, },
+          { level: 4, spells: 0, }
         ]
       },
       {
@@ -2147,12 +2147,12 @@ var tables = {
         fortSave: "+8",
         reflexSave: "+4",
         willSave: "+8",
-        specials: ["<a href=\"#mercy\">Mercy</a>"],
+        specials: ["Mercy"],
         spellsPerDay: [
-          { level: 0, spells: 2, },
           { level: 1, spells: 2, },
-          { level: 2, spells: 1, },
-          { level: 3, spells: 0, }
+          { level: 2, spells: 2, },
+          { level: 3, spells: 1, },
+          { level: 4, spells: 0, }
         ]
       },
       {
@@ -2161,12 +2161,12 @@ var tables = {
         fortSave: "+8",
         reflexSave: "+4",
         willSave: "+8",
-        specials: ["<a href=\"#smite-evil\">Smite evil</a> 5/day"],
+        specials: ["Smite evil 5/day"],
         spellsPerDay: [
-          { level: 0, spells: 3, },
-          { level: 1, spells: 2, },
-          { level: 2, spells: 1, },
-          { level: 3, spells: 0, }
+          { level: 1, spells: 3, },
+          { level: 2, spells: 2, },
+          { level: 3, spells: 1, },
+          { level: 4, spells: 0, }
         ]
       },
       {
@@ -2175,12 +2175,12 @@ var tables = {
         fortSave: "+9",
         reflexSave: "+4",
         willSave: "+9",
-        specials: ["<a href=\"#aura-of-faith-21\">Aura of faith</a>"],
+        specials: ["aura-of-faith-21\">Aura of faith"],
         spellsPerDay: [
-          { level: 0, spells: 3, },
-          { level: 1, spells: 2, },
-          { level: 2, spells: 1, },
-          { level: 3, spells: 1, }
+          { level: 1, spells: 3, },
+          { level: 2, spells: 2, },
+          { level: 3, spells: 1, },
+          { level: 4, spells: 1, }
         ]
       },
       {
@@ -2189,12 +2189,12 @@ var tables = {
         fortSave: "+9",
         reflexSave: "+5",
         willSave: "+9",
-        specials: ["<a href=\"#mercy\">Mercy</a>"],
+        specials: ["Mercy"],
         spellsPerDay: [
-          { level: 0, spells: 3, },
-          { level: 1, spells: 2, },
+          { level: 1, spells: 3, },
           { level: 2, spells: 2, },
-          { level: 3, spells: 1, }
+          { level: 3, spells: 2, },
+          { level: 4, spells: 1, }
         ]
       },
       {
@@ -2203,12 +2203,12 @@ var tables = {
         fortSave: "+10",
         reflexSave: "+5",
         willSave: "+10",
-        specials: ["<a href=\"#smite-evil\">Smite evil</a> 6/day"],
+        specials: ["Smite evil 6/day"],
         spellsPerDay: [
-          { level: 0, spells: 3, },
           { level: 1, spells: 3, },
-          { level: 2, spells: 2, },
-          { level: 3, spells: 1, }
+          { level: 2, spells: 3, },
+          { level: 3, spells: 2, },
+          { level: 4, spells: 1, }
         ]
       },
       {
@@ -2217,12 +2217,12 @@ var tables = {
         fortSave: "+10",
         reflexSave: "+5",
         willSave: "+10",
-        specials: ["<a href=\"#aura-of-righteousness\">Aura of righteousness</a>"],
+        specials: ["Aura of righteousness"],
         spellsPerDay: [
-          { level: 0, spells: 4, },
-          { level: 1, spells: 3, },
-          { level: 2, spells: 2, },
-          { level: 3, spells: 1, }
+          { level: 1, spells: 4, },
+          { level: 2, spells: 3, },
+          { level: 3, spells: 2, },
+          { level: 4, spells: 1, }
         ]
       },
       {
@@ -2231,12 +2231,12 @@ var tables = {
         fortSave: "+11",
         reflexSave: "+6",
         willSave: "+11",
-        specials: ["<a href=\"#mercy\">Mercy</a>"],
+        specials: ["Mercy"],
         spellsPerDay: [
-          { level: 0, spells: 4, },
-          { level: 1, spells: 3, },
-          { level: 2, spells: 2, },
-          { level: 3, spells: 2, }
+          { level: 1, spells: 4, },
+          { level: 2, spells: 3, },
+          { level: 3, spells: 2, },
+          { level: 4, spells: 2, }
         ]
       },
       {
@@ -2245,12 +2245,12 @@ var tables = {
         fortSave: "+11",
         reflexSave: "+6",
         willSave: "+11",
-        specials: ["<a href=\"#smite-evil\">Smite evil</a> 7/day"],
+        specials: ["Smite evil 7/day"],
         spellsPerDay: [
-          { level: 0, spells: 4, },
-          { level: 1, spells: 3, },
+          { level: 1, spells: 4, },
           { level: 2, spells: 3, },
-          { level: 3, spells: 2, }
+          { level: 3, spells: 3, },
+          { level: 4, spells: 2, }
         ]
       },
       {
@@ -2259,12 +2259,12 @@ var tables = {
         fortSave: "+12",
         reflexSave: "+6",
         willSave: "+12",
-        specials: ["<a href=\"#holy-champion\">Holy champion</a>"],
+        specials: ["Holy champion"],
         spellsPerDay: [
-          { level: 0, spells: 4, },
           { level: 1, spells: 4, },
-          { level: 2, spells: 3, },
+          { level: 2, spells: 4, },
           { level: 3, spells: 3, },
+          { level: 4, spells: 3, },
         ]
       }
     ],
@@ -2277,10 +2277,10 @@ var tables = {
         willSave: 0,
         specials: [ "1st Favored Enemy", "Track", "Wild Empathy" ],
         spellsPerDay: [
-          { level: 1, spells: 0, },
           { level: 2, spells: 0, },
           { level: 3, spells: 0, },
           { level: 4, spells: 0, },
+          { level: 5, spells: 0, },
         ],
       },
       {
@@ -2291,10 +2291,10 @@ var tables = {
         willSave: 0,
         specials: [ "Combat style feat", ],
         spellsPerDay: [
-          { level: 1, spells: 0, },
           { level: 2, spells: 0, },
           { level: 3, spells: 0, },
           { level: 4, spells: 0, },
+          { level: 5, spells: 0, },
         ],
       },
       {
@@ -2305,10 +2305,10 @@ var tables = {
         willSave: 1,
         specials: [ "Endurance", "1st favored terrain", ],
         spellsPerDay: [
-          { level: 1, spells: 0, },
           { level: 2, spells: 0, },
           { level: 3, spells: 0, },
           { level: 4, spells: 0, },
+          { level: 5, spells: 0, },
         ],
       },
       {
@@ -2319,10 +2319,10 @@ var tables = {
         willSave: 1,
         specials: [ "Hunter's bond", ],
         spellsPerDay: [
-          { level: 1, spells: 0, },
           { level: 2, spells: 0, },
           { level: 3, spells: 0, },
           { level: 4, spells: 0, },
+          { level: 5, spells: 0, },
         ],
       },
       {
@@ -2333,10 +2333,10 @@ var tables = {
         willSave: 1,
         specials: [ "2nd favored enemy", ],
         spellsPerDay: [
-          { level: 1, spells: 1, },
-          { level: 2, spells: 0, },
+          { level: 2, spells: 1, },
           { level: 3, spells: 0, },
           { level: 4, spells: 0, },
+          { level: 5, spells: 0, },
         ],
       },
       {
@@ -2347,10 +2347,10 @@ var tables = {
         willSave: 2,
         specials: [ "Combat style feat", ],
         spellsPerDay: [
-          { level: 1, spells: 1, },
-          { level: 2, spells: 0, },
+          { level: 2, spells: 1, },
           { level: 3, spells: 0, },
           { level: 4, spells: 0, },
+          { level: 5, spells: 0, },
         ],
       },
       {
@@ -2361,10 +2361,10 @@ var tables = {
         willSave: 2,
         specials: [ "Woodland Stride", ],
         spellsPerDay: [
-          { level: 1, spells: 1, },
-          { level: 2, spells: 0, },
+          { level: 2, spells: 1, },
           { level: 3, spells: 0, },
           { level: 4, spells: 0, },
+          { level: 5, spells: 0, },
         ],
       },
       {
@@ -2375,10 +2375,10 @@ var tables = {
         willSave: 2,
         specials: [ "Swift tracker", "2nd favored terrain"],
         spellsPerDay: [
-          { level: 1, spells: 1, },
           { level: 2, spells: 1, },
-          { level: 3, spells: 0, },
+          { level: 3, spells: 1, },
           { level: 4, spells: 0, },
+          { level: 5, spells: 0, },
         ],
       },
       {
@@ -2389,10 +2389,10 @@ var tables = {
         willSave: 3,
         specials: [ "Evasion"],
         spellsPerDay: [
-          { level: 1, spells: 2, },
-          { level: 2, spells: 1, },
-          { level: 3, spells: 0, },
+          { level: 2, spells: 2, },
+          { level: 3, spells: 1, },
           { level: 4, spells: 0, },
+          { level: 5, spells: 0, },
         ],
       },
       {
@@ -2403,10 +2403,10 @@ var tables = {
         willSave: 3,
         specials: [ "3rd favored enemy", "Combat style feat"],
         spellsPerDay: [
-          { level: 1, spells: 2, },
-          { level: 2, spells: 1, },
-          { level: 3, spells: 0, },
+          { level: 2, spells: 2, },
+          { level: 3, spells: 1, },
           { level: 4, spells: 0, },
+          { level: 5, spells: 0, },
         ],
       },
       {
@@ -2417,10 +2417,10 @@ var tables = {
         willSave: 3,
         specials: [ "Quarry"],
         spellsPerDay: [
-          { level: 1, spells: 2, },
-          { level: 2, spells: 1, },
-          { level: 3, spells: 2, },
-          { level: 4, spells: 0, },
+          { level: 2, spells: 2, },
+          { level: 3, spells: 1, },
+          { level: 4, spells: 2, },
+          { level: 5, spells: 0, },
         ],
       },
       {
@@ -2431,10 +2431,10 @@ var tables = {
         willSave: 4,
         specials: [ "Camoflage"],
         spellsPerDay: [
-          { level: 1, spells: 2, },
           { level: 2, spells: 2, },
-          { level: 3, spells: 0, },
+          { level: 3, spells: 2, },
           { level: 4, spells: 0, },
+          { level: 5, spells: 0, },
         ],
       },
       {
@@ -2445,10 +2445,10 @@ var tables = {
         willSave: 4,
         specials: [ "3rd favored terrain",],
         spellsPerDay: [
-          { level: 1, spells: 3, },
-          { level: 2, spells: 2, },
-          { level: 3, spells: 1, },
-          { level: 4, spells: 0, },
+          { level: 2, spells: 3, },
+          { level: 3, spells: 2, },
+          { level: 4, spells: 1, },
+          { level: 5, spells: 0, },
         ],
       },
       {
@@ -2459,10 +2459,10 @@ var tables = {
         willSave: 4,
         specials: [ "Combat style feat"],
         spellsPerDay: [
-          { level: 1, spells: 2, },
-          { level: 2, spells: 1, },
-          { level: 3, spells: 0, },
+          { level: 2, spells: 2, },
+          { level: 3, spells: 1, },
           { level: 4, spells: 0, },
+          { level: 5, spells: 0, },
         ],
       },
       {
@@ -2473,10 +2473,10 @@ var tables = {
         willSave: 5,
         specials: [ "4th favored enemy",],
         spellsPerDay: [
-          { level: 1, spells: 2, },
-          { level: 2, spells: 1, },
-          { level: 3, spells: 0, },
+          { level: 2, spells: 2, },
+          { level: 3, spells: 1, },
           { level: 4, spells: 0, },
+          { level: 5, spells: 0, },
         ],
       },
       {
@@ -2487,10 +2487,10 @@ var tables = {
         willSave: 5,
         specials: [ "Improved evasion",],
         spellsPerDay: [
-          { level: 1, spells: 2, },
-          { level: 2, spells: 1, },
-          { level: 3, spells: 0, },
+          { level: 2, spells: 2, },
+          { level: 3, spells: 1, },
           { level: 4, spells: 0, },
+          { level: 5, spells: 0, },
         ],
       },
       {
@@ -2501,10 +2501,10 @@ var tables = {
         willSave: 5,
         specials: [ "Hide in plain sight"],
         spellsPerDay: [
-          { level: 1, spells: 4, },
-          { level: 2, spells: 3, },
-          { level: 3, spells: 2, },
-          { level: 4, spells: 1, },
+          { level: 2, spells: 4, },
+          { level: 3, spells: 3, },
+          { level: 4, spells: 2, },
+          { level: 5, spells: 1, },
         ],
       },
       {
@@ -2515,10 +2515,10 @@ var tables = {
         willSave: 6,
         specials: [ "4th favored terrain", "Combat style feat"],
         spellsPerDay: [
-          { level: 1, spells: 4, },
-          { level: 2, spells: 3, },
-          { level: 3, spells: 2, },
+          { level: 2, spells: 4, },
+          { level: 3, spells: 3, },
           { level: 4, spells: 2, },
+          { level: 5, spells: 2, },
         ],
       },
       {
@@ -2529,10 +2529,10 @@ var tables = {
         willSave: 6,
         specials: [ "Improved quarry"],
         spellsPerDay: [
-          { level: 1, spells: 4, },
-          { level: 2, spells: 3, },
+          { level: 2, spells: 4, },
           { level: 3, spells: 3, },
-          { level: 4, spells: 2, },
+          { level: 4, spells: 3, },
+          { level: 5, spells: 2, },
         ],
       },
       {
@@ -2543,10 +2543,10 @@ var tables = {
         willSave: 6,
         specials: [ "5th favored enemy", "master hunter"],
         spellsPerDay: [
-          { level: 1, spells: 4, },
           { level: 2, spells: 4, },
-          { level: 3, spells: 3, },
+          { level: 3, spells: 4, },
           { level: 4, spells: 3, },
+          { level: 5, spells: 3, },
         ],
       },
     ],
@@ -2557,7 +2557,7 @@ var tables = {
         fortSave: "+0",
         reflexSave: "+2",
         willSave: "+0",
-        specials: ["<a href=\"#sneak-attack\">Sneak attack</a> +1d6, <a href=\"#trapfinding\">trapfinding</a>"]
+        specials: ["Sneak attack +1d6, trapfinding"]
       },
       {
         level: "2nd",
@@ -2565,7 +2565,7 @@ var tables = {
         fortSave: "+0",
         reflexSave: "+3",
         willSave: "+0",
-        specials: ["<a href=\"#evasion-rogue\">Evasion</a>, <a href=\"#rogue-talents\">rogue talent</a>"]
+        specials: ["Evasion, rogue talent"]
       },
       {
         level: "3rd",
@@ -2573,7 +2573,7 @@ var tables = {
         fortSave: "+1",
         reflexSave: "+3",
         willSave: "+1",
-        specials: ["<a href=\"#sneak-attack\">Sneak attack</a> +2d6, <a href=\"#trap-sense-rogue\">trap sense</a> +1"]
+        specials: ["Sneak attack +2d6, trap sense +1"]
       },
       {
         level: "4th",
@@ -2581,7 +2581,7 @@ var tables = {
         fortSave: "+1",
         reflexSave: "+4",
         willSave: "+1",
-        specials: ["<a href=\"#rogue-talents\">Rogue talent</a>, <a href=\"#uncanny-dodge-rogue\">uncanny dodge</a>"]
+        specials: ["Rogue talent, uncanny dodge"]
       },
       {
         level: "5th",
@@ -2589,7 +2589,7 @@ var tables = {
         fortSave: "+1",
         reflexSave: "+4",
         willSave: "+1",
-        specials: ["<a href=\"#sneak-attack\">Sneak attack</a> +3d6"]
+        specials: ["Sneak attack +3d6"]
       },
       {
         level: "6th",
@@ -2597,7 +2597,7 @@ var tables = {
         fortSave: "+2",
         reflexSave: "+5",
         willSave: "+2",
-        specials: ["<a href=\"#rogue-talents\">Rogue talent</a>, <a href=\"#trap-sense-rogue\">trap sense</a> +2"]
+        specials: ["Rogue talent, trap sense +2"]
       },
       {
         level: "7th",
@@ -2605,7 +2605,7 @@ var tables = {
         fortSave: "+2",
         reflexSave: "+5",
         willSave: "+2",
-        specials: ["<a href=\"#sneak-attack\">Sneak attack</a> +4d6"]
+        specials: ["Sneak attack +4d6"]
       },
       {
         level: "8th",
@@ -2613,7 +2613,7 @@ var tables = {
         fortSave: "+2",
         reflexSave: "+6",
         willSave: "+2",
-        specials: ["<a href=\"#improved-uncanny-dodge-rogue\">Improved uncanny dodge</a>, <a href=\"#rogue-talents\">rogue talent</a>"]
+        specials: ["Improved uncanny dodge, rogue talent"]
       },
       {
         level: "9th",
@@ -2621,7 +2621,7 @@ var tables = {
         fortSave: "+3",
         reflexSave: "+6",
         willSave: "+3",
-        specials: ["<a href=\"#sneak-attack\">Sneak attack</a> +5d6, <a href=\"#trap-sense-rogue\">trap sense</a> +3"]
+        specials: ["Sneak attack +5d6, trap sense +3"]
       },
       {
         level: "10th",
@@ -2629,7 +2629,7 @@ var tables = {
         fortSave: "+3",
         reflexSave: "+7",
         willSave: "+3",
-        specials: ["<a href=\"#advanced-talents\">Advanced talents</a>, <a href=\"#rogue-talents\">rogue talent</a>"]
+        specials: ["Advanced talents, rogue talent"]
       },
       {
         level: "11th",
@@ -2637,7 +2637,7 @@ var tables = {
         fortSave: "+3",
         reflexSave: "+7",
         willSave: "+3",
-        specials: ["<a href=\"#sneak-attack\">Sneak attack</a> +6d6"]
+        specials: ["Sneak attack +6d6"]
       },
       {
         level: "12th",
@@ -2645,7 +2645,7 @@ var tables = {
         fortSave: "+4",
         reflexSave: "+8",
         willSave: "+4",
-        specials: ["<a href=\"#rogue-talents\">Rogue talent</a>, <a href=\"#trap-sense-rogue\">trap sense</a> +4"]
+        specials: ["Rogue talent, trap sense +4"]
       },
       {
         level: "13th",
@@ -2653,7 +2653,7 @@ var tables = {
         fortSave: "+4",
         reflexSave: "+8",
         willSave: "+4",
-        specials: ["<a href=\"#sneak-attack\">Sneak attack</a> +7d6"]
+        specials: ["Sneak attack +7d6"]
       },
       {
         level: "14th",
@@ -2661,7 +2661,7 @@ var tables = {
         fortSave: "+4",
         reflexSave: "+9",
         willSave: "+4",
-        specials: ["<a href=\"#rogue-talents\">Rogue talent</a>"]
+        specials: ["Rogue talent"]
       },
       {
         level: "15th",
@@ -2669,7 +2669,7 @@ var tables = {
         fortSave: "+5",
         reflexSave: "+9",
         willSave: "+5",
-        specials: ["<a href=\"#sneak-attack\">Sneak attack</a> +8d6, <a href=\"#trap-sense-rogue\">trap sense</a> +5"]
+        specials: ["Sneak attack +8d6, trap sense +5"]
       },
       {
         level: "16th",
@@ -2677,7 +2677,7 @@ var tables = {
         fortSave: "+5",
         reflexSave: "+10",
         willSave: "+5",
-        specials: ["<a href=\"#rogue-talents\">Rogue talent</a>"]
+        specials: ["Rogue talent"]
       },
       {
         level: "17th",
@@ -2685,7 +2685,7 @@ var tables = {
         fortSave: "+5",
         reflexSave: "+10",
         willSave: "+5",
-        specials: ["<a href=\"#sneak-attack\">Sneak attack</a> +9d6"]
+        specials: ["Sneak attack +9d6"]
       },
       {
         level: "18th",
@@ -2693,7 +2693,7 @@ var tables = {
         fortSave: "+6",
         reflexSave: "+11",
         willSave: "+6",
-        specials: ["<a href=\"#rogue-talents\">Rogue talent</a>, <a href=\"#trap-sense-rogue\">trap sense</a> +6"]
+        specials: ["Rogue talent, trap sense +6"]
       },
       {
         level: "19th",
@@ -2701,7 +2701,7 @@ var tables = {
         fortSave: "+6",
         reflexSave: "+11",
         willSave: "+6",
-        specials: ["<a href=\"#sneak-attack\">Sneak attack</a> +10d6"]
+        specials: ["Sneak attack +10d6"]
       },
       {
         level: "20th",
@@ -2709,7 +2709,7 @@ var tables = {
         fortSave: "+6",
         reflexSave: "+12",
         willSave: "+6",
-        specials: ["<a href=\"#master-strike\">Master strike</a>, <a href=\"#rogue-talents\">rogue talent</a>"]
+        specials: ["Master strike, rogue talent"]
       }
     ],
     sorcerer: [
@@ -2719,17 +2719,17 @@ var tables = {
         fortSave: "+0",
         reflexSave: "+0",
         willSave: "+2",
-        specials: ["<a href=\"#bloodline\">Bloodline power</a>, <a href=\"#cantrips-sorcerer\">cantrips</a>, <a href=\"#eschew-materials\">eschew materials</a>"],
+        specials: ["Bloodline power, cantrips, eschew materials"],
         spellsPerDay: [
-          { level: 0, spells: 3, },
-          { level: 1, spells: 0, },
+          { level: 1, spells: 3, },
           { level: 2, spells: 0, },
           { level: 3, spells: 0, },
           { level: 4, spells: 0, },
           { level: 5, spells: 0, },
           { level: 6, spells: 0, },
           { level: 7, spells: 0, },
-          { level: 8, spells: 0, }
+          { level: 8, spells: 0, },
+          { level: 9, spells: 0, }
         ]
       },
       {
@@ -2740,15 +2740,15 @@ var tables = {
         willSave: "+3",
         specials: [""],
         spellsPerDay: [
-          { level: 0, spells: 4, },
-          { level: 1, spells: 0, },
+          { level: 1, spells: 4, },
           { level: 2, spells: 0, },
           { level: 3, spells: 0, },
           { level: 4, spells: 0, },
           { level: 5, spells: 0, },
           { level: 6, spells: 0, },
           { level: 7, spells: 0, },
-          { level: 8, spells: 0, }
+          { level: 8, spells: 0, },
+          { level: 9, spells: 0, }
         ]
       },
       {
@@ -2757,17 +2757,17 @@ var tables = {
         fortSave: "+1",
         reflexSave: "+1",
         willSave: "+3",
-        specials: ["<a href=\"#bloodline\">Bloodline power</a>, <a href=\"#bloodline\">bloodline spell</a>"],
+        specials: ["Bloodline power, bloodline spell"],
         spellsPerDay: [
-          { level: 0, spells: 5, },
-          { level: 1, spells: 0, },
+          { level: 1, spells: 5, },
           { level: 2, spells: 0, },
           { level: 3, spells: 0, },
           { level: 4, spells: 0, },
           { level: 5, spells: 0, },
           { level: 6, spells: 0, },
           { level: 7, spells: 0, },
-          { level: 8, spells: 0, }
+          { level: 8, spells: 0, },
+          { level: 9, spells: 0, }
         ]
       },
       {
@@ -2778,15 +2778,15 @@ var tables = {
         willSave: "+4",
         specials: [""],
         spellsPerDay: [
-          { level: 0, spells: 6, },
-          { level: 1, spells: 3, },
-          { level: 2, spells: 0, },
+          { level: 1, spells: 6, },
+          { level: 2, spells: 3, },
           { level: 3, spells: 0, },
           { level: 4, spells: 0, },
           { level: 5, spells: 0, },
           { level: 6, spells: 0, },
           { level: 7, spells: 0, },
-          { level: 8, spells: 0, }
+          { level: 8, spells: 0, },
+          { level: 9, spells: 0, }
         ]
       },
       {
@@ -2795,17 +2795,17 @@ var tables = {
         fortSave: "+1",
         reflexSave: "+1",
         willSave: "+4",
-        specials: ["<a href=\"#bloodline\">Bloodline spell</a>"],
+        specials: ["Bloodline spell"],
         spellsPerDay: [
-          { level: 0, spells: 6, },
-          { level: 1, spells: 4, },
-          { level: 2, spells: 0, },
+          { level: 1, spells: 6, },
+          { level: 2, spells: 4, },
           { level: 3, spells: 0, },
           { level: 4, spells: 0, },
           { level: 5, spells: 0, },
           { level: 6, spells: 0, },
           { level: 7, spells: 0, },
-          { level: 8, spells: 0, }
+          { level: 8, spells: 0, },
+          { level: 9, spells: 0, }
         ]
       },
       {
@@ -2816,15 +2816,15 @@ var tables = {
         willSave: "+5",
         specials: [""],
         spellsPerDay: [
-          { level: 0, spells: 6, },
-          { level: 1, spells: 5, },
-          { level: 2, spells: 3, },
-          { level: 3, spells: 0, },
+          { level: 1, spells: 6, },
+          { level: 2, spells: 5, },
+          { level: 3, spells: 3, },
           { level: 4, spells: 0, },
           { level: 5, spells: 0, },
           { level: 6, spells: 0, },
           { level: 7, spells: 0, },
-          { level: 8, spells: 0, }
+          { level: 8, spells: 0, },
+          { level: 9, spells: 0, }
         ]
       },
       {
@@ -2833,17 +2833,17 @@ var tables = {
         fortSave: "+2",
         reflexSave: "+2",
         willSave: "+5",
-        specials: ["<a href=\"#bloodline\">Bloodline feat</a>, <a href=\"#bloodline\">bloodline spell</a>"],
+        specials: ["Bloodline feat, bloodline spell"],
         spellsPerDay: [
-          { level: 0, spells: 6, },
           { level: 1, spells: 6, },
-          { level: 2, spells: 4, },
-          { level: 3, spells: 0, },
+          { level: 2, spells: 6, },
+          { level: 3, spells: 4, },
           { level: 4, spells: 0, },
           { level: 5, spells: 0, },
           { level: 6, spells: 0, },
           { level: 7, spells: 0, },
-          { level: 8, spells: 0, }
+          { level: 8, spells: 0, },
+          { level: 9, spells: 0, }
         ]
       },
       {
@@ -2854,15 +2854,15 @@ var tables = {
         willSave: "+6",
         specials: [""],
         spellsPerDay: [
-          { level: 0, spells: 6, },
           { level: 1, spells: 6, },
-          { level: 2, spells: 5, },
-          { level: 3, spells: 3, },
-          { level: 4, spells: 0, },
+          { level: 2, spells: 6, },
+          { level: 3, spells: 5, },
+          { level: 4, spells: 3, },
           { level: 5, spells: 0, },
           { level: 6, spells: 0, },
           { level: 7, spells: 0, },
-          { level: 8, spells: 0, }
+          { level: 8, spells: 0, },
+          { level: 9, spells: 0, }
         ]
       },
       {
@@ -2871,17 +2871,17 @@ var tables = {
         fortSave: "+3",
         reflexSave: "+3",
         willSave: "+6",
-        specials: ["<a href=\"#bloodline\">Bloodline power</a>, <a href=\"#bloodline\">bloodline spell</a>"],
+        specials: ["Bloodline power, bloodline spell"],
         spellsPerDay: [
-          { level: 0, spells: 6, },
           { level: 1, spells: 6, },
           { level: 2, spells: 6, },
-          { level: 3, spells: 4, },
-          { level: 4, spells: 0, },
+          { level: 3, spells: 6, },
+          { level: 4, spells: 4, },
           { level: 5, spells: 0, },
           { level: 6, spells: 0, },
           { level: 7, spells: 0, },
-          { level: 8, spells: 0, }
+          { level: 8, spells: 0, },
+          { level: 9, spells: 0, }
         ]
       },
       {
@@ -2892,15 +2892,15 @@ var tables = {
         willSave: "+7",
         specials: [""],
         spellsPerDay: [
-          { level: 0, spells: 6, },
           { level: 1, spells: 6, },
           { level: 2, spells: 6, },
-          { level: 3, spells: 5, },
-          { level: 4, spells: 3, },
-          { level: 5, spells: 0, },
+          { level: 3, spells: 6, },
+          { level: 4, spells: 5, },
+          { level: 5, spells: 3, },
           { level: 6, spells: 0, },
           { level: 7, spells: 0, },
-          { level: 8, spells: 0, }
+          { level: 8, spells: 0, },
+          { level: 9, spells: 0, }
         ]
       },
       {
@@ -2909,17 +2909,17 @@ var tables = {
         fortSave: "+3",
         reflexSave: "+3",
         willSave: "+7",
-        specials: ["<a href=\"#bloodline\">Bloodline spell</a>"],
+        specials: ["Bloodline spell"],
         spellsPerDay: [
-          { level: 0, spells: 6, },
           { level: 1, spells: 6, },
           { level: 2, spells: 6, },
           { level: 3, spells: 6, },
-          { level: 4, spells: 4, },
-          { level: 5, spells: 0, },
+          { level: 4, spells: 6, },
+          { level: 5, spells: 4, },
           { level: 6, spells: 0, },
           { level: 7, spells: 0, },
-          { level: 8, spells: 0, }
+          { level: 8, spells: 0, },
+          { level: 9, spells: 0, }
         ]
       },
       {
@@ -2930,15 +2930,15 @@ var tables = {
         willSave: "+8",
         specials: [""],
         spellsPerDay: [
-          { level: 0, spells: 6, },
           { level: 1, spells: 6, },
           { level: 2, spells: 6, },
           { level: 3, spells: 6, },
-          { level: 4, spells: 5, },
-          { level: 5, spells: 3, },
-          { level: 6, spells: 0, },
+          { level: 4, spells: 6, },
+          { level: 5, spells: 5, },
+          { level: 6, spells: 3, },
           { level: 7, spells: 0, },
-          { level: 8, spells: 0, }
+          { level: 8, spells: 0, },
+          { level: 9, spells: 0, }
         ]
       },
       {
@@ -2947,17 +2947,17 @@ var tables = {
         fortSave: "+4",
         reflexSave: "+4",
         willSave: "+8",
-        specials: ["<a href=\"#bloodline\">Bloodline feat</a>, <a href=\"#bloodline\">bloodline spell</a>"],
+        specials: ["Bloodline feat, bloodline spell"],
         spellsPerDay: [
-          { level: 0, spells: 6, },
           { level: 1, spells: 6, },
           { level: 2, spells: 6, },
           { level: 3, spells: 6, },
           { level: 4, spells: 6, },
-          { level: 5, spells: 4, },
-          { level: 6, spells: 0, },
+          { level: 5, spells: 6, },
+          { level: 6, spells: 4, },
           { level: 7, spells: 0, },
-          { level: 8, spells: 0, }
+          { level: 8, spells: 0, },
+          { level: 9, spells: 0, }
         ]
       },
       {
@@ -2968,15 +2968,15 @@ var tables = {
         willSave: "+9",
         specials: [""],
         spellsPerDay: [
-          { level: 0, spells: 6, },
           { level: 1, spells: 6, },
           { level: 2, spells: 6, },
           { level: 3, spells: 6, },
           { level: 4, spells: 6, },
-          { level: 5, spells: 5, },
-          { level: 6, spells: 3, },
-          { level: 7, spells: 0, },
-          { level: 8, spells: 0, }
+          { level: 5, spells: 6, },
+          { level: 6, spells: 5, },
+          { level: 7, spells: 3, },
+          { level: 8, spells: 0, },
+          { level: 9, spells: 0, }
         ]
       },
       {
@@ -2985,17 +2985,17 @@ var tables = {
         fortSave: "+5",
         reflexSave: "+5",
         willSave: "+9",
-        specials: ["<a href=\"#bloodline\">Bloodline power</a>, <a href=\"#bloodline\">bloodline spell</a>"],
+        specials: ["Bloodline power, bloodline spell"],
         spellsPerDay: [
-          { level: 0, spells: 6, },
           { level: 1, spells: 6, },
           { level: 2, spells: 6, },
           { level: 3, spells: 6, },
           { level: 4, spells: 6, },
           { level: 5, spells: 6, },
-          { level: 6, spells: 4, },
-          { level: 7, spells: 0, },
-          { level: 8, spells: 0, }
+          { level: 6, spells: 6, },
+          { level: 7, spells: 4, },
+          { level: 8, spells: 0, },
+          { level: 9, spells: 0, }
         ]
       },
       {
@@ -3006,15 +3006,15 @@ var tables = {
         willSave: "+10",
         specials: [""],
         spellsPerDay: [
-          { level: 0, spells: 6, },
           { level: 1, spells: 6, },
           { level: 2, spells: 6, },
           { level: 3, spells: 6, },
           { level: 4, spells: 6, },
           { level: 5, spells: 6, },
-          { level: 6, spells: 5, },
-          { level: 7, spells: 3, },
-          { level: 8, spells: 0, }
+          { level: 6, spells: 6, },
+          { level: 7, spells: 5, },
+          { level: 8, spells: 3, },
+          { level: 9, spells: 0, }
         ]
       },
       {
@@ -3023,17 +3023,17 @@ var tables = {
         fortSave: "+5",
         reflexSave: "+5",
         willSave: "+10",
-        specials: ["<a href=\"#bloodline\">Bloodline spell</a>"],
+        specials: ["Bloodline spell"],
         spellsPerDay: [
-          { level: 0, spells: 6, },
           { level: 1, spells: 6, },
           { level: 2, spells: 6, },
           { level: 3, spells: 6, },
           { level: 4, spells: 6, },
           { level: 5, spells: 6, },
           { level: 6, spells: 6, },
-          { level: 7, spells: 4, },
-          { level: 8, spells: 0, }
+          { level: 7, spells: 6, },
+          { level: 8, spells: 4, },
+          { level: 9, spells: 0, }
         ]
       },
       {
@@ -3044,15 +3044,15 @@ var tables = {
         willSave: "+11",
         specials: [""],
         spellsPerDay: [
-          { level: 0, spells: 6, },
           { level: 1, spells: 6, },
           { level: 2, spells: 6, },
           { level: 3, spells: 6, },
           { level: 4, spells: 6, },
           { level: 5, spells: 6, },
           { level: 6, spells: 6, },
-          { level: 7, spells: 5, },
-          { level: 8, spells: 3, }
+          { level: 7, spells: 6, },
+          { level: 8, spells: 5, },
+          { level: 9, spells: 3, }
         ]
       },
       {
@@ -3061,9 +3061,8 @@ var tables = {
         fortSave: "+6",
         reflexSave: "+6",
         willSave: "+11",
-        specials: ["<a href=\"#bloodline\">Bloodline feat</a>, <a href=\"#bloodline\">bloodline spell</a>"],
+        specials: ["Bloodline feat, bloodline spell"],
         spellsPerDay: [
-          { level: 0, spells: 6, },
           { level: 1, spells: 6, },
           { level: 2, spells: 6, },
           { level: 3, spells: 6, },
@@ -3071,7 +3070,8 @@ var tables = {
           { level: 5, spells: 6, },
           { level: 6, spells: 6, },
           { level: 7, spells: 6, },
-          { level: 8, spells: 4, }
+          { level: 8, spells: 6, },
+          { level: 9, spells: 4, }
         ]
       },
       {
@@ -3080,9 +3080,8 @@ var tables = {
         fortSave: "+6",
         reflexSave: "+6",
         willSave: "+12",
-        specials: ["<a href=\"#bloodline\">Bloodline power</a>"],
+        specials: ["Bloodline power"],
         spellsPerDay: [
-          { level: 0, spells: 6, },
           { level: 1, spells: 6, },
           { level: 2, spells: 6, },
           { level: 3, spells: 6, },
@@ -3090,287 +3089,8 @@ var tables = {
           { level: 5, spells: 6, },
           { level: 6, spells: 6, },
           { level: 7, spells: 6, },
-          { level: 8, spells: 6, }
-        ]
-      },
-      {
-        level: "1st",
-        baseAttackBonus: "4",
-        fortSave: "2",
-        reflexSave: 0,
-        willSave: 0,
-        specials: ["—"],
-        spellsPerDay: [
-          { level: 0, spells: 0, },
-          { level: 1, spells: 0, },
-          { level: 2, spells: 0, },
-          { level: 3, spells: 0, },
-          { level: 4, spells: 0, }
-        ]
-      },
-      {
-        level: "2nd",
-        baseAttackBonus: "5",
-        fortSave: "2",
-        reflexSave: 0,
-        willSave: 0,
-        specials: [""],
-        spellsPerDay: [
-          { level: 0, spells: 0, },
-          { level: 1, spells: 0, },
-          { level: 2, spells: 0, },
-          { level: 3, spells: 0, },
-          { level: 4, spells: 0, }
-        ]
-      },
-      {
-        level: "3rd",
-        baseAttackBonus: "5",
-        fortSave: "3",
-        reflexSave: 0,
-        willSave: 0,
-        specials: [""],
-        spellsPerDay: [
-          { level: 0, spells: 0, },
-          { level: 1, spells: 0, },
-          { level: 2, spells: 0, },
-          { level: 3, spells: 0, },
-          { level: 4, spells: 0, }
-        ]
-      },
-      {
-        level: "4th",
-        baseAttackBonus: "6",
-        fortSave: "3",
-        reflexSave: "1",
-        willSave: 0,
-        specials: [""],
-        spellsPerDay: [
-          { level: 0, spells: 0, },
-          { level: 1, spells: 0, },
-          { level: 2, spells: 0, },
-          { level: 3, spells: 0, },
-          { level: 4, spells: 0, }
-        ]
-      },
-      {
-        level: "5th",
-        baseAttackBonus: "6",
-        fortSave: "4",
-        reflexSave: "2",
-        willSave: 0,
-        specials: [""],
-        spellsPerDay: [
-          { level: 0, spells: 0, },
-          { level: 1, spells: 0, },
-          { level: 2, spells: 0, },
-          { level: 3, spells: 0, },
-          { level: 4, spells: 0, }
-        ]
-      },
-      {
-        level: "6th",
-        baseAttackBonus: "7",
-        fortSave: "4",
-        reflexSave: "2",
-        willSave: "1",
-        specials: [""],
-        spellsPerDay: [
-          { level: 0, spells: 0, },
-          { level: 1, spells: 0, },
-          { level: 2, spells: 0, },
-          { level: 3, spells: 0, },
-          { level: 4, spells: 0, }
-        ]
-      },
-      {
-        level: "7th",
-        baseAttackBonus: "7",
-        fortSave: "5",
-        reflexSave: "3",
-        willSave: "2",
-        specials: [""],
-        spellsPerDay: [
-          { level: 0, spells: 0, },
-          { level: 1, spells: 0, },
-          { level: 2, spells: 0, },
-          { level: 3, spells: 0, },
-          { level: 4, spells: 0, }
-        ]
-      },
-      {
-        level: "8th",
-        baseAttackBonus: "8",
-        fortSave: "5",
-        reflexSave: "3",
-        willSave: "2",
-        specials: ["1"],
-        spellsPerDay: [
-          { level: 0, spells: 0, },
-          { level: 1, spells: 0, },
-          { level: 2, spells: 0, },
-          { level: 3, spells: 0, },
-          { level: 4, spells: 0, }
-        ]
-      },
-      {
-        level: "9th",
-        baseAttackBonus: "8",
-        fortSave: "5",
-        reflexSave: "4",
-        willSave: "3",
-        specials: ["2"],
-        spellsPerDay: [
-        { level: 0, spells: 0, },
-        { level: 1, spells: 0, },
-        { level: 2, spells: 0, },
-        { level: 3, spells: 0, },
-        { level: 4, spells: 0, }]
-      },
-      {
-        level: "10th",
-        baseAttackBonus: "9",
-        fortSave: "5",
-        reflexSave: "4",
-        willSave: "3",
-        specials: ["2"],
-        spellsPerDay: [
-        { level: 0, spells: 1, },
-        { level: 1, spells: 0, },
-        { level: 2, spells: 0, },
-        { level: 3, spells: 0, },
-        { level: 4, spells: 0, }]
-      },
-      {
-        level: "11th",
-        baseAttackBonus: "9",
-        fortSave: "5",
-        reflexSave: "5",
-        willSave: "4",
-        specials: ["3"],
-        spellsPerDay: [ { level: 0, spells: 2, },
-        { level: 1, spells: 0, },
-        { level: 2, spells: 0, },
-        { level: 3, spells: 0, },
-        { level: 4, spells: 0, }]
-      },
-      {
-        level: "12th",
-        baseAttackBonus: "9",
-        fortSave: "5",
-        reflexSave: "5",
-        willSave: "4",
-        specials: ["3"],
-        spellsPerDay: [ { level: 0, spells: 2, },
-        { level: 1, spells: 1, },
-        { level: 2, spells: 0, },
-        { level: 3, spells: 0, },
-        { level: 4, spells: 0, }]
-      },
-      {
-        level: "13th",
-        baseAttackBonus: "9",
-        fortSave: "5",
-        reflexSave: "5",
-        willSave: "4",
-        specials: ["4"],
-        spellsPerDay: [{ level: 0, spells: 3, },
-        { level: 1, spells: 2, },
-        { level: 2, spells: 0, },
-        { level: 3, spells: 0, },
-        { level: 4, spells: 0, }]
-      },
-      {
-        level: "14th",
-        baseAttackBonus: "9",
-        fortSave: "5",
-        reflexSave: "5",
-        willSave: "4",
-        specials: ["4"],
-        spellsPerDay: [{ level: 0, spells: 3, },
-        { level: 1, spells: 2, },
-        { level: 2, spells: 1, },
-        { level: 3, spells: 0, },
-        { level: 4, spells: 0, }]
-      },
-      {
-        level: "15th",
-        baseAttackBonus: "9",
-        fortSave: "5",
-        reflexSave: "5",
-        willSave: "4",
-        specials: ["4"],
-        spellsPerDay: [ { level: 0, spells: 4, },
-        { level: 1, spells: 3, },
-        { level: 2, spells: 2, },
-        { level: 3, spells: 0, },
-        { level: 4, spells: 0, }]
-      },
-      {
-        level: "16th",
-        baseAttackBonus: "9",
-        fortSave: "5",
-        reflexSave: "5",
-        willSave: "4",
-        specials: ["4"],
-        spellsPerDay: [ { level: 0, spells: 4, },
-        { level: 1, spells: 3, },
-        { level: 2, spells: 2, },
-        { level: 3, spells: 1, },
-        { level: 4, spells: 0, }]
-      },
-      {
-        level: "17th",
-        baseAttackBonus: "9",
-        fortSave: "5",
-        reflexSave: "5",
-        willSave: "4",
-        specials: ["4"],
-        spellsPerDay: [ { level: 0, spells: 4, },
-        { level: 1, spells: 3, },
-        { level: 2, spells: 3, },
-        { level: 3, spells: 2, },
-        { level: 4, spells: 0, }]
-      },
-      {
-        level: "18th",
-        baseAttackBonus: "9",
-        fortSave: "5",
-        reflexSave: "5",
-        willSave: "4",
-        specials: ["4"],
-        spellsPerDay: [ { level: 0, spells: 4, },
-        { level: 1, spells: 3, },
-        { level: 2, spells: 3, },
-        { level: 3, spells: 2, },
-        { level: 4, spells: 1, }]
-      },
-      {
-        level: "19th",
-        baseAttackBonus: "9",
-        fortSave: "5",
-        reflexSave: "5",
-        willSave: "4",
-        specials: ["4"],
-        spellsPerDay: [ { level: 0, spells: 4, },
-        { level: 1, spells: 3, },
-        { level: 2, spells: 3, },
-        { level: 3, spells: 3, },
-        { level: 4, spells: 2, }]
-      },
-      {
-        level: "20th",
-        baseAttackBonus: "9",
-        fortSave: "5",
-        reflexSave: "5",
-        willSave: "4",
-        specials: ["4"],
-        spellsPerDay: [
-          { level: 0, spells: 4, },
-          { level: 1, spells: 3, },
-          { level: 2, spells: 3, },
-          { level: 3, spells: 3, },
-          { level: 4, spells: 3, }
+          { level: 8, spells: 6, },
+          { level: 9, spells: 6, }
         ]
       },
     ],
@@ -3381,17 +3101,17 @@ var tables = {
         fortSave: "+0",
         reflexSave: "+0",
         willSave: "+2",
-        specials: ["<a href=\"#arcane-bond\">Arcane bond</a>, <a href=\"#arcane-school\">arcane school</a>,<a href=\"#cantrips-wizard\">cantrips</a>, <a href=\"#scribe-scroll\">Scribe Scroll</a>"],
+        specials: ["Arcane bond, arcane school, cantrips, Scribe Scroll"],
         spellsPerDay: [
-          { level: 0, spells: 3, },
-          { level: 1, spells: 0, },
+          { level: 1, spells: 3, },
           { level: 2, spells: 0, },
           { level: 3, spells: 0, },
           { level: 4, spells: 0, },
           { level: 5, spells: 0, },
           { level: 6, spells: 0, },
           { level: 7, spells: 0, },
-          { level: 8, spells: 0, }
+          { level: 8, spells: 0, },
+          { level: 9, spells: 0, }
         ]
       },
       {
@@ -3402,15 +3122,15 @@ var tables = {
         willSave: "+3",
         specials: [""],
         spellsPerDay: [
-          { level: 0, spells: 4, },
-          { level: 1, spells: 0, },
+          { level: 1, spells: 4, },
           { level: 2, spells: 0, },
           { level: 3, spells: 0, },
           { level: 4, spells: 0, },
           { level: 5, spells: 0, },
           { level: 6, spells: 0, },
           { level: 7, spells: 0, },
-          { level: 8, spells: 0, }
+          { level: 8, spells: 0, },
+          { level: 9, spells: 0, }
         ]
       },
       {
@@ -3421,15 +3141,15 @@ var tables = {
         willSave: "+3",
         specials: [""],
         spellsPerDay: [
-          { level: 0, spells: 4, },
-          { level: 1, spells: 1, },
-          { level: 2, spells: 0, },
+          { level: 1, spells: 4, },
+          { level: 2, spells: 1, },
           { level: 3, spells: 0, },
           { level: 4, spells: 0, },
           { level: 5, spells: 0, },
           { level: 6, spells: 0, },
           { level: 7, spells: 0, },
-          { level: 8, spells: 0, }
+          { level: 8, spells: 0, },
+          { level: 9, spells: 0, }
         ]
       },
       {
@@ -3440,15 +3160,15 @@ var tables = {
         willSave: "+4",
         specials: [""],
         spellsPerDay: [
-          { level: 0, spells: 4, },
-          { level: 1, spells: 2, },
-          { level: 2, spells: 0, },
+          { level: 1, spells: 4, },
+          { level: 2, spells: 2, },
           { level: 3, spells: 0, },
           { level: 4, spells: 0, },
           { level: 5, spells: 0, },
           { level: 6, spells: 0, },
           { level: 7, spells: 0, },
-          { level: 8, spells: 0, }
+          { level: 8, spells: 0, },
+          { level: 9, spells: 0, }
         ]
       },
       {
@@ -3457,17 +3177,17 @@ var tables = {
         fortSave: "+1",
         reflexSave: "+1",
         willSave: "+4",
-        specials: ["<a href=\"#bonus-feats-wizard\">Bonus feat</a>"],
+        specials: ["Bonus feat"],
         spellsPerDay: [
-          { level: 0, spells: 4, },
-          { level: 1, spells: 2, },
-          { level: 2, spells: 1, },
-          { level: 3, spells: 0, },
+          { level: 1, spells: 4, },
+          { level: 2, spells: 2, },
+          { level: 3, spells: 1, },
           { level: 4, spells: 0, },
           { level: 5, spells: 0, },
           { level: 6, spells: 0, },
           { level: 7, spells: 0, },
-          { level: 8, spells: 0, }
+          { level: 8, spells: 0, },
+          { level: 9, spells: 0, }
         ]
       },
       {
@@ -3478,15 +3198,15 @@ var tables = {
         willSave: "+5",
         specials: [""],
         spellsPerDay: [
-          { level: 0, spells: 4, },
-          { level: 1, spells: 3, },
-          { level: 2, spells: 2, },
-          { level: 3, spells: 0, },
+          { level: 1, spells: 4, },
+          { level: 2, spells: 3, },
+          { level: 3, spells: 2, },
           { level: 4, spells: 0, },
           { level: 5, spells: 0, },
           { level: 6, spells: 0, },
           { level: 7, spells: 0, },
-          { level: 8, spells: 0, }
+          { level: 8, spells: 0, },
+          { level: 9, spells: 0, }
         ]
       },
       {
@@ -3497,15 +3217,15 @@ var tables = {
         willSave: "+5",
         specials: [""],
         spellsPerDay: [
-          { level: 0, spells: 4, },
-          { level: 1, spells: 3, },
-          { level: 2, spells: 2, },
-          { level: 3, spells: 1, },
-          { level: 4, spells: 0, },
+          { level: 1, spells: 4, },
+          { level: 2, spells: 3, },
+          { level: 3, spells: 2, },
+          { level: 4, spells: 1, },
           { level: 5, spells: 0, },
           { level: 6, spells: 0, },
           { level: 7, spells: 0, },
-          { level: 8, spells: 0, }
+          { level: 8, spells: 0, },
+          { level: 9, spells: 0, }
         ]
       },
       {
@@ -3516,15 +3236,15 @@ var tables = {
         willSave: "+6",
         specials: [""],
         spellsPerDay: [
-          { level: 0, spells: 4, },
-          { level: 1, spells: 3, },
+          { level: 1, spells: 4, },
           { level: 2, spells: 3, },
-          { level: 3, spells: 2, },
-          { level: 4, spells: 0, },
+          { level: 3, spells: 3, },
+          { level: 4, spells: 2, },
           { level: 5, spells: 0, },
           { level: 6, spells: 0, },
           { level: 7, spells: 0, },
-          { level: 8, spells: 0, }
+          { level: 8, spells: 0, },
+          { level: 9, spells: 0, }
         ]
       },
       {
@@ -3535,15 +3255,15 @@ var tables = {
         willSave: "+6",
         specials: [""],
         spellsPerDay: [
-          { level: 0, spells: 4, },
           { level: 1, spells: 4, },
-          { level: 2, spells: 3, },
-          { level: 3, spells: 2, },
-          { level: 4, spells: 1, },
-          { level: 5, spells: 0, },
+          { level: 2, spells: 4, },
+          { level: 3, spells: 3, },
+          { level: 4, spells: 2, },
+          { level: 5, spells: 1, },
           { level: 6, spells: 0, },
           { level: 7, spells: 0, },
-          { level: 8, spells: 0, }
+          { level: 8, spells: 0, },
+          { level: 9, spells: 0, }
         ]
       },
       {
@@ -3552,17 +3272,17 @@ var tables = {
         fortSave: "+3",
         reflexSave: "+3",
         willSave: "+7",
-        specials: ["<a href=\"#bonus-feats-wizard\">Bonus feat</a>"],
+        specials: ["Bonus feat"],
         spellsPerDay: [
-          { level: 0, spells: 4, },
           { level: 1, spells: 4, },
-          { level: 2, spells: 3, },
+          { level: 2, spells: 4, },
           { level: 3, spells: 3, },
-          { level: 4, spells: 2, },
-          { level: 5, spells: 0, },
+          { level: 4, spells: 3, },
+          { level: 5, spells: 2, },
           { level: 6, spells: 0, },
           { level: 7, spells: 0, },
-          { level: 8, spells: 0, }
+          { level: 8, spells: 0, },
+          { level: 9, spells: 0, }
         ]
       },
       {
@@ -3573,15 +3293,15 @@ var tables = {
         willSave: "+7",
         specials: [""],
         spellsPerDay: [
-          { level: 0, spells: 4, },
           { level: 1, spells: 4, },
           { level: 2, spells: 4, },
-          { level: 3, spells: 3, },
-          { level: 4, spells: 2, },
-          { level: 5, spells: 1, },
-          { level: 6, spells: 0, },
+          { level: 3, spells: 4, },
+          { level: 4, spells: 3, },
+          { level: 5, spells: 2, },
+          { level: 6, spells: 1, },
           { level: 7, spells: 0, },
-          { level: 8, spells: 0, }
+          { level: 8, spells: 0, },
+          { level: 9, spells: 0, }
         ]
       },
       {
@@ -3592,15 +3312,15 @@ var tables = {
         willSave: "+8",
         specials: [""],
         spellsPerDay: [
-          { level: 0, spells: 4, },
           { level: 1, spells: 4, },
           { level: 2, spells: 4, },
-          { level: 3, spells: 3, },
+          { level: 3, spells: 4, },
           { level: 4, spells: 3, },
-          { level: 5, spells: 2, },
-          { level: 6, spells: 0, },
+          { level: 5, spells: 3, },
+          { level: 6, spells: 2, },
           { level: 7, spells: 0, },
-          { level: 8, spells: 0, }
+          { level: 8, spells: 0, },
+          { level: 9, spells: 0, }
         ]
       },
       {
@@ -3611,15 +3331,15 @@ var tables = {
         willSave: "+8",
         specials: [""],
         spellsPerDay: [
-          { level: 0, spells: 4, },
           { level: 1, spells: 4, },
           { level: 2, spells: 4, },
           { level: 3, spells: 4, },
-          { level: 4, spells: 3, },
-          { level: 5, spells: 2, },
-          { level: 6, spells: 1, },
-          { level: 7, spells: 0, },
-          { level: 8, spells: 0, }
+          { level: 4, spells: 4, },
+          { level: 5, spells: 3, },
+          { level: 6, spells: 2, },
+          { level: 7, spells: 1, },
+          { level: 8, spells: 0, },
+          { level: 9, spells: 0, }
         ]
       },
       {
@@ -3630,15 +3350,15 @@ var tables = {
         willSave: "+9",
         specials: [""],
         spellsPerDay: [
-          { level: 0, spells: 4, },
           { level: 1, spells: 4, },
           { level: 2, spells: 4, },
           { level: 3, spells: 4, },
-          { level: 4, spells: 3, },
+          { level: 4, spells: 4, },
           { level: 5, spells: 3, },
-          { level: 6, spells: 2, },
-          { level: 7, spells: 0, },
-          { level: 8, spells: 0, }
+          { level: 6, spells: 3, },
+          { level: 7, spells: 2, },
+          { level: 8, spells: 0, },
+          { level: 9, spells: 0, }
         ]
       },
       {
@@ -3647,17 +3367,17 @@ var tables = {
         fortSave: "+5",
         reflexSave: "+5",
         willSave: "+9",
-        specials: ["<a href=\"#bonus-feats-wizard\">Bonus feat</a>"],
+        specials: ["Bonus feat"],
         spellsPerDay: [
-          { level: 0, spells: 4, },
           { level: 1, spells: 4, },
           { level: 2, spells: 4, },
           { level: 3, spells: 4, },
           { level: 4, spells: 4, },
-          { level: 5, spells: 3, },
-          { level: 6, spells: 2, },
-          { level: 7, spells: 1, },
-          { level: 8, spells: 0, }
+          { level: 5, spells: 4, },
+          { level: 6, spells: 3, },
+          { level: 7, spells: 2, },
+          { level: 8, spells: 1, },
+          { level: 9, spells: 0, }
         ]
       },
       {
@@ -3668,15 +3388,15 @@ var tables = {
         willSave: "+10",
         specials: [""],
         spellsPerDay: [
-          { level: 0, spells: 4, },
           { level: 1, spells: 4, },
           { level: 2, spells: 4, },
           { level: 3, spells: 4, },
           { level: 4, spells: 4, },
-          { level: 5, spells: 3, },
+          { level: 5, spells: 4, },
           { level: 6, spells: 3, },
-          { level: 7, spells: 2, },
-          { level: 8, spells: 0, }
+          { level: 7, spells: 3, },
+          { level: 8, spells: 2, },
+          { level: 9, spells: 0, }
         ]
       },
       {
@@ -3687,15 +3407,15 @@ var tables = {
         willSave: "+10",
         specials: [""],
         spellsPerDay: [
-          { level: 0, spells: 4, },
           { level: 1, spells: 4, },
           { level: 2, spells: 4, },
           { level: 3, spells: 4, },
           { level: 4, spells: 4, },
           { level: 5, spells: 4, },
-          { level: 6, spells: 3, },
-          { level: 7, spells: 2, },
-          { level: 8, spells: 1, }
+          { level: 6, spells: 4, },
+          { level: 7, spells: 3, },
+          { level: 8, spells: 2, },
+          { level: 9, spells: 1, }
         ]
       },
       {
@@ -3706,15 +3426,15 @@ var tables = {
         willSave: "+11",
         specials: [""],
         spellsPerDay: [
-          { level: 0, spells: 4, },
           { level: 1, spells: 4, },
           { level: 2, spells: 4, },
           { level: 3, spells: 4, },
           { level: 4, spells: 4, },
           { level: 5, spells: 4, },
-          { level: 6, spells: 3, },
+          { level: 6, spells: 4, },
           { level: 7, spells: 3, },
-          { level: 8, spells: 2, }
+          { level: 8, spells: 3, },
+          { level: 9, spells: 2, }
         ]
       },
       {
@@ -3725,15 +3445,15 @@ var tables = {
         willSave: "+11",
         specials: [""],
         spellsPerDay: [
-          { level: 0, spells: 4, },
           { level: 1, spells: 4, },
           { level: 2, spells: 4, },
           { level: 3, spells: 4, },
           { level: 4, spells: 4, },
           { level: 5, spells: 4, },
           { level: 6, spells: 4, },
-          { level: 7, spells: 3, },
-          { level: 8, spells: 3, }
+          { level: 7, spells: 4, },
+          { level: 8, spells: 3, },
+          { level: 9, spells: 3, }
         ]
       },
       {
@@ -3742,9 +3462,8 @@ var tables = {
         fortSave: "+6",
         reflexSave: "+6",
         willSave: "+12",
-        specials: ["<a href=\"#bonus-feats-wizard\">Bonus feat</a>"],
+        specials: ["Bonus feat"],
         spellsPerDay: [
-          { level: 0, spells: 4, },
           { level: 1, spells: 4, },
           { level: 2, spells: 4, },
           { level: 3, spells: 4, },
@@ -3752,14 +3471,17 @@ var tables = {
           { level: 5, spells: 4, },
           { level: 6, spells: 4, },
           { level: 7, spells: 4, },
-          { level: 8, spells: 4, }
+          { level: 8, spells: 4, },
+          { level: 9, spells: 4, }
         ]
       },
     ]
   }
 
+
+
   /*
-  # Sections
+  # Sections on a Character Sheet
   character name
   alignment
   player
