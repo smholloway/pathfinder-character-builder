@@ -13,13 +13,13 @@
 
     this.getClassDetails = function(className){
       return this.classDetails[className.toLowerCase()]
-    }
+    };
 
     this.hasSpellsAtLevel = function(className, level){
       classDetails = this.getClassDetails(className);
       maxSpellLevel = classDetails.maxSpellLevel;
       return maxSpellLevel >= level;
-    }
+    };
   });
 
   app.controller('TabController', function(){
