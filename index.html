@@ -33,6 +33,9 @@
             <li ng-class="{ active:tab.isSet(5) }">
               <a href="" ng-click="tab.setTab(5)">Table</a>
             </li>
+            <li ng-class="{ active:tab.isSet(6) }" ng-show="classController.hasSpellsAtLevel(className, 1)">
+              <a href="" ng-click="tab.setTab(6)">Spells</a>
+            </li>
           </ul>
 
           <div ng-show="tab.isSet(1)">
@@ -104,6 +107,71 @@
                 </tr>
               </tbody>
             </table>
+          </div>
+
+          <!-- Spells -->
+          <div ng-show="tab.isSet(6)">
+            <h4>Spells</h4>
+            <div ng-show="classController.hasSpellsAtLevel(className, 0)">
+              <h5>Level 0 Spells</h5>
+              <ul ng-repeat="spell in classController.getSpellsByClassAndLevel(class.name, 0)">
+                <li>{{ spell }}</li>
+              </ul>
+            </div>
+            <div ng-show="classController.hasSpellsAtLevel(className, 1)">
+              <h5>Level 1 Spells</h5>
+              <ul ng-repeat="spell in classController.getSpellsByClassAndLevel(class.name, 1)">
+                <li>{{ spell }}</li>
+              </ul>
+            </div>
+            <div ng-show="classController.hasSpellsAtLevel(className, 2)">
+              <h5>Level 2 Spells</h5>
+              <ul ng-repeat="spell in classController.getSpellsByClassAndLevel(class.name, 2)">
+                <li>{{ spell }}</li>
+              </ul>
+            </div>
+            <div ng-show="classController.hasSpellsAtLevel(className, 3)">
+              <h5>Level 3 Spells</h5>
+              <ul ng-repeat="spell in classController.getSpellsByClassAndLevel(class.name, 3)">
+                <li>{{ spell }}</li>
+              </ul>
+            </div>
+            <div ng-show="classController.hasSpellsAtLevel(className, 4)">
+              <h5>Level 4 Spells</h5>
+              <ul ng-repeat="spell in classController.getSpellsByClassAndLevel(class.name, 4)">
+                <li>{{ spell }}</li>
+              </ul>
+            </div>
+            <div ng-show="classController.hasSpellsAtLevel(className, 5)">
+              <h5>Level 5 Spells</h5>
+              <ul ng-repeat="spell in classController.getSpellsByClassAndLevel(class.name, 5)">
+                <li>{{ spell }}</li>
+              </ul>
+            </div>
+            <div ng-show="classController.hasSpellsAtLevel(className, 6)">
+              <h5>Level 6 Spells</h5>
+              <ul ng-repeat="spell in classController.getSpellsByClassAndLevel(class.name, 6)">
+                <li>{{ spell }}</li>
+              </ul>
+            </div>
+            <div ng-show="classController.hasSpellsAtLevel(className, 7)">
+              <h5>Level 7 Spells</h5>
+              <ul ng-repeat="spell in classController.getSpellsByClassAndLevel(class.name, 7)">
+                <li>{{ spell }}</li>
+              </ul>
+            </div>
+            <div ng-show="classController.hasSpellsAtLevel(className, 8)">
+              <h5>Level 8 Spells</h5>
+              <ul ng-repeat="spell in classController.getSpellsByClassAndLevel(class.name, 8)">
+                <li>{{ spell }}</li>
+              </ul>
+            </div>
+            <div ng-show="classController.hasSpellsAtLevel(className, 9)">
+              <h5>Level 9 Spells</h5>
+              <ul ng-repeat="spell in classController.getSpellsByClassAndLevel(class.name, 9)">
+                <li>{{ spell }}</li>
+              </ul>
+            </div>
           </div>
         </section>
       </div>
