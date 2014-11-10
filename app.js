@@ -1,3 +1,5 @@
+'use strict';
+
 (function() {
   // Consider retrieving data here: http://www.srdremix.com/api
   var app = angular.module('characterBuilder', []);
