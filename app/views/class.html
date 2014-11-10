@@ -1,0 +1,170 @@
+<h1>Classes</h1>
+<div ng-controller="ClassCtrl as classController">
+  <div class="list-group">
+    <div class="list-group-item"
+      ng-repeat="className in classController.classes"
+      ng-init="class = classController.getClassDetails(className)">
+      <h3>{{ class.name }}</h3>
+      <p>{{ class.shortDescription }}</p>
+      <section ng-controller="TabCtrl as tab">
+        <ul class="nav nav-pills">
+          <li ng-class="{ active:tab.isSet(1) }">
+            <a href="" ng-click="tab.setTab(1)">Description</a>
+          </li>
+          <li ng-class="{ active:tab.isSet(2) }">
+            <a href="" ng-click="tab.setTab(2)">Role</a>
+          </li>
+          <li ng-class="{ active:tab.isSet(3) }">
+            <a href="" ng-click="tab.setTab(3)">Specs</a>
+          </li>
+          <li ng-class="{ active:tab.isSet(4) }">
+            <a href="" ng-click="tab.setTab(4)">Skills</a>
+          </li>
+          <li ng-class="{ active:tab.isSet(5) }">
+            <a href="" ng-click="tab.setTab(5)">Table</a>
+          </li>
+          <li ng-class="{ active:tab.isSet(6) }" ng-show="classController.hasSpellsAtLevel(className, 1)">
+            <a href="" ng-click="tab.setTab(6)">Spells</a>
+          </li>
+        </ul>
+
+        <div ng-show="tab.isSet(1)">
+          <h4>Description</h4>
+          <p>{{ class.description }}</p>
+        </div>
+
+        <div ng-show="tab.isSet(2)">
+          <h4>Role</h4>
+          <p>{{ class.role }}
+        </div>
+
+        <div ng-show="tab.isSet(3)">
+          <h4>Specs</h4>
+          <ul>
+            <li>Hit Die: d{{ class.hitDie }}</li>
+            <li>Skill Ranks per Level: {{ class.skillRanksPerLevel }} + Int modifier</li>
+            <li>Alignment: {{ class.alignment }}</li>
+          </ul>
+        </div>
+
+        <div ng-show="tab.isSet(4)">
+          <h4>Class Skills</h4>
+          <ul>
+            <li ng-repeat="skill in class.classSkills">{{ skill }}</li>
+          </ul>
+        </div>
+
+        <!-- Table -->
+        <div ng-show="tab.isSet(5)">
+          <h4>Table: {{ class.name  }}</h4>
+          <table data-toggle="table" class="table table-striped table-bordered table-condensed">
+            <thead>
+              <tr>
+                <th data-field="level">Level</th>
+                <th data-field="bab">BAB</th>
+                <th data-field="fort">Fort Save</th>
+                <th data-field="reflex">Reflex Save</th>
+                <th data-field="will">Will Save</th>
+                <th data-field="specials">Specials</th>
+                <th data-field="spells0" ng-show="classController.hasSpellsAtLevel(class.name, 0)">0th</th>
+                <th data-field="spells1" ng-show="classController.hasSpellsAtLevel(class.name, 1)">1st</th>
+                <th data-field="spells2" ng-show="classController.hasSpellsAtLevel(class.name, 2)">2nd</th>
+                <th data-field="spells3" ng-show="classController.hasSpellsAtLevel(class.name, 3)">3rd</th>
+                <th data-field="spells4" ng-show="classController.hasSpellsAtLevel(class.name, 4)">4th</th>
+                <th data-field="spells5" ng-show="classController.hasSpellsAtLevel(class.name, 5)">5th</th>
+                <th data-field="spells6" ng-show="classController.hasSpellsAtLevel(class.name, 6)">6th</th>
+                <th data-field="spells7" ng-show="classController.hasSpellsAtLevel(class.name, 7)">7th</th>
+                <th data-field="spells8" ng-show="classController.hasSpellsAtLevel(class.name, 8)">8th</th>
+                <th data-field="spells9" ng-show="classController.hasSpellsAtLevel(class.name, 9)">9th</th>
+                <th data-field="flurry" ng-show="class.name == 'Monk'">Flurry Of Blows Attack Bonus</th>
+                <th data-field="damage" ng-show="class.name == 'Monk'">Unarmed Damage</th>
+                <th data-field="ac" ng-show="class.name == 'Monk'">AC Bonus</th>
+                <th data-field="fast" ng-show="class.name == 'Monk'">Fast Movement</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr ng-repeat="row in classController.getTableForClass(class.name)">
+                <td>{{ row.level }}</td>
+                <td>{{ row.baseAttackBonus }}</td>
+                <td>{{ row.fortSave }}</td>
+                <td>{{ row.reflexSave }}</td>
+                <td>{{ row.willSave }}</td>
+                <td><span ng-repeat="special in row.specials">{{ special }}{{$last ? '' : ', '}}</span></td>
+                <td ng-repeat="spells in row.spellsPerDay">{{ spells.spells }}</td>
+                <td ng-show="class.name == 'Monk'">{{ row.flurryOfBlowsAttackBonus }}</td>
+                <td ng-show="class.name == 'Monk'">{{ row.unarmedDamage }}</td>
+                <td ng-show="class.name == 'Monk'">{{ row.armorClassBonus }}</td>
+                <td ng-show="class.name == 'Monk'">{{ row.fastMovement }}</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <!-- Spells -->
+        <div ng-show="tab.isSet(6)">
+          <h4>Spells</h4>
+          <div ng-show="classController.hasSpellsAtLevel(className, 0)">
+            <h5>Level 0 Spells</h5>
+            <ul ng-repeat="spell in classController.getSpellsByClassAndLevel(class.name, 0)">
+              <li>{{ spell }}</li>
+            </ul>
+          </div>
+          <div ng-show="classController.hasSpellsAtLevel(className, 1)">
+            <h5>Level 1 Spells</h5>
+            <ul ng-repeat="spell in classController.getSpellsByClassAndLevel(class.name, 1)">
+              <li>{{ spell }}</li>
+            </ul>
+          </div>
+          <div ng-show="classController.hasSpellsAtLevel(className, 2)">
+            <h5>Level 2 Spells</h5>
+            <ul ng-repeat="spell in classController.getSpellsByClassAndLevel(class.name, 2)">
+              <li>{{ spell }}</li>
+            </ul>
+          </div>
+          <div ng-show="classController.hasSpellsAtLevel(className, 3)">
+            <h5>Level 3 Spells</h5>
+            <ul ng-repeat="spell in classController.getSpellsByClassAndLevel(class.name, 3)">
+              <li>{{ spell }}</li>
+            </ul>
+          </div>
+          <div ng-show="classController.hasSpellsAtLevel(className, 4)">
+            <h5>Level 4 Spells</h5>
+            <ul ng-repeat="spell in classController.getSpellsByClassAndLevel(class.name, 4)">
+              <li>{{ spell }}</li>
+            </ul>
+          </div>
+          <div ng-show="classController.hasSpellsAtLevel(className, 5)">
+            <h5>Level 5 Spells</h5>
+            <ul ng-repeat="spell in classController.getSpellsByClassAndLevel(class.name, 5)">
+              <li>{{ spell }}</li>
+            </ul>
+          </div>
+          <div ng-show="classController.hasSpellsAtLevel(className, 6)">
+            <h5>Level 6 Spells</h5>
+            <ul ng-repeat="spell in classController.getSpellsByClassAndLevel(class.name, 6)">
+              <li>{{ spell }}</li>
+            </ul>
+          </div>
+          <div ng-show="classController.hasSpellsAtLevel(className, 7)">
+            <h5>Level 7 Spells</h5>
+            <ul ng-repeat="spell in classController.getSpellsByClassAndLevel(class.name, 7)">
+              <li>{{ spell }}</li>
+            </ul>
+          </div>
+          <div ng-show="classController.hasSpellsAtLevel(className, 8)">
+            <h5>Level 8 Spells</h5>
+            <ul ng-repeat="spell in classController.getSpellsByClassAndLevel(class.name, 8)">
+              <li>{{ spell }}</li>
+            </ul>
+          </div>
+          <div ng-show="classController.hasSpellsAtLevel(className, 9)">
+            <h5>Level 9 Spells</h5>
+            <ul ng-repeat="spell in classController.getSpellsByClassAndLevel(class.name, 9)">
+              <li>{{ spell }}</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+    </div>
+  </div>
+</div>
