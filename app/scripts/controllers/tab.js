@@ -8,7 +8,7 @@
  * Controller of the pathfinderCharacterBuilderApp
  */
 angular.module('pathfinderCharacterBuilderApp')
-  .controller('TabCtrl', function ($scope) {
+  .controller('TabCtrl', function ($scope, $location) {
     $scope.awesomeThings = [
       'HTML5 Boilerplate',
       'AngularJS',
@@ -22,5 +22,9 @@ angular.module('pathfinderCharacterBuilderApp')
 
     this.isSet = function(tabId){
       return this.tab === tabId;
+    };
+
+    $scope.isCurrentPath = function (path) {
+      return $location.path() === path;
     };
   });

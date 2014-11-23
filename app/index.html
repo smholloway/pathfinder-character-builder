@@ -22,11 +22,11 @@
     <!-- Add your site or application content here -->
     <div class="container">
       <div class="header">
-        <ul class="nav nav-pills pull-right">
-          <li class="active"><a ng-href="#">Home</a></li>
-          <li><a ng-href="#/about">About</a></li>
-          <li><a ng-href="#/class">Classes</a></li>
-          <li><a ng-href="#/spell">Spells</a></li>
+        <ul ng-controller="TabCtrl as tab" class="nav nav-pills pull-right">
+          <li ng-class="{ active: isCurrentPath('/') }"><a ng-href="#">Home</a></li>
+          <li ng-class="{ active: isCurrentPath('/about') }"><a ng-href="#/about">About</a></li>
+          <li ng-class="{ active: isCurrentPath('/class') }"><a ng-href="#/class">Classes</a></li>
+          <li ng-class="{ active: isCurrentPath('/spell') }"><a ng-href="#/spell">Spells</a></li>
         </ul>
         <h3 class="text-muted">Pathfinder Character Builder</h3>
       </div>
