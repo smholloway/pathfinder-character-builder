@@ -1537,4 +1537,29 @@ var spellsByClass = {
     "Dancing Lights: Creates torches or other lights.",
     ],
   },
+  /* =============== */
+  /* Table: Witch   */
+  /* =============== */
+  witch: {
+    0: ["Arcane Mark", "Bleed", "Dancing Lights", "Daze", "Detect Magic", "Detect Poison", "Guidance", "Light", "Mending", "Message", "Putrefy Food and Drink", "Read Magic", "Resistance", "Spark", "Stabilize", "Touch of Fatigue"
+    ],
+    1: ["beguiling gift*, burning hands, cause fear, charm person, chill touch, command, comprehend languages, cure light wounds, dancing lantern*, detect secret doors, enlarge person, hypnotism, identify, ill omen*, inflict light wounds, mage armor, mask dweomer*, mount, obscuring mist, ray of enfeeblement, reduce person, sleep, summon monster I, unseen servant"
+    ],
+    2: ["alter self, augury, blindness/deafness, burning gaze*, cure moderate wounds, daze monster, death knell, delay poison, detect thoughts, enthrall, false life, feast of ashes*, fester*, find traps, fog cloud, gentle repose, glide*, glitterdust, hidden speech*, hold person, inflict moderate wounds, levitate, perceive cues*, pox pustules*, scare, see invisibility, spectral hand, status, summon monster II, summon swarm, touch of idiocy, vomit swarm*, web, zone of truth"
+    ],
+    3: ["arcane sight, bestow curse, clairaudience/clairvoyance, cup of dust*, deep slumber, dispel magic, fly, glyph of warding, guiding star*, heroism, lightning bolt, locate object, nature's exile*, pain strike*, rage, ray of exhaustion, remove blindness/deafness, remove curse, remove disease, screech*, seek thoughts*, sepia snake sigil, share senses*, sleet storm, speak with dead, stinking cloud, suggestion, summon monster III, tongues, twilight knife*, vampiric touch, water walk"
+    ],
+    4: ["arcane eye, black tentacles, charm monster, confusion, crushing despair, cure serious wounds, death ward, detect scrying, dimension door, discern lies, divination, enervation, fear, geas (lesser), ice storm, inflict serious wounds, locate creature, minor creation, moonstruck*, neutralize poison, phantasmal killer, poison, scrying, secure shelter, sleepwalk*, solid fog, spite*, summon monster IV, threefold aspect*, wandering star motes*"
+    ],
+    5: ["baleful polymorph, banish seeming*, blight, break enchantment, cloudkill, contact other plane, cure critical wounds, dominate person, feeblemind, hold monster, inflict critical wounds, magic jar, major creation, mark of justice, mind fog, overland flight, pain strike (mass)*, prying eyes, reincarnate, rest eternal*, secret chest, suffocation*, summon monster V, symbol of pain, symbol of sleep, telepathic bond, teleport, waves of fatigue"
+    ],
+    6: ["analyze dweomer, animate objects, cloak of dreams*, cone of cold, cure light wounds (mass), dispel magic (greater), eyebite, fester (mass)*, find the path, flesh to stone, geas/quest, guards and wards, heroism (greater), inflict light wounds (mass), legend lore, raise dead, slay living, stone to flesh, suggestion (mass), summon monster VI, swarm skin*, symbol of fear, symbol of persuasion, transformation, true seeing, unwilling shield*"
+    ],
+    7: ["arcane sight (greater), chain lightning, control weather, cure moderate wounds (mass), harm, heal, hold person (mass), inflict moderate wounds (mass), insanity, instant summons, phase door, plane shift, power word blind, regenerate, scrying (greater), summon monster VII, symbol of stunning, symbol of weakness, teleport (greater), teleport object, vision, waves of exhaustion"
+    ],
+    8: ["antipathy, charm monster (mass), clone, cure serious wounds (mass), demand, destruction, discern location, horrid wilting, inflict serious wounds (mass), irresistible dance, maze, mind blank, moment of prescience, power word stun, prying eyes (greater), resurrection, stormbolts*, summon monster VIII, symbol of death, symbol of insanity, sympathy, trap the soul"
+    ],
+    9: ["astral projection, cure critical wounds (mass), dominate monster, elemental swarm, foresight, hold monster (mass), inflict critical wounds (mass), power word kill, refuge, soul bind, storm of vengeance, suffocation (mass)*, summon monster IX, teleportation circle, wail of the banshee"
+    ]
+  }
 };

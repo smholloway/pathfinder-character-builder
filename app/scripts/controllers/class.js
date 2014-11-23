@@ -59,6 +59,7 @@
     'Ranger',
     'Shaman',
     'Sorcerer',
+    'Witch',
     'Wizard'
   ];
 
@@ -403,6 +404,33 @@
         'Linguistics (Int)',
         'Profession (Wis)',
         'Spellcraft (Int)'],
+      skillRanksPerLevel: 2,
+      maxSpellLevel: 9,
+      source: 'core'
+    },
+    /* =============== */
+    /* Table: Witch    */
+    /* =============== */
+    witch: {
+      name: 'Witch',
+      shortDescription: "Lurking on the fringe of civilization, the witch makes a powerful connection with a patron that grants her strange and mysterious powers through a special familiar.",
+      description: "Some gain power through study, some through devotion, others through blood, but the witch gains power from her communion with the unknown. Generally feared and misunderstood, the witch draws her magic from a pact made with an otherworldly power. Communing with that source, using her familiar as a conduit, the witch gains not only a host of spells, but a number of strange abilities known as hexes. As a witch grows in power, she might learn about the source of her magic, but some remain blissfully unaware. Some are even afraid of that source, fearful of what it might be or where its true purposes lie.",
+      role: "While many witches are recluses, living on the edge of civilization, some live within society, openly or in hiding. The blend of witches' spells makes them adept at filling a number of different roles, from seer to healer, and their hexes grant them a number of abilities that are useful in a fight. Some witches travel about, seeking greater knowledge and better understanding of the mysterious powers that guide them.",
+      alignment: 'Any',
+      hitDie: 6,
+      classSkills: [
+        "Craft (Int)",
+        "Fly (Dex)",
+        "Heal (Wis)",
+        "Intimidate (Cha)",
+        "Knowledge (Arcana) (Int)",
+        "Knowledge (History) (Int)",
+        "Knowledge (Nature) (Int)",
+        "Knowledge (Planes) (Int)",
+        "Profession (Wis)",
+        "Spellcraft (Int)",
+        "Use Magic Device (Cha)"
+      ],
       skillRanksPerLevel: 2,
       maxSpellLevel: 9,
       source: 'core'
