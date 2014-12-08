@@ -1,1 +1,19 @@
-<p>This is the spell view.</p>
+<h1>Spells</h1>
+<div ng-controller="SpellCtrl as spellController">
+  <div>
+    <h3>Class</h3>
+    <select>
+      <option>Shaman</option>
+    </select>
+    <h3>Level</h3>
+    <select>
+      <option>1</option>
+    </select>
+  </div>
+  <div class="list-group">
+    <div class="list-group-item"
+      ng-repeat="spell in spellController.spells">
+      <p>{{ spell }}</p>
+    </div>
+  </div>
+</div>
