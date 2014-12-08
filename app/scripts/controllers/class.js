@@ -10,6 +10,7 @@
  (function() {
   angular.module('pathfinderCharacterBuilderApp')
     .controller('ClassCtrl', function ($scope) {
+      $scope.awesomeThings = [];
       this.classes = classes;
       this.detailsByClass = detailsByClass;
       this.tablesByClass = tablesByClass;

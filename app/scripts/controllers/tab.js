@@ -9,11 +9,6 @@
  */
 angular.module('pathfinderCharacterBuilderApp')
   .controller('TabCtrl', function ($scope, $location) {
-    $scope.awesomeThings = [
-      'HTML5 Boilerplate',
-      'AngularJS',
-      'Karma'
-    ];
     this.tab = 1;
 
     this.setTab = function(tabId){
