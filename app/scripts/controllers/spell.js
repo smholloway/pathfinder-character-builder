@@ -401,7 +401,6 @@ var spells = [
   "Detect Good",
   "Detect Law",
   "Detect Magic",
-  "Detect Magic",
   "Detect Poison",
   "Detect Scrying",
   "Detect Secret Doors",
